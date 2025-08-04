@@ -6,7 +6,7 @@ by Elijah Meyer and Maria Tackett
 
 :spiral_calendar: August 8, 2025\
 :alarm_clock: 13:00 - 16:30\
-:hotel: Duke University\
+:location: Duke University
 :writing_hand: \[Add website link\]
 
 ------------------------------------------------------------------------
