@@ -1,0 +1,49 @@
+---
+title: "Teaching with webR"
+author: "Elijah Meyer"
+format: 
+  revealjs:
+    incremental: true 
+    theme: slides.scss
+image: "images/webr.png"
+---
+
+## First Day of Class
+
+Students have heard about your class....
+
+Anxiety around coding....
+
+-   Talk
+-   Build a community
+
+## First Day of Class
+
+Talk about mindset and perspective
+
+-- The expectation is not to be an expert on the first day, or after one day -- Give them "permission" to get excited and make mistakes -- Calm anxiety around coding
+
+## First Day of Class
+
+Start with cake 🍰
+
+## First Day of Class
+
+🍰
+
+-- Get students excited
+
+-- Make them understand why they are in the class
+
+-- Make them want to come back and keep learning
+
+## WebR
+
+WebR is a version of the statistical language R compiled for the browser
+
+-   No local installation
+-   No downloading anything
+
+## Day-1
+
+[webR link]()

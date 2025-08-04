@@ -9,8 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
-  <meta name="author" content="Maria Tackett">
-  <title>Teaching with R – Making teaching materials with Quarto</title>
+  <meta name="author" content="Elijah Meyer">
+  <title>Teaching with R – Teaching with git and GitHub</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,8 +33,6 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -129,28 +127,207 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Making teaching materials with Quarto</h1>
-  <p class="subtitle">useR 2025</p>
+  <h1 class="title">Teaching with git and GitHub</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Maria Tackett 
+Elijah Meyer 
 </div>
 </div>
 </div>
 
 </section>
-<section class="slide level2">
+<section id="signing-up-for-github" class="slide level2">
+<h2>Signing up for GitHub</h2>
+<p>Go to https://github.com/, and create an account (unless you already have one).</p>
+<p>Some tips from Happy Git with R.</p>
+<p>– Incorporate your actual name!</p>
+<p>– Reuse your username from other contexts if you can, e. g., Twitter or Slack.</p>
+<p>– Pick a username you will be comfortable revealing to your future boss.</p>
+<p>– Be as unique as possible in as few characters as possible. Shorter is better than longer.</p>
+<p>– Avoid words with special meaning in programming (e.g.&nbsp;NA).</p>
+</section>
+<section id="outline" class="slide level2">
+<h2>Outline</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>What is Git and GitHub?</p>
+<p>Why do we care about it?</p>
+<p>Why should we use it?</p>
+<pre><code>  - student perspective 
+  
+  - instructor perspective</code></pre>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/github.png" class="quarto-figure quarto-figure-left"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="git-and-github-teaching-termonilogy" class="slide level2">
+<h2>Git and GitHub: Teaching Termonilogy</h2>
+<p>Often used interchangeably, but it’s nice to know the difference…</p>
+<p>Git is a version control system that intelligently tracks changes in files.</p>
+<p>GitHub is a cloud-based platform where you can store, share, and work together with others to write code.</p>
+<p>Think of this as email (Git) vs Gmail (GitHub)</p>
+</section>
+<section id="github-version-control" class="slide level2 smaller">
+<h2>GitHub: Version control</h2>
+<p>GitHub allows you to create, store, change, merge, and collaborate on files or code. Any member of a team can access the GitHub repository and see the most recent version in real-time. Then, they can make edits or changes that the other collaborators also see.</p>
+<p>GitHub also lets users make requests of one another and internally discuss the iterations along the way.</p>
+<p><a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">What is Git</a></p>
+</section>
+<section id="github-version-control-1" class="slide level2">
+<h2>GitHub: Version control</h2>
 
-<p>To be posted.</p>
+<img data-src="images/version.png" class="r-stretch"></section>
+<section id="why-does-this-matter" class="slide level2">
+<h2>Why does this matter</h2>
+<div class="footer">
+<p>Baker, M. 1,500 scientists lift the lid on reproducibility. Nature 533, 452–454 (2016). https://doi.org/10.1038/533452a</p>
+</div>
 
+<img data-src="images/repo_crisis.jpg" class="quarto-figure quarto-figure-center r-stretch" width="500"></section>
+<section>
+<section id="so-we-should-teach-it" class="title-slide slide level1 center">
+<h1>So we should teach it!</h1>
 
 </section>
+<section id="what-do-students-immediately-get-out-of-it" class="slide level2">
+<h2>What do students immediately get out of it?</h2>
+<p>Besides saving the world….</p>
+<ul>
+<li class="fragment"><p>develop good habits as researchers</p></li>
+<li class="fragment"><p>emphasize the importance of reproducibility in science</p></li>
+</ul>
+</section>
+<section id="avoid-this" class="slide level2">
+<h2>Avoid this</h2>
+
+<img data-src="images/wordmeme.png" class="r-stretch"></section>
+<section id="gain-this" class="slide level2">
+<h2>Gain this</h2>
+
+<img data-src="images/github_social.png" class="r-stretch"></section>
+<section id="what-do-you-get" class="slide level2">
+<h2>What do you get?</h2>
+<p>Efficient way to run a course</p>
+<pre><code>--   lecutres
+--   in-class activities
+--   assessments</code></pre>
+</section>
+<section id="what-do-you-get-1" class="slide level2">
+<h2>What do you get?</h2>
+<p>Efficient way to run a course</p>
+<pre><code>--   lecutres
+--   in-class activities
+--   assessments</code></pre>
+<p>That is timeless across semesters</p>
+</section>
+<section id="timeless" class="slide level2">
+<h2>Timeless</h2>
+<p>Encourages time investment into the creation of assessments and lesson plans</p>
+<p>– Easily transferable across semesters</p>
+<p>– Hosting assessments on GitHub provides the ability to eﬀiciently manage, update, and re-use materials for subsequent semesters</p>
+<p><a href="https://github.com/sta199-f23-1/sta199-f23-1.github.io">example</a></p>
+</section>
+<section id="what-do-you-get-2" class="slide level2">
+<h2>What do you get?</h2>
+<p>Efficient way to run a course</p>
+<pre><code>--   lecutres
+--   in-class activities
+--   assessments</code></pre>
+<p><strong>especially useful in large class sizes</strong></p>
+</section>
+<section id="in-class-activities" class="slide level2">
+<h2>in-class activities</h2>
+<p>Within personalized student repos, we can provide template code and other resources necessary to best facilitate an interactive lesson</p>
+</section>
+<section id="steps-for-interactive-lessons" class="slide level2">
+<h2>Steps for interactive lessons</h2>
+<p>– Connect GitHub and R/Rstudio</p>
+<p>– Take advantage of GitHub as an instructor to create an assignment in GitHub we can distribute to our class</p>
+</section>
+<section id="lab-0-day-2" class="slide level2">
+<h2>lab-0 / day-2</h2>
+<p>Getting students set up</p>
+<p>We are going to connect GitHub and R/Rstudio together!</p>
+<p><a href="https://st295.github.io/st295-sp25/ae-sa/github-config-post.html">instructions</a></p>
+</section>
+<section id="instructor-logistics" class="slide level2">
+<h2>Instructor logistics</h2>
+<p>– Make a free <a href="github.com/organizations/new">GitHub Organization</a></p>
+<p>– <a href="education.github.com/discount">Request teacher benefits</a></p>
+<p>– Upgrade your organization with GitHub Classroom</p>
+<p>– Make the assignment</p>
+<p>– Distribute the assignment</p>
+</section>
+<section id="github-organization" class="slide level2">
+<h2>GitHub Organization</h2>
+<p>A GitHub organization is a shared account on GitHub that allows multiple users to collaborate on shared projects, making it easier for teams to work together</p>
+<pre><code>  -   owners can control who has access to repositories and other resources within the organization
+  -   keeps student repos private by default
+  -   allow for the creation of teams
+  -   allows us to work with GitHub classroom features (ex. distributing assignments)
+  
+  </code></pre>
+</section>
+<section id="github-organization-1" class="slide level2">
+<h2>GitHub Organization</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/neworg1.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/neworg2.png"></p>
+</div></div>
+</section>
+<section id="teacher-benefits" class="slide level2">
+<h2>Teacher benefits</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/teacher-benefits-1.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/teacher-benefits-2.png"></p>
+</div></div>
+</section>
+<section id="github-classroom" class="slide level2">
+<h2>GitHub Classroom</h2>
+<p>… is a tool provided by GitHub Education to help instructors manage assignments and coursework</p>
+
+<img data-src="images/teacher-benefits-2.png" class="r-stretch"></section>
+<section id="inside-your-github-organization" class="slide level2">
+<h2>Inside your GitHub Organization</h2>
+<p><a href="https://github.com/useR-org-demo/my-class">Class Repo</a></p>
+<p>📁 - slides</p>
+<p>📁 - homework</p>
+<p>📁 <strong>- in-class-activities</strong></p>
+</section>
+<section id="in-class-activities-1" class="slide level2">
+<h2>📁 <strong>- in-class-activities</strong></h2>
+<p>Let’s demo</p>
+<p>– Basic GitHub workflow</p>
+<p>– How to create an assignment</p>
+<p>– How to distribute it to your class</p>
+</section>
+<section id="accept-the-assignment-yourself" class="slide level2">
+<h2>Accept the assignment yourself!</h2>
+<p>Go to our website and click the <code>demo-assignment</code> link.</p>
+<p>– Accept the assignment</p>
+<p>– Clone the repo</p>
+<p>– Make changes</p>
+</section>
+<section id="discussion-qa" class="slide level2">
+<h2>Discussion + Q&amp;A</h2>
+<p>What are you left wondering after this GitHub demonstration?</p>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-<p>LINK</p>
+
 </div>
 </div></div>
 
@@ -161,7 +338,6 @@ Maria Tackett
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -183,8 +359,7 @@ Maria Tackett
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -205,7 +380,7 @@ Maria Tackett
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: false,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -310,7 +485,7 @@ Maria Tackett
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'fade',
+        transition: 'none',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -355,7 +530,7 @@ Maria Tackett
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -364,44 +539,6 @@ Maria Tackett
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

@@ -28,6 +28,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9fa4f32a4605b626363968225aac3b32.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -141,9 +206,307 @@ Maria Tackett
 </div>
 
 </section>
-<section class="slide level2">
+<section id="outline" class="slide level2">
+<h2>Outline</h2>
+<ul>
+<li><p>Why use Quarto to make teaching materials?</p></li>
+<li><p>What teaching materials can I create using Quarto?</p></li>
+<li><p>How do I get started?</p></li>
+</ul>
+</section>
+<section>
+<section id="why-use-quarto-to-make-teaching-materials" class="title-slide slide level1 center">
+<h1>Why use Quarto to make teaching materials?</h1>
 
-<p>To be posted.</p>
+</section>
+<section id="benefits-for-instructor" class="slide level2">
+<h2>Benefits for instructor</h2>
+<ul>
+<li><p>Reproducible course materials that are easier to update</p></li>
+<li><p>Integrate narrative, executable R code, images, and interactive elements</p></li>
+<li><p>Easily share course materials with students and more broadly</p></li>
+<li><p>Regularly use the same technology as your students</p></li>
+</ul>
+</section>
+<section id="benefits-for-students" class="slide level2">
+<h2>Benefits for students</h2>
+<ul>
+<li><p>Navigation menu on all documents to easily to find content</p></li>
+<li><p>Search capabilities on website to more easily find content by topic</p></li>
+<li><p>Option to export PDF of slides</p></li>
+<li><p>Ability to read course materials on multiple devices</p></li>
+</ul>
+</section></section>
+<section>
+<section id="what-teaching-materials-can-i-create-using-quarto" class="title-slide slide level1 center">
+<h1>What teaching materials can I create using Quarto?</h1>
+
+</section>
+<section id="teaching-materials-in-quarto" class="slide level2 incremental">
+<h2>Teaching materials in Quarto</h2>
+<div class="columns">
+<div class="column fragment" data-fragment-index="1" style="width:45%;">
+<p><strong>Course websites</strong></p>
+<p><img data-src="images/sta210-website.png" width="2973"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column fragment" data-fragment-index="2" style="width:45%;">
+<p><strong>Slides</strong></p>
+<p><img data-src="images/sta210-slide.png" width="2854"></p>
+</div></div>
+</section>
+<section id="teaching-materials-in-quarto-1" class="slide level2 incremental">
+<h2>Teaching materials in Quarto</h2>
+<div class="columns">
+<div class="column fragment" data-fragment-index="1" style="width:45%;">
+<p><strong>Long-form notes</strong></p>
+<p><img data-src="images/sta210-long-notes.png"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column fragment" data-fragment-index="2" style="width:45%;">
+<p><strong>Assignment instructions</strong></p>
+<p><img data-src="images/sta210-assignment.png"></p>
+</div></div>
+</section></section>
+<section>
+<section id="slides" class="title-slide slide level1 center">
+<h1>Slides</h1>
+
+</section>
+<section id="slide-menu" class="slide level2">
+<h2>Slide menu</h2>
+<ul>
+<li><p>Slide navigation</p></li>
+<li><p>Print to PDF</p></li>
+<li><p>Speaker view</p></li>
+<li><p>Annotation</p></li>
+<li><p>Chalkboard</p></li>
+</ul>
+</section>
+<section id="slide-with-code-output" class="slide level2">
+<h2>Slide with code + output</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Published slide</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/sta199-slide.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p><strong>Source code</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/sta199-slide-code.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+
+<aside><div>
+<p>Source: <a href="https://sta199-s24.github.io/slides/04-dataviz-overview.html#/title-slide">Data visualization overview lecture</a> by Mine Çetinkaya-Rundel</p>
+</div></aside></section>
+<section id="slide-with-mathematical-notation" class="slide level2">
+<h2>Slide with mathematical notation</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Published slide</strong></p>
+<p><img data-src="images/sta210-slide.png"></p>
+</div><div class="column" style="width:50%;">
+<p><strong>Source code</strong></p>
+<p><img data-src="images/sta210-slide-code.png"></p>
+</div></div>
+
+<aside><div>
+<p>Source: <a href="https://sta210-fa22.netlify.app/slides/07-slr-math-models#/mathematical-representation-of-the-model">SLR: Mathematical models for inference</a> lecture by Maria Tackett</p>
+</div></aside></section></section>
+<section>
+<section id="websites" class="title-slide slide level1 center">
+<h1>Websites</h1>
+
+</section>
+<section id="example-course-website" class="slide level2">
+<h2>Example course website</h2>
+
+<img data-src="images/sta221-website.png" class="quarto-figure quarto-figure-center r-stretch"><div class="small">
+<p><a href="https://sta221-sp25.netlify.app/">Regression Analysis: Theory and Application</a> taught by Maria Tackett</p>
+</div>
+</section>
+<section id="example-website-file-structure" class="slide level2">
+<h2>Example website file structure</h2>
+<center>
+<img data-src="images/file-structure-annoated.png" width="451">
+</center>
+</section>
+<section id="interactive-documents-with-webr" class="slide level2">
+<h2>Interactive documents with webR</h2>
+<div class="midi">
+<p><em>“Run R code in the browser without the need for an R server to execute the code”</em></p>
+</div>
+<div class="fragment">
+<p><strong>YAML</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="sc">---</span></span>
+<span id="cb1-2"><a></a>title<span class="sc">:</span> <span class="st">"webR document"</span></span>
+<span id="cb1-3"><a></a>format<span class="sc">:</span> html</span>
+<span id="cb1-4"><a></a>filters<span class="sc">:</span></span>
+<span id="cb1-5"><a></a>  <span class="sc">-</span> webr</span>
+<span id="cb1-6"><a></a>webr<span class="sc">:</span></span>
+<span id="cb1-7"><a></a>  packages<span class="sc">:</span> [<span class="st">'dplyr'</span>, <span class="st">'ggplot2'</span>]</span>
+<span id="cb1-8"><a></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="fragment">
+<p><strong>Executable code chunk</strong></p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>{webr<span class="sc">-</span>r}</span>
+<span id="cb2-2"><a></a>mpg <span class="sc">|&gt;</span></span>
+<span id="cb2-3"><a></a>  <span class="fu">count</span>(manufacturer, _____)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="how-do-i-get-started" class="title-slide slide level1 center">
+<h1>How do I get started?</h1>
+
+</section>
+<section id="getting-started-slides-documents" class="slide level2">
+<h2>Getting started: slides + documents</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Basic</a></li><li><a href="#tabset-1-2">Customized</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="sc">---</span></span>
+<span id="cb3-2"><a></a>title<span class="sc">:</span> <span class="st">"Lecture 01"</span></span>
+<span id="cb3-3"><a></a>subtitle<span class="sc">:</span> <span class="st">"Statistics 101"</span></span>
+<span id="cb3-4"><a></a>author<span class="sc">:</span> <span class="st">"Instructor"</span></span>
+<span id="cb3-5"><a></a>date<span class="sc">:</span> <span class="st">"August 7, 2023"</span></span>
+<span id="cb3-6"><a></a>format<span class="sc">:</span> revealjs</span>
+<span id="cb3-7"><a></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>Easily produce multiple types of documents by changing the <code>format</code> in the YAML.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2">
+<div class="cell" data-layout-align="center">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="sc">---</span></span>
+<span id="cb4-2"><a></a>title<span class="sc">:</span> <span class="st">"Lecture 01"</span></span>
+<span id="cb4-3"><a></a>subtitle<span class="sc">:</span> <span class="st">"Statistics 101"</span></span>
+<span id="cb4-4"><a></a>author<span class="sc">:</span> <span class="st">"Instructor"</span></span>
+<span id="cb4-5"><a></a>date<span class="sc">:</span> <span class="st">"August 7, 2023"</span></span>
+<span id="cb4-6"><a></a>date<span class="sc">-</span>format<span class="sc">:</span> long</span>
+<span id="cb4-7"><a></a>footer<span class="sc">:</span> <span class="st">"URL to course website"</span></span>
+<span id="cb4-8"><a></a>format<span class="sc">:</span> </span>
+<span id="cb4-9"><a></a>  revealjs<span class="sc">:</span></span>
+<span id="cb4-10"><a></a>    theme<span class="sc">:</span> slides.scss</span>
+<span id="cb4-11"><a></a>    transition<span class="sc">:</span> fade</span>
+<span id="cb4-12"><a></a>    slide<span class="sc">-</span>number<span class="sc">:</span> false</span>
+<span id="cb4-13"><a></a>    incremental<span class="sc">:</span> false </span>
+<span id="cb4-14"><a></a>    chalkboard<span class="sc">:</span> </span>
+<span id="cb4-15"><a></a>    code<span class="sc">-</span>link<span class="sc">:</span> true</span>
+<span id="cb4-16"><a></a>editor<span class="sc">:</span> visual</span>
+<span id="cb4-17"><a></a>execute<span class="sc">:</span> </span>
+<span id="cb4-18"><a></a>  eval<span class="sc">:</span> true</span>
+<span id="cb4-19"><a></a>  echo<span class="sc">:</span> true</span>
+<span id="cb4-20"><a></a><span class="sc">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="getting-started-websites" class="slide level2">
+<h2>Getting started: websites</h2>
+<ul>
+<li><p>Make a website repo on GitHub</p></li>
+<li><p>Clone the repo and start a new RStudio project</p></li>
+<li><p>Run the following code in the <strong>Terminal</strong></p>
+<pre><code>quarto create-project --type website</code></pre></li>
+</ul>
+<p>You will see the standard files for a new website in the <strong>Files</strong> pane. See <a href="https://quarto.org/docs/websites/">Creating a Website</a> on quarto.org for more information.</p>
+</section>
+<section id="publishing-materials" class="slide level2">
+<h2>Publishing materials</h2>
+<p>Run the following code in the <strong>Terminal</strong></p>
+<p><strong>GitHub pages</strong></p>
+<pre><code>quarto publish gh-pages</code></pre>
+<p><strong>Quarto pub</strong></p>
+<pre><code>quarto publish quarto-pub</code></pre>
+<p><strong>Netlify</strong></p>
+<pre><code>quarto publish netlify</code></pre>
+<p><br></p>
+<p>See <a href="https://quarto.org/docs/publishing/">Publishing Basics</a> on quarto.org for more information and publishing options.</p>
+</section>
+<section id="course-websites-created-with-quarto" class="slide level2">
+<h2>Course websites created with Quarto</h2>
+<ul>
+<li>Introduction to Data Science, Elijah Meyer
+<ul>
+<li>[<a href="https://sta199-summer-1.github.io/">website</a>][<a href="https://github.com/sta199-summer-1/sta199-summer-1.github.io">GitHub repo</a>]</li>
+</ul></li>
+<li>Regression Analysis, Maria Tackett
+<ul>
+<li>[<a href="https://sta210-sp25.netlify.app/">website</a>][<a href="https://github.com/sta210-sp25/website">GitHub repo</a>]</li>
+</ul></li>
+<li>Advanced Data Visualization, Mine Çetinkaya-Rundel
+<ul>
+<li>[<a href="https://vizdata.org/">website</a>][<a href="https://github.com/vizdata-s23/vizdata-s23">GitHub repo</a>]</li>
+</ul></li>
+</ul>
+</section>
+<section id="learn-more" class="slide level2">
+<h2>Learn more!</h2>
+<ul>
+<li><p><a href="https://rstudio-conf-2022.github.io/teach-ds/modules/d2-08-organizing.html">Organizing Teaching Materials</a> by Maria Tackett &amp; Mine Çetinkaya-Rundel</p></li>
+<li><p><a href="https://atheobold.github.io/uscots-quarto/">Reproducible documents, presentations, and websites with Quarto</a> by Hunter Glanz, Emily Robinson &amp; Allison Theobold</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=p7Hxu4coDl8">Hello Quarto: Share, Collaborate, Teach, Reimagine</a> by Mine Çetinkaya-Rundel &amp; Julia Lowndes</p></li>
+<li><p><a href="https://quarto.org">quarto.org</a></p></li>
+</ul>
+</section></section>
+<section>
+<section id="wrap-up" class="title-slide slide level1 center">
+<h1>Wrap up</h1>
+
+</section>
+<section id="recap" class="slide level2">
+<h2>Recap</h2>
+<ul>
+<li><p>Build excitement about R on the first day</p></li>
+<li><p>webR for interactive lectures</p></li>
+<li><p>Computing proficiency as a course learning objective</p></li>
+<li><p>Pedagogy of teaching computing in statistics and data science courses</p></li>
+<li><p>Reproducibility using Quarto and GitHub</p></li>
+<li><p>Creating and distributing assignments with GitHub</p></li>
+<li><p>Making teaching materials with Quarto</p></li>
+</ul>
+</section>
+<section id="lessons-learned" class="slide level2">
+<h2>Lessons learned</h2>
+<ul>
+<li><p>You can do this!</p></li>
+<li><p>It is worth it!</p>
+<ul>
+<li>There are resources.</li>
+<li>The time investment pays off for your and your students</li>
+</ul></li>
+<li><p>Practice by using the same workflow as your students.</p></li>
+<li><p>Technology is choose your own adventure - start small or dive in the deep in. Do what works for you, your resources, and your student population.</p></li>
+<li><p>Your students are capable of the challenge!</p></li>
+<li><p>Get connected to a community.</p></li>
+</ul>
+</section></section>
+<section id="qa-discussion" class="title-slide slide level1 center">
+<h1>Q&amp;A / Discussion</h1>
 
 
 </section>
