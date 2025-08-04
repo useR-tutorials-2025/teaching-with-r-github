@@ -1,0 +1,6 @@
+---
+title: "Break"
+subtitle: "30 minutes"
+image: "images/coffee.jpg"
+image-alt: "A coffee cup."
+---

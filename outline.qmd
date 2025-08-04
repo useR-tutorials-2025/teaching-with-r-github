@@ -1,0 +1,239 @@
+---
+title: "Outline of Workshop"
+format: html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+**Designing the data science classroom:
+<https://rstudio-conf-2022.github.io/teach-ds/>**
+
+## July 31 meeting
+
+-   Come up with lessons learned
+-   Use `.aside` or `.small` to put citations at bottom of the slides.
+    Format example: `Source: Wichkam (2014)`.
+-   \[TO DO\]: Ask Mine and Allison about advice to stay current with
+    tidyverse / teaching with R.
+-   Website schedule: + DONE!
+    -   Use table from DS Classroom page
+    -   In the table:
+        -   Welcome / Day 1
+        -   Curriculum and pedagogy
+        -   GitHub
+        -   Teaching Materials / Conclusion
+-   Website side bar - DONE
+    -   Welcome
+    -   Schedule
+    -   Slides (drop down)
+    -   Resources
+    -   License
+-   Welcome email (send August 4)
+    -   Remind participants of day and time
+    -   Link to the website for the workshop
+    -   Survey: Experience with R, and experience with GitHub, have they
+        taught with R and/or GitHub (Elijah)
+    -   Computing set up:
+        -   Bring a laptop and/ or device with web access and keyboard
+            for hands-on activities
+        -   No set up required! RStudio will be provided and will be
+            accessible through a web browser. It will be configured with
+            Git.
+        -   If you choose to use a local installation of R:
+            -   Install Git (add link to happy git with R book)
+            -   Packages:
+                -   tidyverse
+                -   webR
+                -   usethis
+                -   devtools
+                -   palmerpenguins
+                -   credentials
+-   Resources page - organized by slide topic.
+
+## July 22 meeting
+
+-   \[TO DO\]: Add resources to `resources.qmd` (Maria)
+
+-   \[TO DO\]: Make Google survey (Elijah)
+
+## July 21- Maria's thoughts
+
+-   Have participants introduce themselves at the beginning. Do we want
+    them to share what they want to learn? Or what classes they teach?
+
+-   Do we want to end each section with discussion questions? Or just
+    open to Q&A?
+
+-   What is the best way to organize all the slides + activities?
+
+-   Use this license? [Creative Commons Attribution 4.0 International
+    License](https://creativecommons.org/licenses/by/4.0/).
+
+-   We will get email addresses this week. **send email on Monday August
+    4**
+
+    -   What type of info do we want to send participants?
+
+    -   How would you rate your experience / familiarity with R? With
+        GitHub?
+
+    -   Ask them to set up a GitHub account w/ instructions + Happy Git
+        with R
+
+    -   Info about how to access R.
+
+        -   packages/ things you need installed if you choose to use a
+            local installation
+
+## July 8
+
+-   TODO: Maria - email Mark about Docker containers for userR (about 30
+    users on August 8) - use STA 199 dockers **\[EMAILED MARK- July
+    21\]**
+    -   Ask if we need to do SSH key or if we can use HTTPS?
+
+## What participants need
+
+-   Docker container
+
+    -   pre-loaded qmd file
+
+    -   Git functionality
+
+## Before Break
+
+**Getting started \[15 - 20 minutes\]**
+
+-   Introducing ourselves (Maria)
+
+    -   We'll introduce ourselves
+
+    -   Go around the room and do introductions
+
+-   Learning goals (Maria)
+
+-   Outline of the workshop (Maria)
+
+    -   First half - you'll get the student experience
+
+    -   Second half - we'll introduce Github and give you instructor
+        experience / details
+
+**First day of class / webR \[15-20 minutes\]**
+
+-   Start workshop like it's the first day of class (Elijah) (slides are
+    in useR_2025 repo for now)
+
+    -   Web-R
+
+        -   Walk through a first day
+
+        -   Show how approachable coding is
+
+        -   Improve buy-in
+
+        -   Talk about motivation to learn
+
+EM: This is located in the useR_2025 repo titled *demo_webr* slides are
+in website -\> modules
+
+**Pedagogy and curriculum \[30 minutes\]**
+
+-   Pedagogy + Curricula (Maria)
+-   How is this different than a stats course? Vs a typical course?
+    -   What gets cut when you add coding
+
+    -   Curriculum diagram
+-   What value does a code centric approach into a course add?
+
+```         
+-   What about AI?
+```
+
+-   Why use web-based computing rather than local install
+
+    -   local R/ RStudio
+
+    -   Posit Cloud
+
+    -   Docker containers with RStudio license / NC Share
+
+-   Teaching approach diagram from paper
+
+-   Why tidyverse?
+
+    -   Going through some tidyverse with web-r throughout
+
+**Introducing Dockers \[15 minutes\]**
+
+-   Introducing Docker containers (Maria, step-by-step demo)
+
+    -   Infrastructure options
+
+    -   Brief introduction to Quarto (like an R Markdown file)
+
+    -   Make a qmd file . Render it.
+
+    -   Turn the qmd into a web-r file.
+
+**Discussion/ questions before the break \[5 minutes\]**
+
+## During break \[ 30 minutes\]
+
+-   Time to come up with GitHub username and submit to google
+    spreadsheet (Slide for this)
+
+## After Break
+
+**GitHub \[50 - 60 minutes\]**
+
+-   Introduce GitHub + reproducibility (Elijah)
+
+    -   What it is (git vs. GitHub)
+
+    -   Why it's important in the world
+
+    -   Why you might want to teach it
+
+        -   What students get out of it
+
+        -   What teachers get out of it
+
+-   Student "lab 0" experience (Elijah)
+
+    -   Set up SSH Key + Configure Git (like STA 210 Lab 00) - Group
+        activity
+
+    -   Get GitHub link and walk through steps to clone repo / start new
+        project / commit and push
+
+    -   Make a little change and push changes to GitHub.
+
+    -   Refresh the page and see the commit message + changes
+
+-   Instructor experience of Github classroom - how to make the link
+    (Elijah)
+
+-   Click and see a full lab / in-class assignment (Elijah)
+
+-   Discussion - Q&A
+
+-   Making teaching materials (based on JSM talk) (Maria) **\[10
+    minutes\]**
+
+    -   slides - Show that you can just change the YAML on example
+        activity to turn it into slides.
+
+    -   website
+
+        -   ---Why making a website ---Not behind a learning management
+            system ---Better organization
+
+    -   etc
+
+-   Conclusion? (Maria) **\[15-20 minutes\]**
+
+    -   Lessons learned!
+
+    -   Q&A / discussion\

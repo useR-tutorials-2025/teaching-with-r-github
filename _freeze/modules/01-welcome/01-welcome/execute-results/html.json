@@ -1,0 +1,17 @@
+{
+  "hash": "9d25f79dc5a78f4b015c222e6f4762f0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Welcome\"\nsubtitle: \"useR 2025\"\nauthors: \"authors\"\nfooter: \"LINK\"\nlogo: \"\"\nformat: \n  revealjs:\n    theme: ../slides.scss\n    multiplex: true\n    transition: fade\n    slide-number: true\n    incremental: false \n    chalkboard: true\nexecute:\n  freeze: auto\n  echo: true\nknitr:\n  opts_chunk: \n    R.options:\n      width: 200\n---\n\n\n\n\n\n# Welcome\n\n## Introductions\n",
+    "supporting": [
+      "01-welcome_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

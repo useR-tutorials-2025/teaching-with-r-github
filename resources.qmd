@@ -1,0 +1,42 @@
+---
+title: "Resources"
+editor: visual
+---
+
+::: callout-caution
+This page is under construction and will be updated until the start of the tutorial.
+:::
+
+## Getting started with WebR
+
+## Curriculum and pedagogy 
+
+-   Baumer, B. (2015). A data science course for undergraduates: Thinking with data. *The American Statistician*, *69*(4), 334-342. <https://doi.org/10.1080/00031305.2015.1081105>.
+-   Çetinkaya-Rundel, M., & Ellison, V. (2021). A fresh look at introductory data science. *Journal of Statistics and Data Science Education*, *29*(sup1), S16-S26. <https://doi.org/10.1080/10691898.2020.1804497>.
+-   Çetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., & Rundel, C. (2022). An educator's perspective of the tidyverse. *Technology Innovations in Statistics Education*, 14(1). <http://dx.doi.org/10.5070/T514154352>.
+
+## Teaching with git and GitHub
+
+-   Beckman, M. D., Çetinkaya-Rundel, M., Horton, N. J., Rundel, C. W., Sullivan, A. J., & Tackett, M. (2021). Implementing version control with Git and GitHub as a learning objective in statistics and data science courses. *Journal of Statistics and Data Science Education*, *29*(sup1), S132-S144. <https://doi.org/10.1080/10691898.2020.1848485>.
+
+## Making teaching materials with Quarto
+
+-   Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. *arXiv preprint arXiv:2202.09504*. <https://doi.org/10.48550/arXiv.2202.09504>.
+
+## Course material repositories
+
+-   Data Science in a Box: [datasciencebox.org](https://datasciencebox.org/)
+
+<!--# TO DO: Add others... -->
+
+## Course websites
+
+## Textbooks
+
+-   [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham, Garret Grolemund, and Mine Çetinkaya-Rundel.
+
+-   [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin
+
+-   [Tidy modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
+
+<!--# TO DO: Add MDSR by Baumer? -->

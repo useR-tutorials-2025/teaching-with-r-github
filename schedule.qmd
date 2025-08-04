@@ -1,0 +1,24 @@
+---
+title: "Schedule"
+listing:
+  - id: schedule
+    contents: 
+      - slides/01-webR-slides.qmd
+      - slides/02-pedagogy.qmd
+      - slides/025-break.qmd
+      - slides/03-github.qmd
+      - slides/04-teaching-materials.qmd
+    type: table
+    fields: [image, title, author]
+    field-display-names:
+      title: "Module"
+      author: "Presenter"
+    date-format: "MMMM DD, YYYY"
+    sort: [filename]
+    sort-ui: false
+    filter-ui: false
+editor: visual
+---
+
+::: {#schedule}
+:::

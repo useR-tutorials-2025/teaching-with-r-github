@@ -1,0 +1,47 @@
+---
+title: "computing + infrastructure"
+format: html
+---
+
+## Day-1
+
+Web-R activity
+
+## Getting Started
+
+`quarto add coatless/quarto-webr` in the terminal
+
+in the YAML
+
+```         
+filters: 
+  - webr
+webr:
+  packages: ['tidyverse', 'scales']
+```
+
+[WebR - R in the Browser](https://docs.r-wasm.org/webr/latest/)
+
+## Purpose
+
+This is critically, and the expectation should be set prior to the activity that student's **are not** suppose to be experts after the first day
+
+If they are confused / have questions, this is welcomed, okay, and expected
+
+Laying the foundation to build on through practice and familiarity
+
+## Day 1/2
+
+Demo
+
+[Get Git + R to talk](https://st295.github.io/st295-sp25/ae-sa/github-config-post.html)
+
+## Day \#
+
+Demo: Download assignment using GitHub classroom link
+
+[assignment](https://classroom.github.com/a/t6dBbLE1)
+
+Walk through steps on how to set-up a GitHub organization / [Upgrade it](https://education.github.com/globalcampus/teacher) (We have upgraded @useR-2025-workshop to an organization plan with unlimited free private repositories and unlimited seats.) / GitHub classroom / create an assignment (template) / create a link
+
+## Website

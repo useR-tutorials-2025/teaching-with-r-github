@@ -1,0 +1,279 @@
+---
+title: "Day-1 Activity"
+author: ""
+format: html
+toc: true
+editor: visual
+markdown: 
+  wrap: sentence
+filters: 
+  - webr
+webr:
+  packages: ['tidyverse', 'scales']
+---
+
+Green means go!
+
+# Goal
+
+The goal of this activity is to get you thinking about data, and coding for the first time. You are not expected to be an expert after day-1. Our goal is to expose you to data and coding concepts that we will re-visit in the coming days. This content takes practice!
+
+# Guide
+
+This activity is designed to get you experience working with real data right away! This activity will ask you conceptual questions, and get you first hand experience writing / working with / thinking about the R coding language.
+
+## Getting started
+
+```{webr-r}
+#| context: setup
+download.file(
+  "https://raw.githubusercontent.com/ElijahMeyer3/Coursera/main/data/bechdel.csv",
+  "bechdel.csv"
+)
+```
+
+```{webr-r}
+#| echo: false
+#| context: setup
+
+download.file(
+  "https://raw.githubusercontent.com/ElijahMeyer3/Coursera/main/data/bechdel.csv",
+  "bechdel.csv"
+)
+```
+
+In this mini analysis we work with the data used in the FiveThirtyEight story titled ["The Dollar-And-Cents Case Against Hollywood's Exclusion of Women"](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/).
+
+This analysis is about the [Bechdel test](https://en.wikipedia.org/wiki/Bechdel_test), a measure of the representation of women in fiction. The Bechdel Test is a measure used to assess the representation of women in fiction, particularly in films.
+
+### Packages
+
+We'll use: **tidyverse** for majority of the analysis and **scales** for pretty plot labels later on. These are ready to use for you in this activity!
+
+```{webr-r}
+#| label: load-packages
+#| message: false
+#| warning: false
+library(tidyverse)
+library(scales)
+```
+
+Packages contain pieces of code (functions) that we want to use in order to plot / model data. Using `library()` around the pacakge name opens up the package for us to use the functions inside!
+
+### Data
+
+The data are stored as a CSV (comma separated values) file in the `data` folder of your repository. Let's read it from there and save it as an object called `bechdel`.
+
+```{webr-r}
+#| label: load-data
+bechdel <- read_csv("bechdel.csv")
+```
+
+::: callout-note
+This a modified version of the `bechdel` dataset from the previous application exercise. It's been modified to include some new variables derived from existing variables as well as to limit the scope of the data to movies released between 1990 and 2013.
+:::
+
+### Get to know the data
+
+We can use the `glimpse` function to get an overview (or "glimpse") of the data. Write the following code below to accomplish this task.
+
+```{webr-r}
+# add code here
+
+```
+
+With your output, confirm that:
+
+-- There are 1615 rows
+
+-- There are 7 variables (columns) in the dataset
+
+We can use `slice` to look at rows of our data. Run the following code. Change the `5` to another number to print that many rows!
+
+```{webr-r}
+slice(bechdel, 1:5)
+```
+
+What does each observation (row) in the data set represent?
+
+<label>Answer:</label> <br>
+
+```{=html}
+<textarea rows="4" cols="50">
+</textarea>
+```
+
+<br><br>
+
+::: {.callout-tip collapse="true"}
+## Solution
+
+Each observation represents a **movie**.
+:::
+
+## Variables of Interest
+
+The variables we'll focus on are the following:
+
+-   `budget_2013`: Budget in 2013 inflation adjusted dollars.
+-   `gross_2013`: Gross (US and international combined) in 2013 inflation adjusted dollars.
+-   `roi`: Return on investment, calculated as the ratio of the gross to budget.
+-   `clean_test`: Bechdel test result:
+    -   `ok` = passes test
+    -   `dubious`
+    -   `men` = women only talk about men
+    -   `notalk` = women don't talk to each other
+    -   `nowomen` = fewer than two women
+-   `binary`: Bechdel Test PASS vs FAIL binary
+
+We will also use the `year` of release in data prep and `title` of movie to take a deeper look at some outliers.
+
+There are a few other variables in the dataset, but we won't be using them in this analysis.
+
+## Visualizing data with `ggplot2`
+
+**ggplot2** is the package and `ggplot()` is the function in this package that is used to create a plot. Interact with the code below by either running the code given, or adding code to achieve the expected solution when asked within the code chunk!
+
+-   `ggplot()` creates the initial base coordinate system, and we will add layers to that base. We first specify the data set we will use with `data = bechdel`.
+
+```{webr-r}
+#| label: plot-base
+ggplot(data = bechdel)
+```
+
+-   The `mapping` argument is paired with an aesthetic (`aes()`), which tells us how the variables in our data set should be mapped to the visual properties of the graph. Type the variable `budget_2013` for our x, and `gross_2013` for our y. Next, click run!
+
+```{webr-r}
+#| label: plot-aesthetic-mapping
+ggplot(data = bechdel, 
+       mapping = aes(x = , y = ))
+```
+
+-   The `geom_xx` function specifies the type of plot we want to use to represent the data. In the code below, we want to use `geom_point`, which creates a plot where each observation is represented by a point. Type `geom_point()` below. That is, add it to your code.
+
+```{webr-r}
+#| label: plot-point
+ggplot(bechdel, 
+       aes(x = budget_2013, y = gross_2013)) +
+  # type geom_point() here!
+```
+
+::: {.callout-tip collapse="true"}
+## Expected Result
+
+```{webr-r}
+#| echo: false
+library(ggplot2)
+ggplot(bechdel, 
+       aes(x = budget_2013, y = gross_2013)) +
+  geom_point()
+```
+:::
+
+Note that this results in a warning as well.
+
+This warning represents the number of observations that were removed because there were missing data!
+
+## Gross revenue vs. budget
+
+### Step 1 - Your turn
+
+The following code changes the color of all points to coral. Explore different colors by changing "coral" to different colors!
+
+::: callout-tip
+See <http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf> for many color options you can use by name in R or use the [hex code](https://en.wikipedia.org/wiki/Web_colors) for a color of your choice.
+:::
+
+```{webr-r}
+#| label: plot-point-color
+
+ggplot(bechdel, 
+       aes(x = budget_2013, y = gross_2013)) +
+  geom_point(color = "coral") 
+```
+
+### Step 2 - Your turn
+
+Add labels for the title and x and y axes using [labs](https://ggplot2.tidyverse.org/reference/labs.html). Do this by modifying the existing code below. Things to think about when we add labels:
+
+a)  we use the `labs()` function
+b)  inside the `labs()` function, can use arguments such as x, y, and title =.
+c)  any text that we add to the plot (like labels) will have quotes around them.
+
+Try it below!
+
+```{webr-r}
+#| label: plot-labs
+
+ggplot(bechdel, 
+       aes(x = budget_2013, y = gross_2013)) +
+  geom_point(color = "coral") + 
+  # insert code here
+```
+
+::: {.callout-tip collapse="true"}
+## Expected Result
+
+```{r}
+#| label: plot-labels
+#| echo: false
+
+ggplot(bechdel, 
+       aes(x = budget_2013, y = gross_2013))+
+  geom_point(color = "deepskyblue3") + 
+  labs(
+    x = "Budget (in 2013 $)", 
+    y = "Gross revenue (in 2013 $)", 
+    title = "Gross revenue vs. budget"
+    )
+```
+:::
+
+### Step 3 - Your turn
+
+An `aes`thetic is a visual property of one of the objects in your plot. Commonly used aesthetic options are:
+
+-   color
+-   fill
+-   shape
+-   size
+-   alpha (transparency)
+
+Modify the plot below, so the `color` of the points is based on the variable `binary`.
+
+```{webr-r}
+#| label: plot-aes-color
+
+ggplot(bechdel, 
+       aes(x = budget_2013, y = gross_2013)) +
+  geom_point() + 
+  labs(
+    x = "Budget (in 2013 $)", 
+    y = "Gross revenue (in 2013 $)", 
+    title = "Gross revenue vs. budget, by Bechdel test result"
+    )
+```
+
+::: {.callout-tip collapse="true"}
+## Expected Result
+
+```{webr-r}
+#| label: plot-aes-color-solution
+
+ggplot(bechdel, 
+       aes(x = budget_2013, y = gross_2013,
+           color = binary)) +
+  geom_point() + 
+  labs(
+    x = "Budget (in 2013 $)", 
+    y = "Gross revenue (in 2013 $)", 
+    title = "Gross revenue vs. budget, by Bechdel test result"
+    )
+```
+:::
+
+Can you take anything meaningful from this plot?
+
+How could this plot be improved?
+
+What other data do you wish we had?
