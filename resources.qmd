@@ -11,11 +11,14 @@ This page is under construction and will be updated until the start of the tutor
 
 -   [Empowering Your Quarto Documents with R through webR](https://quarto-webr.thecoatlessprofessor.com/qwebr-internal-cell.html)
 
+-   [Creating your first webR-powered Quarto Document (Video)](https://www.youtube.com/watch?v=DoRR2S5lLvk)
+
 ## Curriculum and pedagogy
 
 -   Baumer, B. (2015). A data science course for undergraduates: Thinking with data. *The American Statistician*, *69*(4), 334-342. <https://doi.org/10.1080/00031305.2015.1081105>.
 -   Çetinkaya-Rundel, M., & Ellison, V. (2021). A fresh look at introductory data science. *Journal of Statistics and Data Science Education*, *29*(sup1), S16-S26. <https://doi.org/10.1080/10691898.2020.1804497>.
 -   Çetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., & Rundel, C. (2022). An educator's perspective of the tidyverse. *Technology Innovations in Statistics Education*, 14(1). <http://dx.doi.org/10.5070/T514154352>.
+-   Meyer, E., & Çetinkaya-Rundel, M. (2025). *A Blueprint to Design Curriculum and Pedagogy for Introductory Data Science.* arXiv. <https://doi.org/10.48550/arXiv.2508.03952>
 -   Nolan, D., & Temple Lang, D. (2010). Computing in the statistics curricula. *The American Statistician*, *64*(2), 97-107.
 
 ### Teaching with AI tools 

@@ -9,6 +9,17 @@ editor:
 **Designing the data science classroom:
 <https://rstudio-conf-2022.github.io/teach-ds/>**
 
+## August 7 meeting 
+
+-   remove author from slides and schedule
+
+<!-- -->
+
+-   For the workshop:
+
+    -   Email participants link to Google Sheet with Docker Container
+        links
+
 ## July 31 meeting
 
 -   Come up with lessons learned
