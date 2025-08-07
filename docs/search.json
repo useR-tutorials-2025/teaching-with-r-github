@@ -21,7 +21,7 @@
     "href": "outline.html#august-7-meeting",
     "title": "Outline of Workshop",
     "section": "August 7 meeting",
-    "text": "August 7 meeting\n\nremove author from slides and schedule\n\n\n\nFor the workshop:\n\nEmail participants link to Google Sheet with Docker Container links"
+    "text": "August 7 meeting\n\nremove author and footer from slides and schedule\n\n\n\nFor the workshop:\n\nEmail participants link to Google Sheet with Docker Container links"
   },
   {
     "objectID": "outline.html#july-31-meeting",
@@ -169,6 +169,20 @@
     "title": "Teaching with webR",
     "section": "Day-1",
     "text": "Day-1\nwebR link"
+  },
+  {
+    "objectID": "slides/025-break.html",
+    "href": "slides/025-break.html",
+    "title": "Break",
+    "section": "",
+    "text": "Grab coffee ?\nFeel free to ask questions!\nRegister for GitHub (if you haven’t already)\n\n[Add Elijah’s notes]"
+  },
+  {
+    "objectID": "slides/025-break.html#during-the-break",
+    "href": "slides/025-break.html#during-the-break",
+    "title": "Break",
+    "section": "",
+    "text": "Grab coffee ?\nFeel free to ask questions!\nRegister for GitHub (if you haven’t already)\n\n[Add Elijah’s notes]"
   },
   {
     "objectID": "index.html",

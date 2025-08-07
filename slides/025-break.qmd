@@ -4,3 +4,13 @@ subtitle: "30 minutes"
 image: "images/coffee.jpg"
 image-alt: "A coffee cup."
 ---
+
+## During the break 
+
+-   Grab coffee ?
+
+-   Feel free to ask questions!
+
+-   Register for GitHub (if you haven't already)
+
+    -   \[Add Elijah's notes\]

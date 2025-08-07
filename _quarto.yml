@@ -22,6 +22,12 @@ website:
         - href: slides/03-github.qmd
         #  text: "Teaching with Git and GitHub"
         - href: slides/04-teaching-materials.qmd
+      - section: Demos
+        contents: 
+          - WebR demo 
+          - SSH Key instructions
+          - GitHub org 
+          - Assignment link 
       - href: resources.qmd
         text: Resources
       - href: license.qmd

@@ -11,7 +11,7 @@ editor:
 
 ## August 7 meeting 
 
--   remove author from slides and schedule
+-   remove author and footer from slides and schedule
 
 <!-- -->
 

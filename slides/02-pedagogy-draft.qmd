@@ -1,8 +1,6 @@
 ---
 title: "Curriculum and Pedagogy"
 subtitle: "useR 2025"
-author: "Maria Tackett"
-footer: "[user-tutorials-2025.github.io/teaching-with-r-github](https://user-tutorials-2025.github.io/teaching-with-r-github)"
 logo: ""
 format: 
   revealjs:
