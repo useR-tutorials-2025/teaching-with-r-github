@@ -1,8 +1,8 @@
 {
-  "hash": "a7a82ac6e26e4b3f5de189eab1cc11b1",
+  "hash": "2bb0075a98bbeac7be23875cbb2e6d8e",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Making teaching materials with Quarto\"\nsubtitle: \"useR 2025\"\nauthor: \"Maria Tackett\"\nfooter: \"LINK\"\nimage: \"images/quarto2.png\"\nlogo: \"\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: true\n    incremental: false \n    chalkboard: true\nexecute:\n  freeze: auto\n  echo: true\nknitr:\n  opts_chunk: \n    R.options:\n      width: 200\n---\n\n\n\n\nTo be posted.",
+    "markdown": "---\ntitle: \"Making teaching materials with Quarto\"\nsubtitle: \"useR 2025\"\nauthor: \"Maria Tackett\"\nfooter: \"LINK\"\nimage: \"images/quarto2.png\"\nlogo: \"\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: true\n    incremental: false \n    chalkboard: true\nexecute:\n  freeze: auto\n  echo: true\nknitr:\n  opts_chunk: \n    R.options:\n      width: 200\n---\n\n\n\n\nTo be posted.\n",
     "supporting": [
       "04-teaching-materials_files"
     ],

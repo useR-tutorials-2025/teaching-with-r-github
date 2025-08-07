@@ -2,7 +2,7 @@
 title: "Curriculum and Pedagogy"
 subtitle: "useR 2025"
 author: "Maria Tackett"
-footer: "LINK"
+footer: "[user-tutorials-2025.github.io/teaching-with-r-github](https://user-tutorials-2025.github.io/teaching-with-r-github)"
 logo: ""
 format: 
   revealjs:
@@ -27,6 +27,25 @@ webr:
 
 # Curriculum
 
+```{r}
+#| include: false
+
+library(tidyverse)
+library(palmerpenguins)
+
+penguins <- penguins |>
+  filter(!is.na(flipper_length_mm))
+```
+
+```{webr-r}
+#| context: setup
+
+#remove 2 penguins with no measurements
+
+penguins <- penguins |> 
+  filter(!is.na(flipper_length_mm))
+```
+
 ## A modern approach
 
 -   Modern approach to teaching statistics and now the onset of data science
@@ -39,35 +58,46 @@ webr:
 
 ![Image from [Data Science in a Box](https://datasciencebox.org)](images/ds-topics.png){fig-align="center"}
 
-## Intro Data Science topics
+## Intro Data Science topics {.midi}
 
+::::: columns
+::: {.column width="50%"}
 **Unit 1: Exploring data**
 
 -   Data visualization 
 -   Exploring multivariable relationships
 -   Data wrangling
 -   Importing data 
+:::
 
+::: {.column width="50%"}
 **Unit 2: Making rigorous conclusions**
 
 -   Relationships between multiple variables
 -   Predicting numeric and binary outcomes
 -   Model building and feature engineering
 -   Model evaluation and cross validation 
+-   Simulation-based inference
+:::
+:::::
 
 ::: small
-Based on Çetinkaya-Rundel & Ellison (2020)
+Source: Çetinkaya-Rundel & Ellison (2020)
 :::
 
-## Intro Data Science Topics
+## Intro Data Science topics {.midi}
 
+:::::: columns
+::: {.column width="50%"}
 **Additional topics (varies by instructor)**
 
 -   Interactive dashboards with Shiny
 -   Working productively with AI tools  
 -   Text analysis
 -   Customizing Quarto reports and presentations
+:::
 
+:::: {.column width="50%"}
 ::: highlight
 **Computing throughout course**
 
@@ -75,25 +105,52 @@ Based on Çetinkaya-Rundel & Ellison (2020)
 -   Reproducible reports using Quarto
 -   Version control and collaboration using git and GitHub
 :::
+::::
+::::::
+
+<br>
 
 ::: small
-Based on Çetinkaya-Rundel & Ellison (2020)
+Source: Çetinkaya-Rundel & Ellison (2020)
 :::
 
-## Coding as a learning objective
+## Computing as a learning objective
 
-\[ Start with ecots talk\]
+::: highlight
+"The goal of teaching computing and information technologies is to remove obstacles to engagement with a problem."
+
+(Nolan & Temple Lang, 2010)
+:::
+
+. . .
+
+::: incremental
+-   Opportunity for students to gain experience using professional computing tools
+
+-   Equip students to work with more realistic and complex data
+
+-   Students can develop a reproducible workflow while learning statistical methods
+:::
+
+<!--# Add in curriculum guidelines, Hardin & Horton papers, and 2010 paper-->
+
+<br>
+
+::: small
+Nolan, D., & Temple Lang, D. (2010)
+:::
 
 # Pedagogy
 
 ## Pedagogy - UPDATE IMAGE
 
-::::: columns
+:::::: columns
 ::: {.column width="50%"}
-![From Meyer and Çetinkaya-Rundel (2025, preprint)](images/sta199-pedagogy.png){fig-align="center"}
+![](images/sta199-pedagogy.png){fig-align="center" width="60%"}
 :::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
+::: midi
 -   **Build**: Introduce new content
 
 -   **Train**: Put concepts into practice through hands-on class activities
@@ -104,16 +161,12 @@ Based on Çetinkaya-Rundel & Ellison (2020)
 
 -   **Create:** Demonstrate learning through a variety of assessments
 :::
-:::::
+::::
+::::::
 
 ::: small
-From Meyer and Çetinkaya-Rundel (2025, preprint)
+Source: Meyer and Çetinkaya-Rundel (2025, preprint)
 :::
-
-## Let them eat cake approach
-
--   Start with the cake then teach students how to make it (Mine's work on this)
--   How much is Elijah covering this in first session?
 
 ## Tidyverse
 
@@ -125,16 +178,22 @@ From Meyer and Çetinkaya-Rundel (2025, preprint)
 :::
 
 ::: {.column width="50%"}
-![](images/tidyverse.png){width="50%"}
+![](images/tidyverse.png){fig-align="center" width="80%"}
 :::
 :::::
 
-. . .
+```{r}
+#| eval: false
+library(tidyverse)
+```
+
+## Tidyverse
 
 ![Source: Çetinkaya-Rundel et al. (2022)](images/tidyverse-ds-workflow.png)
 
-## Pedagogical benefits of the tidyverse
+## Pedagogical benefits of the tidyverse {.midi}
 
+::: incremental
 -   **Consistency**: Syntax, function interfaces, argument names and order follow patterns
 
 -   **Mixability**: Ability to use base R and other functions within tidyverse syntax
@@ -148,6 +207,7 @@ From Meyer and Çetinkaya-Rundel (2025, preprint)
 -   **Community**: Large, active, and welcoming community of users and resources
 
 -   **Transferability**: Data manipulation verbs inherit SQL's query syntax
+:::
 
 ::: small
 Source: Çetinkaya-Rundel et al. (2022)
@@ -159,19 +219,19 @@ Source: Çetinkaya-Rundel et al. (2022)
 2.  Each observation forms a row.
 3.  Each type of observational unit forms a table.
 
-<br>
+. . .
 
 ::::: columns
 ::: {.column width="50%"}
 <center><b>Not tidy data</b></center>
 
-![](images/not-tidy-data.png){alt="Tidy data" fig-align="center"}
+![](images/not-tidy-data.png){alt="Tidy data" fig-align="center" width="100%"}
 :::
 
 ::: {.column width="50%"}
 <center><b>Tidy data</b></center>
 
-![](images/tidy-data.png){alt="Tidy data" fig-align="center"}
+![](images/tidy-data.png){alt="Tidy data" fig-align="center" width="100%"}
 :::
 :::::
 
@@ -185,22 +245,37 @@ The **pipe,** `|>`, is used to pass information from one function to another in 
 
 . . .
 
-When reading code aloud in English, say "and then" whenever you see a pipe.
+When reading code aloud in English, say "and then" whenever you see a pipe. Below is a pipeline for a children's poem.\*
 
-. . .
-
-Below is a pipeline describing a typical morning.
+::: aside
+\* Source: [R for Data Science 1st Edition](https://r4ds.had.co.nz/pipes.html)
+:::
 
 <br>
 
 . . .
 
-```         
- find("keys") |>
-  start_car() |>
-  drive(to = "work") |>
-  park()
+::::: columns
+::: {.column width="50%"}
+Little bunny Foo Foo\
+Went hopping through the forest\
+Scooping up the field mice\
+And bopping them on the head
+:::
+
+::: {.column width="50%"}
+```{r}
+#| eval: false
+
+foo_foo |>
+  hop(through = forest) |>
+  scoop(up = field_mice) |>
+  bop(on = head)
 ```
+:::
+:::::
+
+<!--# do bunny foo foo example from Hadley Wickhim-->
 
 ## Data: Palmer penguins {.midi}
 
@@ -217,7 +292,13 @@ We will use the following variables:
 ## `penguins` data frame
 
 ```{r}
+#| eval: false
 library(palmerpenguins)
+penguins
+```
+
+```{r}
+#| echo: false
 penguins
 ```
 
@@ -228,20 +309,24 @@ Compute the mean flipper length for Palmer penguins.
 :::
 
 ```{r}
-penguins
+penguins |> slice(1:5)
 ```
+
+<br>
 
 . . .
 
 ```{r}
-mean(penguins$flipper_length_mm, na.rm = TRUE)
+mean(penguins$flipper_length_mm)
 ```
 
-## Base R: Compute summary statistics {.midi}
+## Base R: Compute summary statistics - add citation {.midi}
 
 ::: question
 For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
 :::
+
+<br>
 
 . . .
 
@@ -263,34 +348,143 @@ names(mean_flipper)[2] <- "mean_flipper_length"
 
 ```
 
-## Base R: Compute summary statistics {.midi}
+## Base R: Compute summary statistics - add citation {.midi}
 
 ::: question
 For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
 :::
+
+<br>
 
 **Combine results and sort data frame**
 
 ```{r}
 df <- merge(num_penguins, mean_flipper)
 df[order(df$num_penguins, decreasing = TRUE), ]
-
 ```
 
-## Tidyverse: Compute summary statistics
+## Base R: Full code - add citation
 
--   Redo the example using tidyverse
+```{r}
+num_penguins <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)
+names(num_penguins)[2] <- "num_penguins"
 
-<!--# Note that example is inspired by educators paper and DS in the classroom workshop-->
+mean_flipper <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)
+
+names(mean_flipper)[2] <- "mean_flipper_length"
+
+df <- merge(num_penguins, mean_flipper)
+df[order(df$num_penguins, decreasing = TRUE), ]
+```
 
 ## Your turn!
 
 ::: question
+Use tidyverse syntax to make the data frame described below:
+
+For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+```{webr-r}
+penguins
+# add code here
+```
+
+<!--# Note that example is inspired by educators paper and DS in the classroom workshop-->
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+penguins
+```
+:::
+:::::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+[For each species]{style="font-weight:bold;background-color:#ccddeb;"}, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "2"
+penguins |>
+  group_by(species)
+```
+:::
+:::::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, [compute the number of penguins]{style="font-weight:bold;background-color:#ccddeb;"} and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "3-4"
+penguins |>
+  group_by(species) |>
+  summarise(n = n(), 
+            )
+```
+:::
+:::::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, compute the number of penguins and [the mean flipper length]{style="font-weight:bold;background-color:#ccddeb;"}. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "4-6"
+penguins |>
+  group_by(species) |>
+  summarise(n = n(), 
+            mean = mean(flipper_length_mm)
+            )
+```
+:::
+:::::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, compute the number of penguins and the mean flipper length. [Display the results in descending order by number of penguins.]{style="font-weight:bold;background-color:#ccddeb;"}
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "7"
+penguins |>
+  group_by(species) |>
+  summarise(n = n(), 
+            mean = mean(flipper_length_mm,
+                        na.rm = TRUE)
+            ) |>
+  arrange(desc(n))
+```
+:::
+:::::
+
+## Your turn! \[Time permitting\]
+
+::: question
 -   Create a new data frame that only contains the penguin from each species with the largest body mass.
-
-<!-- -->
-
--   **\[Time permitting\]** Use [**dplyr**](https://dplyr.tidyverse.org/reference/index.html) functions to continue exploring the `penguins` data set.
+-   Use [**dplyr**](https://dplyr.tidyverse.org/reference/index.html) functions to continue exploring the `penguins` data set.
 :::
 
 <br>
@@ -306,14 +500,13 @@ df[order(df$num_penguins, decreasing = TRUE), ]
 
 -   Educator's guide to the tidyverse
 
-## What about AI?
+## What about AI? {.midi}
 
 -   We recommend minimal use of generative artificial intelligence (AI) for coding when coding proficiency is a learning objective in an introductory course
 
--   We will not cover generative AI in this tutorial
-
 -   There are a variety of perspectives on using generative AI tools to teaching coding:
 
+    ::: small
     -   Bien, J., & Mukherjee, G. (2025). [Generative AI for Data Science 101: Coding Without Learning To Code](https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2432397?src=exp-mr). *Journal of Statistics and Data Science Education*, *33*(2), 129-142.
 
     -   [Generative AI in Statistics and Data Science Education](https://www.tandfonline.com/journals/ujse21/collections/generative-ai) (Journal of Statistics and Data Science collection)
@@ -321,40 +514,27 @@ df[order(df$num_penguins, decreasing = TRUE), ]
     -   [Leveraging LLMs for student feedback in introductory data science courses](https://mine-cetinkaya-rundel.github.io/help-from-ai-uscots25/) by Mine Çetinkaya-Rundel (USCOTS presentation)
 
     -   [Learning the tidyverse with the help of AI tools](https://www.tidyverse.org/blog/2025/04/learn-tidyverse-ai/) by Mine Çetinkaya-Rundel (Tidyverse blog)
-
-## Discussion
-
-::: question
--   What is something you've seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?
-
--   Any other questions/ comments/ discussion points?
-:::
-
-## Additional resources
-
--   tidyverse websites
-
--   datasciencebox.org
-
--   educator's perspective on tidyverse paper
-
--   2 data science papers
-
--   introductory statistics vs. introductory data science?
+    :::
 
 # Infrastructure
 
-## Web-based computing
+## Why use RStudio in the cloud?
 
--   Why use web-based computing rather than local install
-
-    -   local R/ RStudio
-
+-   Reduce friction at first exposure to R
+    -   Start using R on Day 1!
+-   Avoid local installation
+-   Install R and RStudio on a server and provide access to students:
+    -   Centralized RStudio server
+    -   Dockerized RStudio server (what we're using today)
     -   Posit Cloud
 
-    -   Docker containers with RStudio license / NC Share
+\[Check paper - are these the reasons in the paper?\]
 
-## Docker containers
+::: aside
+Çetinkaya-Rundel and Rundel (2018)
+:::
+
+## Dockerized Rstudio
 
 -   Infrastructure options
 
@@ -363,3 +543,11 @@ df[order(df$num_penguins, decreasing = TRUE), ]
 -   Make a qmd file . Render it.
 
 -   Turn the qmd into a web-r file.
+
+## Discussion
+
+::: question
+-   What is something you've seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?
+
+-   Any other questions/ comments/ discussion points?
+:::

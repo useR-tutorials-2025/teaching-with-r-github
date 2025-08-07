@@ -15,7 +15,8 @@ editor:
 -   Use `.aside` or `.small` to put citations at bottom of the slides.
     Format example: `Source: Wichkam (2014)`.
 -   \[TO DO\]: Ask Mine and Allison about advice to stay current with
-    tidyverse / teaching with R.
+    tidyverse / teaching with R. -
+    -   Use advice in Educator's paper
 -   Website schedule: + DONE!
     -   Use table from DS Classroom page
     -   In the table:
@@ -29,7 +30,7 @@ editor:
     -   Slides (drop down)
     -   Resources
     -   License
--   Welcome email (send August 4)
+-   Welcome email (send August 4) - DONE
     -   Remind participants of day and time
     -   Link to the website for the workshop
     -   Survey: Experience with R, and experience with GitHub, have they
@@ -53,9 +54,9 @@ editor:
 
 ## July 22 meeting
 
--   \[TO DO\]: Add resources to `resources.qmd` (Maria)
+-   \[TO DO\]: Add resources to `resources.qmd` (Maria) - DONE
 
--   \[TO DO\]: Make Google survey (Elijah)
+-   \[TO DO\]: Make Google survey (Elijah) - DONE
 
 ## July 21- Maria's thoughts
 

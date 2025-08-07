@@ -9,11 +9,21 @@ This page is under construction and will be updated until the start of the tutor
 
 ## Getting started with WebR
 
-## Curriculum and pedagogy 
+-   [Empowering Your Quarto Documents with R through webR](https://quarto-webr.thecoatlessprofessor.com/qwebr-internal-cell.html)
+
+## Curriculum and pedagogy
 
 -   Baumer, B. (2015). A data science course for undergraduates: Thinking with data. *The American Statistician*, *69*(4), 334-342. <https://doi.org/10.1080/00031305.2015.1081105>.
 -   Çetinkaya-Rundel, M., & Ellison, V. (2021). A fresh look at introductory data science. *Journal of Statistics and Data Science Education*, *29*(sup1), S16-S26. <https://doi.org/10.1080/10691898.2020.1804497>.
 -   Çetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., & Rundel, C. (2022). An educator's perspective of the tidyverse. *Technology Innovations in Statistics Education*, 14(1). <http://dx.doi.org/10.5070/T514154352>.
+-   Nolan, D., & Temple Lang, D. (2010). Computing in the statistics curricula. *The American Statistician*, *64*(2), 97-107.
+
+### Teaching with AI tools 
+
+-   Bien, J., & Mukherjee, G. (2025). [Generative AI for Data Science 101: Coding Without Learning To Code](https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2432397?src=exp-mr). *Journal of Statistics and Data Science Education*, *33*(2), 129-142.
+-   [Generative AI in Statistics and Data Science Education](https://www.tandfonline.com/journals/ujse21/collections/generative-ai) (Journal of Statistics and Data Science collection)
+-   [Leveraging LLMs for student feedback in introductory data science courses](https://mine-cetinkaya-rundel.github.io/help-from-ai-uscots25/) by Mine Çetinkaya-Rundel (USCOTS presentation)
+-   [Learning the tidyverse with the help of AI tools](https://www.tidyverse.org/blog/2025/04/learn-tidyverse-ai/) by Mine Çetinkaya-Rundel (Tidyverse blog)
 
 ## Teaching with git and GitHub
 
@@ -21,15 +31,21 @@ This page is under construction and will be updated until the start of the tutor
 
 ## Making teaching materials with Quarto
 
--   Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. *arXiv preprint arXiv:2202.09504*. <https://doi.org/10.48550/arXiv.2202.09504>.
+-   Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. *arXiv preprint arXiv:2202.09504*. <https://doi.org/10.48550/arXiv.2202.09504>
+-   [Organizing Teaching Materials](https://rstudio-conf-2022.github.io/teach-ds/modules/d2-08-organizing.html) by Maria Tackett & Mine Çetinkaya-Rundel
+-   [Reproducible documents, presentations, and websites with Quarto](https://atheobold.github.io/uscots-quarto/) by Hunter Glanz, Emily Robinson & Allison Theobold
+-   [Hello Quarto: Share, Collaborate, Teach, Reimagine](https://www.youtube.com/watch?v=p7Hxu4coDl8) by Mine Çetinkaya-Rundel & Julia Lowndes
+-   [quarto.org](https://quarto.org)
 
 ## Course material repositories
 
 -   Data Science in a Box: [datasciencebox.org](https://datasciencebox.org/)
 
-<!--# TO DO: Add others... -->
-
 ## Course websites
+
+-   [Introduction to Foundations of Data Science with R (Spring 2025)](https://st295.github.io/st295-sp25/), Elijah Meyer
+-   [Regression Analysis (Spring 2025)](https://sta210-sp25.netlify.app/), Maria Tackett
+-   [Introduction to Data Science and Statistical Thinking (Fall 2024)](https://sta199-f24.github.io/), Mine Çetinkaya-Rundel
 
 ## Textbooks
 
@@ -37,6 +53,6 @@ This page is under construction and will be updated until the start of the tutor
 
 -   [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin
 
--   [Tidy modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
+-   [Modern Data Science with R](https://mdsr-book.github.io/) by Ben Baumer, Daniel Kaplan, and Nick Horton
 
-<!--# TO DO: Add MDSR by Baumer? -->
+-   [Tidy modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge

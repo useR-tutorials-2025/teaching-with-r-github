@@ -21,14 +21,14 @@
     "href": "outline.html#july-31-meeting",
     "title": "Outline of Workshop",
     "section": "July 31 meeting",
-    "text": "July 31 meeting\n\nCome up with lessons learned\nUse .aside or .small to put citations at bottom of the slides. Format example: Source: Wichkam (2014).\n[TO DO]: Ask Mine and Allison about advice to stay current with tidyverse / teaching with R.\nWebsite schedule: + DONE!\n\nUse table from DS Classroom page\nIn the table:\n\nWelcome / Day 1\nCurriculum and pedagogy\nGitHub\nTeaching Materials / Conclusion\n\n\nWebsite side bar - DONE\n\nWelcome\nSchedule\nSlides (drop down)\nResources\nLicense\n\nWelcome email (send August 4)\n\nRemind participants of day and time\nLink to the website for the workshop\nSurvey: Experience with R, and experience with GitHub, have they taught with R and/or GitHub (Elijah)\nComputing set up:\n\nBring a laptop and/ or device with web access and keyboard for hands-on activities\nNo set up required! RStudio will be provided and will be accessible through a web browser. It will be configured with Git.\nIf you choose to use a local installation of R:\n\nInstall Git (add link to happy git with R book)\nPackages:\n\ntidyverse\nwebR\nusethis\ndevtools\npalmerpenguins\ncredentials\n\n\n\n\nResources page - organized by slide topic."
+    "text": "July 31 meeting\n\nCome up with lessons learned\nUse .aside or .small to put citations at bottom of the slides. Format example: Source: Wichkam (2014).\n[TO DO]: Ask Mine and Allison about advice to stay current with tidyverse / teaching with R. -\n\nUse advice in Educator’s paper\n\nWebsite schedule: + DONE!\n\nUse table from DS Classroom page\nIn the table:\n\nWelcome / Day 1\nCurriculum and pedagogy\nGitHub\nTeaching Materials / Conclusion\n\n\nWebsite side bar - DONE\n\nWelcome\nSchedule\nSlides (drop down)\nResources\nLicense\n\nWelcome email (send August 4) - DONE\n\nRemind participants of day and time\nLink to the website for the workshop\nSurvey: Experience with R, and experience with GitHub, have they taught with R and/or GitHub (Elijah)\nComputing set up:\n\nBring a laptop and/ or device with web access and keyboard for hands-on activities\nNo set up required! RStudio will be provided and will be accessible through a web browser. It will be configured with Git.\nIf you choose to use a local installation of R:\n\nInstall Git (add link to happy git with R book)\nPackages:\n\ntidyverse\nwebR\nusethis\ndevtools\npalmerpenguins\ncredentials\n\n\n\n\nResources page - organized by slide topic."
   },
   {
     "objectID": "outline.html#july-22-meeting",
     "href": "outline.html#july-22-meeting",
     "title": "Outline of Workshop",
     "section": "July 22 meeting",
-    "text": "July 22 meeting\n\n[TO DO]: Add resources to resources.qmd (Maria)\n[TO DO]: Make Google survey (Elijah)"
+    "text": "July 22 meeting\n\n[TO DO]: Add resources to resources.qmd (Maria) - DONE\n[TO DO]: Make Google survey (Elijah) - DONE"
   },
   {
     "objectID": "outline.html#july-21--marias-thoughts",
@@ -122,340 +122,106 @@
     "text": "Website"
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#a-modern-approach",
-    "href": "slides/02-pedagogy-draft.html#a-modern-approach",
-    "title": "Curriculum and Pedagogy",
-    "section": "A modern approach",
-    "text": "A modern approach\n\nModern approach to teaching statistics and now the onset of data science\nHow is this different from the traditional approach - the computing is infused throughout\nBring in curriculum guidelines - what they are saying about computing"
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\nStudents have heard about your class….\nAnxiety around coding….\n\nTalk\nBuild a community"
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#intro-data-science",
-    "href": "slides/02-pedagogy-draft.html#intro-data-science",
-    "title": "Curriculum and Pedagogy",
-    "section": "Intro Data Science",
-    "text": "Intro Data Science\n\nImage from Data Science in a Box"
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-1",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class-1",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\nTalk about mindset and perspective\n– The expectation is not to be an expert on the first day, or after one day – Give them “permission” to get excited and make mistakes – Calm anxiety around coding"
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#intro-data-science-topics",
-    "href": "slides/02-pedagogy-draft.html#intro-data-science-topics",
-    "title": "Curriculum and Pedagogy",
-    "section": "Intro Data Science topics",
-    "text": "Intro Data Science topics\nUnit 1: Exploring data\n\nData visualization \nExploring multivariable relationships\nData wrangling\nImporting data \n\nUnit 2: Making rigorous conclusions\n\nRelationships between multiple variables\nPredicting numeric and binary outcomes\nModel building and feature engineering\nModel evaluation and cross validation \n\n\nBased on Çetinkaya-Rundel & Ellison (2020)"
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-2",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class-2",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\nStart with cake 🍰"
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#intro-data-science-topics-1",
-    "href": "slides/02-pedagogy-draft.html#intro-data-science-topics-1",
-    "title": "Curriculum and Pedagogy",
-    "section": "Intro Data Science Topics",
-    "text": "Intro Data Science Topics\nAdditional topics (varies by instructor)\n\nInteractive dashboards with Shiny\nWorking productively with AI tools  \nText analysis\nCustomizing Quarto reports and presentations\n\n\nComputing throughout course\n\nStatistical analysis using R\nReproducible reports using Quarto\nVersion control and collaboration using git and GitHub\n\n\n\nBased on Çetinkaya-Rundel & Ellison (2020)"
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-3",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class-3",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\n🍰\n– Get students excited\n– Make them understand why they are in the class\n– Make them want to come back and keep learning"
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#coding-as-a-learning-objective",
-    "href": "slides/02-pedagogy-draft.html#coding-as-a-learning-objective",
-    "title": "Curriculum and Pedagogy",
-    "section": "Coding as a learning objective",
-    "text": "Coding as a learning objective\n[ Start with ecots talk]"
+    "objectID": "slides/01-webR-slides-draft.html#webr",
+    "href": "slides/01-webR-slides-draft.html#webr",
+    "title": "Teaching with webR",
+    "section": "WebR",
+    "text": "WebR\nWebR is a version of the statistical language R compiled for the browser\n\nNo local installation\nNo downloading anything"
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#pedagogy---update-image",
-    "href": "slides/02-pedagogy-draft.html#pedagogy---update-image",
-    "title": "Curriculum and Pedagogy",
-    "section": "Pedagogy - UPDATE IMAGE",
-    "text": "Pedagogy - UPDATE IMAGE\n\n\n\n\n\nFrom Meyer and Çetinkaya-Rundel (2025, preprint)\n\n\n\n\nBuild: Introduce new content\nTrain: Put concepts into practice through hands-on class activities\n\nDo: Steps needed to accomplish a task\nThink: How to accomplish task in future\n\nCreate: Demonstrate learning through a variety of assessments\n\n\n\nFrom Meyer and Çetinkaya-Rundel (2025, preprint)"
+    "objectID": "slides/01-webR-slides-draft.html#day-1",
+    "href": "slides/01-webR-slides-draft.html#day-1",
+    "title": "Teaching with webR",
+    "section": "Day-1",
+    "text": "Day-1\nwebR link"
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#let-them-eat-cake-approach",
-    "href": "slides/02-pedagogy-draft.html#let-them-eat-cake-approach",
-    "title": "Curriculum and Pedagogy",
-    "section": "Let them eat cake approach",
-    "text": "Let them eat cake approach\n\nStart with the cake then teach students how to make it (Mine’s work on this)\nHow much is Elijah covering this in first session?"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#tidyverse",
-    "href": "slides/02-pedagogy-draft.html#tidyverse",
-    "title": "Curriculum and Pedagogy",
-    "section": "Tidyverse",
-    "text": "Tidyverse\n\n\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.\n-tidyverse.org\n\n\n\n\n\n\n\nSource: Çetinkaya-Rundel et al. (2022)"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#pedagogical-benefits-of-the-tidyverse",
-    "href": "slides/02-pedagogy-draft.html#pedagogical-benefits-of-the-tidyverse",
-    "title": "Curriculum and Pedagogy",
-    "section": "Pedagogical benefits of the tidyverse",
-    "text": "Pedagogical benefits of the tidyverse\n\nConsistency: Syntax, function interfaces, argument names and order follow patterns\nMixability: Ability to use base R and other functions within tidyverse syntax\nScalability: Unified approach that works for data sets from a wide range of types and sizes\nUser-centered design: Function interfaces designed with users in mind\nReadability: Interfaces designed to produce readable code\nCommunity: Large, active, and welcoming community of users and resources\nTransferability: Data manipulation verbs inherit SQL’s query syntax\n\n\nSource: Çetinkaya-Rundel et al. (2022)"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#tidy-data",
-    "href": "slides/02-pedagogy-draft.html#tidy-data",
-    "title": "Curriculum and Pedagogy",
-    "section": "Tidy data",
-    "text": "Tidy data\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\n\n\n\n\nNot tidy data\n\n\n\n\n\n\n\n\nTidy data\n\n\n\n\n\n\n\n\n\nSource: Wickham (2014)"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#the-pipe",
-    "href": "slides/02-pedagogy-draft.html#the-pipe",
-    "title": "Curriculum and Pedagogy",
-    "section": "The pipe",
-    "text": "The pipe\nThe pipe, |&gt;, is used to pass information from one function to another in the tidyverse.\n\nWhen reading code aloud in English, say “and then” whenever you see a pipe.\n\n\nBelow is a pipeline describing a typical morning.\n\n\n\n find(\"keys\") |&gt;\n  start_car() |&gt;\n  drive(to = \"work\") |&gt;\n  park()"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#data-palmer-penguins",
-    "href": "slides/02-pedagogy-draft.html#data-palmer-penguins",
-    "title": "Curriculum and Pedagogy",
-    "section": "Data: Palmer penguins",
-    "text": "Data: Palmer penguins\nWe will analyze the penguins data set from the palmerpenguins R package maintained by Dr. Allison Horst. This data set contains measurements and other characteristics for penguins observed near Palmer Station in Antarctica. The data were originally collected by Dr. Kristen Gorman.\nWe will use the following variables:\n\nspecies: a factor denoting penguin species (Adélie, Chinstrap and Gentoo)\nflipper_length_mm: an integer denoting flipper length (millimeters)\nbody_mass_g: an integer denoting body mass (grams)\n\nClick here for the full codebook."
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#penguins-data-frame",
-    "href": "slides/02-pedagogy-draft.html#penguins-data-frame",
-    "title": "Curriculum and Pedagogy",
-    "section": "penguins data frame",
-    "text": "penguins data frame\n\nlibrary(palmerpenguins)\npenguins\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           NA            NA                  NA          NA &lt;NA&gt;    2007\n 5 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 6 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 7 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 8 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 9 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n10 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n# ℹ 334 more rows"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics",
-    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics",
-    "title": "Curriculum and Pedagogy",
-    "section": "Base R: Compute summary statistics",
-    "text": "Base R: Compute summary statistics\n\nCompute the mean flipper length for Palmer penguins.\n\n\npenguins\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           NA            NA                  NA          NA &lt;NA&gt;    2007\n 5 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 6 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 7 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 8 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 9 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n10 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n# ℹ 334 more rows\n\n\n\n\nmean(penguins$flipper_length_mm, na.rm = TRUE)\n\n[1] 200.9152"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-1",
-    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-1",
-    "title": "Curriculum and Pedagogy",
-    "section": "Base R: Compute summary statistics",
-    "text": "Base R: Compute summary statistics\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nCompute number of penguins by species\n\nnum_penguins &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)\nnames(num_penguins)[2] &lt;- \"num_penguins\"\n\n\n\nCompute mean flipper length by species\n\nmean_flipper &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)\n\nnames(mean_flipper)[2] &lt;- \"mean_flipper_length\""
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-2",
-    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-2",
-    "title": "Curriculum and Pedagogy",
-    "section": "Base R: Compute summary statistics",
-    "text": "Base R: Compute summary statistics\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\nCombine results and sort data frame\n\ndf &lt;- merge(num_penguins, mean_flipper)\ndf[order(df$num_penguins, decreasing = TRUE), ]\n\n    species num_penguins mean_flipper_length\n1    Adelie          151            189.9536\n3    Gentoo          123            217.1870\n2 Chinstrap           68            195.8235"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#tidyverse-compute-summary-statistics",
-    "href": "slides/02-pedagogy-draft.html#tidyverse-compute-summary-statistics",
-    "title": "Curriculum and Pedagogy",
-    "section": "Tidyverse: Compute summary statistics",
-    "text": "Tidyverse: Compute summary statistics\n\nRedo the example using tidyverse"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#your-turn",
-    "href": "slides/02-pedagogy-draft.html#your-turn",
-    "title": "Curriculum and Pedagogy",
-    "section": "Your turn!",
-    "text": "Your turn!\n\n\nCreate a new data frame that only contains the penguin from each species with the largest body mass.\n\n\n\n[Time permitting] Use dplyr functions to continue exploring the penguins data set.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#tidyverse-beyond-the-intro-course",
-    "href": "slides/02-pedagogy-draft.html#tidyverse-beyond-the-intro-course",
-    "title": "Curriculum and Pedagogy",
-    "section": "Tidyverse beyond the intro course",
-    "text": "Tidyverse beyond the intro course"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#quote-from-tidyverse-paper",
-    "href": "slides/02-pedagogy-draft.html#quote-from-tidyverse-paper",
-    "title": "Curriculum and Pedagogy",
-    "section": "Quote from tidyverse paper?",
-    "text": "Quote from tidyverse paper?\n\nEducator’s guide to the tidyverse"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#what-about-ai",
-    "href": "slides/02-pedagogy-draft.html#what-about-ai",
-    "title": "Curriculum and Pedagogy",
-    "section": "What about AI?",
-    "text": "What about AI?\n\nWe recommend minimal use of generative artificial intelligence (AI) for coding when coding proficiency is a learning objective in an introductory course\nWe will not cover generative AI in this tutorial\nThere are a variety of perspectives on using generative AI tools to teaching coding:\n\nBien, J., & Mukherjee, G. (2025). Generative AI for Data Science 101: Coding Without Learning To Code. Journal of Statistics and Data Science Education, 33(2), 129-142.\nGenerative AI in Statistics and Data Science Education (Journal of Statistics and Data Science collection)\nLeveraging LLMs for student feedback in introductory data science courses by Mine Çetinkaya-Rundel (USCOTS presentation)\nLearning the tidyverse with the help of AI tools by Mine Çetinkaya-Rundel (Tidyverse blog)"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#discussion",
-    "href": "slides/02-pedagogy-draft.html#discussion",
-    "title": "Curriculum and Pedagogy",
-    "section": "Discussion",
-    "text": "Discussion\n\n\nWhat is something you’ve seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?\nAny other questions/ comments/ discussion points?"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#additional-resources",
-    "href": "slides/02-pedagogy-draft.html#additional-resources",
-    "title": "Curriculum and Pedagogy",
-    "section": "Additional resources",
-    "text": "Additional resources\n\ntidyverse websites\ndatasciencebox.org\neducator’s perspective on tidyverse paper\n2 data science papers\nintroductory statistics vs. introductory data science?"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#web-based-computing",
-    "href": "slides/02-pedagogy-draft.html#web-based-computing",
-    "title": "Curriculum and Pedagogy",
-    "section": "Web-based computing",
-    "text": "Web-based computing\n\nWhy use web-based computing rather than local install\n\nlocal R/ RStudio\nPosit Cloud\nDocker containers with RStudio license / NC Share"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#docker-containers",
-    "href": "slides/02-pedagogy-draft.html#docker-containers",
-    "title": "Curriculum and Pedagogy",
-    "section": "Docker containers",
-    "text": "Docker containers\n\nInfrastructure options\nBrief introduction to Quarto (like an R Markdown file)\nMake a qmd file . Render it.\nTurn the qmd into a web-r file."
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#outline",
-    "href": "slides/04-teaching-materials-draft.html#outline",
-    "title": "Making teaching materials with Quarto",
-    "section": "Outline",
-    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#benefits-for-instructor",
-    "href": "slides/04-teaching-materials-draft.html#benefits-for-instructor",
-    "title": "Making teaching materials with Quarto",
-    "section": "Benefits for instructor",
-    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#benefits-for-students",
-    "href": "slides/04-teaching-materials-draft.html#benefits-for-students",
-    "title": "Making teaching materials with Quarto",
-    "section": "Benefits for students",
-    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nAbility to read course materials on multiple devices"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto",
-    "href": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto",
-    "title": "Making teaching materials with Quarto",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\nSlides"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto-1",
-    "href": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto-1",
-    "title": "Making teaching materials with Quarto",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\nAssignment instructions"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#slide-menu",
-    "href": "slides/04-teaching-materials-draft.html#slide-menu",
-    "title": "Making teaching materials with Quarto",
-    "section": "Slide menu",
-    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#slide-with-code-output",
-    "href": "slides/04-teaching-materials-draft.html#slide-with-code-output",
-    "title": "Making teaching materials with Quarto",
-    "section": "Slide with code + output",
-    "text": "Slide with code + output\n\n\nPublished slide\n\n\n\n\n\n\nSource code\n\n\n\n\n\n\n\n\nSource: Data visualization overview lecture by Mine Çetinkaya-Rundel"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#slide-with-mathematical-notation",
-    "href": "slides/04-teaching-materials-draft.html#slide-with-mathematical-notation",
-    "title": "Making teaching materials with Quarto",
-    "section": "Slide with mathematical notation",
-    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\nSource: SLR: Mathematical models for inference lecture by Maria Tackett"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#example-course-website",
-    "href": "slides/04-teaching-materials-draft.html#example-course-website",
-    "title": "Making teaching materials with Quarto",
-    "section": "Example course website",
-    "text": "Example course website\n\n\nRegression Analysis: Theory and Application taught by Maria Tackett"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#example-website-file-structure",
-    "href": "slides/04-teaching-materials-draft.html#example-website-file-structure",
-    "title": "Making teaching materials with Quarto",
-    "section": "Example website file structure",
-    "text": "Example website file structure"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#interactive-documents-with-webr",
-    "href": "slides/04-teaching-materials-draft.html#interactive-documents-with-webr",
-    "title": "Making teaching materials with Quarto",
-    "section": "Interactive documents with webR",
-    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n---\n\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#getting-started-slides-documents",
-    "href": "slides/04-teaching-materials-draft.html#getting-started-slides-documents",
-    "title": "Making teaching materials with Quarto",
-    "section": "Getting started: slides + documents",
-    "text": "Getting started: slides + documents\n\nBasicCustomized\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#getting-started-websites",
-    "href": "slides/04-teaching-materials-draft.html#getting-started-websites",
-    "title": "Making teaching materials with Quarto",
-    "section": "Getting started: websites",
-    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\nRun the following code in the Terminal\nquarto create-project --type website\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#publishing-materials",
-    "href": "slides/04-teaching-materials-draft.html#publishing-materials",
-    "title": "Making teaching materials with Quarto",
-    "section": "Publishing materials",
-    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#course-websites-created-with-quarto",
-    "href": "slides/04-teaching-materials-draft.html#course-websites-created-with-quarto",
-    "title": "Making teaching materials with Quarto",
-    "section": "Course websites created with Quarto",
-    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#learn-more",
-    "href": "slides/04-teaching-materials-draft.html#learn-more",
-    "title": "Making teaching materials with Quarto",
-    "section": "Learn more!",
-    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#recap",
-    "href": "slides/04-teaching-materials-draft.html#recap",
-    "title": "Making teaching materials with Quarto",
-    "section": "Recap",
-    "text": "Recap\n\nBuild excitement about R on the first day\nwebR for interactive lectures\nComputing proficiency as a course learning objective\nPedagogy of teaching computing in statistics and data science courses\nReproducibility using Quarto and GitHub\nCreating and distributing assignments with GitHub\nMaking teaching materials with Quarto"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#lessons-learned",
-    "href": "slides/04-teaching-materials-draft.html#lessons-learned",
-    "title": "Making teaching materials with Quarto",
-    "section": "Lessons learned",
-    "text": "Lessons learned\n\nYou can do this!\nIt is worth it!\n\nThere are resources.\nThe time investment pays off for your and your students\n\nPractice by using the same workflow as your students.\nTechnology is choose your own adventure - start small or dive in the deep in. Do what works for you, your resources, and your student population.\nYour students are capable of the challenge!\nGet connected to a community."
-  },
-  {
-    "objectID": "slides/demo-webr.html",
-    "href": "slides/demo-webr.html",
-    "title": "Day-1 Activity",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Teaching statistics and data science with R and GitHub",
     "section": "",
-    "text": "Green means go!"
+    "text": "🗓️ August 8, 2025\n⏰ 13:00 - 16:30\n📍 Gross Hall 270",
+    "crumbs": [
+      "Welcome"
+    ]
   },
   {
-    "objectID": "slides/demo-webr.html#getting-started",
-    "href": "slides/demo-webr.html#getting-started",
-    "title": "Day-1 Activity",
-    "section": "Getting started",
-    "text": "Getting started\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIn this mini analysis we work with the data used in the FiveThirtyEight story titled “The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women”.\nThis analysis is about the Bechdel test, a measure of the representation of women in fiction. The Bechdel Test is a measure used to assess the representation of women in fiction, particularly in films.\n\nPackages\nWe’ll use: tidyverse for majority of the analysis and scales for pretty plot labels later on. These are ready to use for you in this activity!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPackages contain pieces of code (functions) that we want to use in order to plot / model data. Using library() around the pacakge name opens up the package for us to use the functions inside!\n\n\nData\nThe data are stored as a CSV (comma separated values) file in the data folder of your repository. Let’s read it from there and save it as an object called bechdel.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nNote\n\n\n\nThis a modified version of the bechdel dataset from the previous application exercise. It’s been modified to include some new variables derived from existing variables as well as to limit the scope of the data to movies released between 1990 and 2013.\n\n\n\n\nGet to know the data\nWe can use the glimpse function to get an overview (or “glimpse”) of the data. Write the following code below to accomplish this task.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWith your output, confirm that:\n– There are 1615 rows\n– There are 7 variables (columns) in the dataset\nWe can use slice to look at rows of our data. Run the following code. Change the 5 to another number to print that many rows!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWhat does each observation (row) in the data set represent?\nAnswer: \n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEach observation represents a movie."
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Overview",
+    "text": "Overview\nIn this tutorial, participants will learn about teaching R and GitHub in statistics and data science courses. We will discuss pedagogy and curriculum design for effectively teaching computing alongside statistical concepts. Participants will explore example in-class activities and assignments that demonstrate the student experience, while discussing strategies for implementing such activities from the instructor perspective. We will also discuss computing infrastructure options that enable students to use R and Rstudio from a web browser with minimal set up. Lastly, we will show how instructors can use R and Quarto to make course materials and streamline their workflow in a reproducible way using GitHub. The tutorial will focus on teaching introductory-level undergraduate students with no previous computing experience, but the tutorial content is applicable for instructors teaching high school courses and courses throughout the undergraduate statistics and data science curriculum.",
+    "crumbs": [
+      "Welcome"
+    ]
   },
   {
-    "objectID": "slides/demo-webr.html#variables-of-interest",
-    "href": "slides/demo-webr.html#variables-of-interest",
-    "title": "Day-1 Activity",
-    "section": "Variables of Interest",
-    "text": "Variables of Interest\nThe variables we’ll focus on are the following:\n\nbudget_2013: Budget in 2013 inflation adjusted dollars.\ngross_2013: Gross (US and international combined) in 2013 inflation adjusted dollars.\nroi: Return on investment, calculated as the ratio of the gross to budget.\nclean_test: Bechdel test result:\n\nok = passes test\ndubious\nmen = women only talk about men\nnotalk = women don’t talk to each other\nnowomen = fewer than two women\n\nbinary: Bechdel Test PASS vs FAIL binary\n\nWe will also use the year of release in data prep and title of movie to take a deeper look at some outliers.\nThere are a few other variables in the dataset, but we won’t be using them in this analysis."
+    "objectID": "index.html#learning-goals",
+    "href": "index.html#learning-goals",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nLearn pedagogical strategies for teaching R and GitHub in a statistics or data science course\nIdentify how computing can be integrated alongside statistical concepts in a course curriculum\nExperience computing activities and assignments from both the student and instructor perspective\nConsider the computing infrastructure that may be the best fit for your student population\nLearn how to develop course materials with R and Quarto and develop a reproducible workflow with GitHub",
+    "crumbs": [
+      "Welcome"
+    ]
   },
   {
-    "objectID": "slides/demo-webr.html#visualizing-data-with-ggplot2",
-    "href": "slides/demo-webr.html#visualizing-data-with-ggplot2",
-    "title": "Day-1 Activity",
-    "section": "Visualizing data with ggplot2",
-    "text": "Visualizing data with ggplot2\nggplot2 is the package and ggplot() is the function in this package that is used to create a plot. Interact with the code below by either running the code given, or adding code to achieve the expected solution when asked within the code chunk!\n\nggplot() creates the initial base coordinate system, and we will add layers to that base. We first specify the data set we will use with data = bechdel.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe mapping argument is paired with an aesthetic (aes()), which tells us how the variables in our data set should be mapped to the visual properties of the graph. Type the variable budget_2013 for our x, and gross_2013 for our y. Next, click run!\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe geom_xx function specifies the type of plot we want to use to represent the data. In the code below, we want to use geom_point, which creates a plot where each observation is represented by a point. Type geom_point() below. That is, add it to your code.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nNote that this results in a warning as well.\nThis warning represents the number of observations that were removed because there were missing data!"
+    "objectID": "index.html#target-audience",
+    "href": "index.html#target-audience",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Target audience",
+    "text": "Target audience\nThis workshop is for instructors interested in teaching R in their statistics and data science courses. The workshop will be presented from the perspective of teaching at the undergraduate level;; however, the contents of this workshop will also be beneficial to instructors teaching high school statistics and data science.",
+    "crumbs": [
+      "Welcome"
+    ]
   },
   {
-    "objectID": "slides/demo-webr.html#gross-revenue-vs.-budget",
-    "href": "slides/demo-webr.html#gross-revenue-vs.-budget",
-    "title": "Day-1 Activity",
-    "section": "Gross revenue vs. budget",
-    "text": "Gross revenue vs. budget\n\nStep 1 - Your turn\nThe following code changes the color of all points to coral. Explore different colors by changing “coral” to different colors!\n\n\n\n\n\n\nTip\n\n\n\nSee http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf for many color options you can use by name in R or use the hex code for a color of your choice.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nStep 2 - Your turn\nAdd labels for the title and x and y axes using labs. Do this by modifying the existing code below. Things to think about when we add labels:\n\nwe use the labs() function\ninside the labs() function, can use arguments such as x, y, and title =.\nany text that we add to the plot (like labels) will have quotes around them.\n\nTry it below!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n#| label: plot-labels\n#| echo: false\n\nggplot(bechdel, \n       aes(x = budget_2013, y = gross_2013))+\n  geom_point(color = \"deepskyblue3\") + \n  labs(\n    x = \"Budget (in 2013 $)\", \n    y = \"Gross revenue (in 2013 $)\", \n    title = \"Gross revenue vs. budget\"\n    )\n\n\n\n\n\nStep 3 - Your turn\nAn aesthetic is a visual property of one of the objects in your plot. Commonly used aesthetic options are:\n\ncolor\nfill\nshape\nsize\nalpha (transparency)\n\nModify the plot below, so the color of the points is based on the variable binary.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nCan you take anything meaningful from this plot?\nHow could this plot be improved?\nWhat other data do you wish we had?"
+    "objectID": "index.html#computing",
+    "href": "index.html#computing",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Computing",
+    "text": "Computing\n\nRStudio Docker containers\nRStudio with available through Docker containers provided by Duke Office of Information Technology. You will be able to access RStudio through a web browser. The link to access RStudio will be provided at the workshop.\nAll you need is a laptop or any other device that has internet access and a keyboard. No set up is necessary!\n\n\nR packages and installations (optional)\nWe will use the following packages during the tutorial. If you are using RStudio installed directly on your laptop, please install the following prior to the tutorial:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")\ninstall.packages(\"usethis\")\ninstall.packages(\"credentials\")\ninstall.packages(\"devtools\")\ninstall.packages(\"scales\")\n\nWe will also work with GitHub, so you will need git installed on your machine. To do so, follow these instructions from Happy Git and GitHub for the useR. (Note: you do not need to do this if you are using RStudio through the Docker containers).\n\n\nGitHub\nYou will work with GitHub during this workshop. There will be time during our scheduled break to create an account. However, if you’d like to do this before the workshop starts, please do so! See the steps below.\n\nGo to github.com, and create an account (unless you already have one).\nCreate a username. Some tips on creating a username Happy Git and GitHub for the useR include…\n\nIncorporate your actual name!\nReuse your username from other contexts if you can, e. g., Twitter or Slack.\nBe as unique as possible in as few characters as possible. Shorter is better than longer.\nAvoid words with special meaning in programming (e.g. NA).",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#instructors",
+    "href": "index.html#instructors",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Instructors",
+    "text": "Instructors\n\n\n\n\n\nDr. Elijah Meyer\n\n\n\nDr. Elijah Meyer is a teaching assistant professor at North Carolina State University with 12+ years of experience in both developing and instructing in-person and online courses in statistics and data science. Prior to becoming faculty at NC State, Elijah earned his Ph.D. is Statistics, with a focus in Education, from Montana State University. After this, Elijah completed a two-year post-doc position at Duke University where he was responsible for teaching introductory data science courses, and various research projects in statistics/data science education. His current research focuses on how to better the teaching and learning experiences for those involved. Elijah developed the first introductory data science course at NC State, and has re-designed other graduate level courses to incorporate R and GitHub.\n\n\n\n\n\n\n\nDr. Maria Tackett\n\n\n\nDr. Maria Tackett is an Associate Professor of the Practice at Duke University. Prior to joining the faculty at Duke in 2018, Maria earned a Ph.D. in Statistics from the University of Virginia and worked as a statistician (now called a “data scientist”) at Capital One. Her research focuses on students’ sense of belonging and inclusive teaching practices in introductory math and statistics courses. She teaches using R and GitHub in multiple courses in the undergraduate curriculum, from introductory-level to upper-level electives. She is an RStudio certified trainer in Tidyverse and is active in the statistics and data science education community.",
+    "crumbs": [
+      "Welcome"
+    ]
   },
   {
     "objectID": "slides/03-github-draft.html#signing-up-for-github",
@@ -633,106 +399,382 @@
     "text": "Discussion + Q&A\nWhat are you left wondering after this GitHub demonstration?"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Teaching statistics and data science with R and GitHub",
+    "objectID": "slides/demo-webr.html",
+    "href": "slides/demo-webr.html",
+    "title": "Day-1 Activity",
     "section": "",
-    "text": "🗓️ August 8, 2025\n⏰ 13:00 - 16:30\n📍 Gross Hall 270",
-    "crumbs": [
-      "Welcome"
-    ]
+    "text": "Green means go!"
   },
   {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Overview",
-    "text": "Overview\nIn this tutorial, participants will learn about teaching R and GitHub in statistics and data science courses. We will discuss pedagogy and curriculum design for effectively teaching computing alongside statistical concepts. Participants will explore example in-class activities and assignments that demonstrate the student experience, while discussing strategies for implementing such activities from the instructor perspective. We will also discuss computing infrastructure options that enable students to use R and Rstudio from a web browser with minimal set up. Lastly, we will show how instructors can use R and Quarto to make course materials and streamline their workflow in a reproducible way using GitHub. The tutorial will focus on teaching introductory-level undergraduate students with no previous computing experience, but the tutorial content is applicable for instructors teaching high school courses and courses throughout the undergraduate statistics and data science curriculum.",
-    "crumbs": [
-      "Welcome"
-    ]
+    "objectID": "slides/demo-webr.html#getting-started",
+    "href": "slides/demo-webr.html#getting-started",
+    "title": "Day-1 Activity",
+    "section": "Getting started",
+    "text": "Getting started\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIn this mini analysis we work with the data used in the FiveThirtyEight story titled “The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women”.\nThis analysis is about the Bechdel test, a measure of the representation of women in fiction. The Bechdel Test is a measure used to assess the representation of women in fiction, particularly in films.\n\nPackages\nWe’ll use: tidyverse for majority of the analysis and scales for pretty plot labels later on. These are ready to use for you in this activity!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPackages contain pieces of code (functions) that we want to use in order to plot / model data. Using library() around the pacakge name opens up the package for us to use the functions inside!\n\n\nData\nThe data are stored as a CSV (comma separated values) file in the data folder of your repository. Let’s read it from there and save it as an object called bechdel.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nNote\n\n\n\nThis a modified version of the bechdel dataset from the previous application exercise. It’s been modified to include some new variables derived from existing variables as well as to limit the scope of the data to movies released between 1990 and 2013.\n\n\n\n\nGet to know the data\nWe can use the glimpse function to get an overview (or “glimpse”) of the data. Write the following code below to accomplish this task.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWith your output, confirm that:\n– There are 1615 rows\n– There are 7 variables (columns) in the dataset\nWe can use slice to look at rows of our data. Run the following code. Change the 5 to another number to print that many rows!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWhat does each observation (row) in the data set represent?\nAnswer: \n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEach observation represents a movie."
   },
   {
-    "objectID": "index.html#learning-goals",
-    "href": "index.html#learning-goals",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Learning goals",
-    "text": "Learning goals\n\nLearn pedagogical strategies for teaching R and GitHub in a statistics or data science course\nIdentify how computing can be integrated alongside statistical concepts in a course curriculum\nExperience computing activities and assignments from both the student and instructor perspective\nConsider the computing infrastructure that may be the best fit for your student population\nLearn how to develop course materials with R and Quarto and develop a reproducible workflow with GitHub",
-    "crumbs": [
-      "Welcome"
-    ]
+    "objectID": "slides/demo-webr.html#variables-of-interest",
+    "href": "slides/demo-webr.html#variables-of-interest",
+    "title": "Day-1 Activity",
+    "section": "Variables of Interest",
+    "text": "Variables of Interest\nThe variables we’ll focus on are the following:\n\nbudget_2013: Budget in 2013 inflation adjusted dollars.\ngross_2013: Gross (US and international combined) in 2013 inflation adjusted dollars.\nroi: Return on investment, calculated as the ratio of the gross to budget.\nclean_test: Bechdel test result:\n\nok = passes test\ndubious\nmen = women only talk about men\nnotalk = women don’t talk to each other\nnowomen = fewer than two women\n\nbinary: Bechdel Test PASS vs FAIL binary\n\nWe will also use the year of release in data prep and title of movie to take a deeper look at some outliers.\nThere are a few other variables in the dataset, but we won’t be using them in this analysis."
   },
   {
-    "objectID": "index.html#target-audience",
-    "href": "index.html#target-audience",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Target audience",
-    "text": "Target audience\nThis workshop is for instructors interested in teaching R in their statistics and data science courses. The workshop will be presented from the perspective of teaching at the undergraduate level;; however, the contents of this workshop will also be beneficial to instructors teaching high school statistics and data science.",
-    "crumbs": [
-      "Welcome"
-    ]
+    "objectID": "slides/demo-webr.html#visualizing-data-with-ggplot2",
+    "href": "slides/demo-webr.html#visualizing-data-with-ggplot2",
+    "title": "Day-1 Activity",
+    "section": "Visualizing data with ggplot2",
+    "text": "Visualizing data with ggplot2\nggplot2 is the package and ggplot() is the function in this package that is used to create a plot. Interact with the code below by either running the code given, or adding code to achieve the expected solution when asked within the code chunk!\n\nggplot() creates the initial base coordinate system, and we will add layers to that base. We first specify the data set we will use with data = bechdel.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe mapping argument is paired with an aesthetic (aes()), which tells us how the variables in our data set should be mapped to the visual properties of the graph. Type the variable budget_2013 for our x, and gross_2013 for our y. Next, click run!\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe geom_xx function specifies the type of plot we want to use to represent the data. In the code below, we want to use geom_point, which creates a plot where each observation is represented by a point. Type geom_point() below. That is, add it to your code.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nNote that this results in a warning as well.\nThis warning represents the number of observations that were removed because there were missing data!"
   },
   {
-    "objectID": "index.html#computing",
-    "href": "index.html#computing",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Computing",
-    "text": "Computing\n\nRStudio Docker containers\nRStudio with available through Docker containers provided by Duke Office of Information Technology. You will be able to access RStudio through a web browser. The link to access RStudio will be provided at the workshop.\nAll you need is a laptop or any other device that has internet access and a keyboard. No set up is necessary!\n\n\nR packages and installations (optional)\nWe will use the following packages during the tutorial. If you are using RStudio installed directly on your laptop, please install the following prior to the tutorial:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")\ninstall.packages(\"usethis\")\ninstall.packages(\"credentials\")\ninstall.packages(\"devtools\")\ninstall.packages(\"scales\")\n\nWe will also work with GitHub, so you will need git installed on your machine. To do so, follow these instructions from Happy Git and GitHub for the useR. (Note: you do not need to do this if you are using RStudio through the Docker containers).\n\n\nGitHub\nYou will work with GitHub during this workshop. There will be time during our scheduled break to create an account. However, if you’d like to do this before the workshop starts, please do so! See the steps below.\n\nGo to github.com, and create an account (unless you already have one).\nCreate a username. Some tips on creating a username Happy Git and GitHub for the useR include…\n\nIncorporate your actual name!\nReuse your username from other contexts if you can, e. g., Twitter or Slack.\nBe as unique as possible in as few characters as possible. Shorter is better than longer.\nAvoid words with special meaning in programming (e.g. NA).",
-    "crumbs": [
-      "Welcome"
-    ]
+    "objectID": "slides/demo-webr.html#gross-revenue-vs.-budget",
+    "href": "slides/demo-webr.html#gross-revenue-vs.-budget",
+    "title": "Day-1 Activity",
+    "section": "Gross revenue vs. budget",
+    "text": "Gross revenue vs. budget\n\nStep 1 - Your turn\nThe following code changes the color of all points to coral. Explore different colors by changing “coral” to different colors!\n\n\n\n\n\n\nTip\n\n\n\nSee http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf for many color options you can use by name in R or use the hex code for a color of your choice.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nStep 2 - Your turn\nAdd labels for the title and x and y axes using labs. Do this by modifying the existing code below. Things to think about when we add labels:\n\nwe use the labs() function\ninside the labs() function, can use arguments such as x, y, and title =.\nany text that we add to the plot (like labels) will have quotes around them.\n\nTry it below!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n#| label: plot-labels\n#| echo: false\n\nggplot(bechdel, \n       aes(x = budget_2013, y = gross_2013))+\n  geom_point(color = \"deepskyblue3\") + \n  labs(\n    x = \"Budget (in 2013 $)\", \n    y = \"Gross revenue (in 2013 $)\", \n    title = \"Gross revenue vs. budget\"\n    )\n\n\n\n\n\nStep 3 - Your turn\nAn aesthetic is a visual property of one of the objects in your plot. Commonly used aesthetic options are:\n\ncolor\nfill\nshape\nsize\nalpha (transparency)\n\nModify the plot below, so the color of the points is based on the variable binary.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nCan you take anything meaningful from this plot?\nHow could this plot be improved?\nWhat other data do you wish we had?"
   },
   {
-    "objectID": "index.html#instructors",
-    "href": "index.html#instructors",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Instructors",
-    "text": "Instructors\n\n\n\n\n\nDr. Elijah Meyer\n\n\n\nDr. Elijah Meyer is a teaching assistant professor at North Carolina State University with 12+ years of experience in both developing and instructing in-person and online courses in statistics and data science. Prior to becoming faculty at NC State, Elijah earned his Ph.D. is Statistics, with a focus in Education, from Montana State University. After this, Elijah completed a two-year post-doc position at Duke University where he was responsible for teaching introductory data science courses, and various research projects in statistics/data science education. His current research focuses on how to better the teaching and learning experiences for those involved. Elijah developed the first introductory data science course at NC State, and has re-designed other graduate level courses to incorporate R and GitHub.\n\n\n\n\n\n\n\nDr. Maria Tackett\n\n\n\nDr. Maria Tackett is an Associate Professor of the Practice at Duke University. Prior to joining the faculty at Duke in 2018, Maria earned a Ph.D. in Statistics from the University of Virginia and worked as a statistician (now called a “data scientist”) at Capital One. Her research focuses on students’ sense of belonging and inclusive teaching practices in introductory math and statistics courses. She teaches using R and GitHub in multiple courses in the undergraduate curriculum, from introductory-level to upper-level electives. She is an RStudio certified trainer in Tidyverse and is active in the statistics and data science education community.",
-    "crumbs": [
-      "Welcome"
-    ]
+    "objectID": "slides/04-teaching-materials-draft.html#outline",
+    "href": "slides/04-teaching-materials-draft.html#outline",
+    "title": "Making teaching materials with Quarto",
+    "section": "Outline",
+    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nStudents have heard about your class….\nAnxiety around coding….\n\nTalk\nBuild a community"
+    "objectID": "slides/04-teaching-materials-draft.html#benefits-for-instructor",
+    "href": "slides/04-teaching-materials-draft.html#benefits-for-instructor",
+    "title": "Making teaching materials with Quarto",
+    "section": "Benefits for instructor",
+    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-1",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-1",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nTalk about mindset and perspective\n– The expectation is not to be an expert on the first day, or after one day – Give them “permission” to get excited and make mistakes – Calm anxiety around coding"
+    "objectID": "slides/04-teaching-materials-draft.html#benefits-for-students",
+    "href": "slides/04-teaching-materials-draft.html#benefits-for-students",
+    "title": "Making teaching materials with Quarto",
+    "section": "Benefits for students",
+    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nAbility to read course materials on multiple devices"
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-2",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-2",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nStart with cake 🍰"
+    "objectID": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto",
+    "href": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto",
+    "title": "Making teaching materials with Quarto",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\nSlides"
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-3",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-3",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\n🍰\n– Get students excited\n– Make them understand why they are in the class\n– Make them want to come back and keep learning"
+    "objectID": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto-1",
+    "href": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto-1",
+    "title": "Making teaching materials with Quarto",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\nAssignment instructions"
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#webr",
-    "href": "slides/01-webR-slides-draft.html#webr",
-    "title": "Teaching with webR",
-    "section": "WebR",
-    "text": "WebR\nWebR is a version of the statistical language R compiled for the browser\n\nNo local installation\nNo downloading anything"
+    "objectID": "slides/04-teaching-materials-draft.html#slide-menu",
+    "href": "slides/04-teaching-materials-draft.html#slide-menu",
+    "title": "Making teaching materials with Quarto",
+    "section": "Slide menu",
+    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#day-1",
-    "href": "slides/01-webR-slides-draft.html#day-1",
-    "title": "Teaching with webR",
-    "section": "Day-1",
-    "text": "Day-1\nwebR link"
+    "objectID": "slides/04-teaching-materials-draft.html#slide-with-code-output",
+    "href": "slides/04-teaching-materials-draft.html#slide-with-code-output",
+    "title": "Making teaching materials with Quarto",
+    "section": "Slide with code + output",
+    "text": "Slide with code + output\n\n\nPublished slide\n\n\n\n\n\n\nSource code\n\n\n\n\n\n\n\n\nSource: Data visualization overview lecture by Mine Çetinkaya-Rundel"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#slide-with-mathematical-notation",
+    "href": "slides/04-teaching-materials-draft.html#slide-with-mathematical-notation",
+    "title": "Making teaching materials with Quarto",
+    "section": "Slide with mathematical notation",
+    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\nSource: SLR: Mathematical models for inference lecture by Maria Tackett"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#example-course-website",
+    "href": "slides/04-teaching-materials-draft.html#example-course-website",
+    "title": "Making teaching materials with Quarto",
+    "section": "Example course website",
+    "text": "Example course website\n\n\nSource: Regression Analysis: Theory and Application taught by Maria Tackett"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#example-website-file-structure",
+    "href": "slides/04-teaching-materials-draft.html#example-website-file-structure",
+    "title": "Making teaching materials with Quarto",
+    "section": "Example website file structure",
+    "text": "Example website file structure"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#interactive-documents-with-webr",
+    "href": "slides/04-teaching-materials-draft.html#interactive-documents-with-webr",
+    "title": "Making teaching materials with Quarto",
+    "section": "Interactive documents with webR",
+    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n---\n\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#getting-started-slides-documents",
+    "href": "slides/04-teaching-materials-draft.html#getting-started-slides-documents",
+    "title": "Making teaching materials with Quarto",
+    "section": "Getting started: slides + documents",
+    "text": "Getting started: slides + documents\n\nBasicCustomized\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#getting-started-websites",
+    "href": "slides/04-teaching-materials-draft.html#getting-started-websites",
+    "title": "Making teaching materials with Quarto",
+    "section": "Getting started: websites",
+    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\nRun the following code in the Terminal\nquarto create-project --type website\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#publishing-materials",
+    "href": "slides/04-teaching-materials-draft.html#publishing-materials",
+    "title": "Making teaching materials with Quarto",
+    "section": "Publishing materials",
+    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#course-websites-created-with-quarto",
+    "href": "slides/04-teaching-materials-draft.html#course-websites-created-with-quarto",
+    "title": "Making teaching materials with Quarto",
+    "section": "Course websites created with Quarto",
+    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#learn-more",
+    "href": "slides/04-teaching-materials-draft.html#learn-more",
+    "title": "Making teaching materials with Quarto",
+    "section": "Learn more!",
+    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#recap",
+    "href": "slides/04-teaching-materials-draft.html#recap",
+    "title": "Making teaching materials with Quarto",
+    "section": "Recap",
+    "text": "Recap\n\nBuild excitement about R on the first day\nwebR for interactive lectures\nComputing proficiency as a course learning objective\nPedagogy of teaching computing in statistics and data science courses\nReproducibility using Quarto and GitHub\nCreating and distributing assignments with GitHub\nMaking teaching materials with Quarto"
+  },
+  {
+    "objectID": "slides/04-teaching-materials-draft.html#lessons-learned",
+    "href": "slides/04-teaching-materials-draft.html#lessons-learned",
+    "title": "Making teaching materials with Quarto",
+    "section": "Lessons learned",
+    "text": "Lessons learned\n\nYou can do this!\nIt is worth it!\n\nThere are resources.\nThe time investment pays off for your and your students\n\nPractice by using the same workflow as your students.\nTechnology is choose your own adventure - start small or dive in the deep in. Do what works for you, your resources, and your student population.\nYour students are capable of the challenge!\nGet connected to a community."
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#a-modern-approach",
+    "href": "slides/02-pedagogy-draft.html#a-modern-approach",
+    "title": "Curriculum and Pedagogy",
+    "section": "A modern approach",
+    "text": "A modern approach\n\nModern approach to teaching statistics and now the onset of data science\nHow is this different from the traditional approach - the computing is infused throughout\nBring in curriculum guidelines - what they are saying about computing"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#intro-data-science",
+    "href": "slides/02-pedagogy-draft.html#intro-data-science",
+    "title": "Curriculum and Pedagogy",
+    "section": "Intro Data Science",
+    "text": "Intro Data Science\n\nImage from Data Science in a Box"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#intro-data-science-topics",
+    "href": "slides/02-pedagogy-draft.html#intro-data-science-topics",
+    "title": "Curriculum and Pedagogy",
+    "section": "Intro Data Science topics",
+    "text": "Intro Data Science topics\n\n\nUnit 1: Exploring data\n\nData visualization \nExploring multivariable relationships\nData wrangling\nImporting data \n\n\nUnit 2: Making rigorous conclusions\n\nRelationships between multiple variables\nPredicting numeric and binary outcomes\nModel building and feature engineering\nModel evaluation and cross validation \nSimulation-based inference\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#intro-data-science-topics-1",
+    "href": "slides/02-pedagogy-draft.html#intro-data-science-topics-1",
+    "title": "Curriculum and Pedagogy",
+    "section": "Intro Data Science topics",
+    "text": "Intro Data Science topics\n\n\nAdditional topics (varies by instructor)\n\nInteractive dashboards with Shiny\nWorking productively with AI tools  \nText analysis\nCustomizing Quarto reports and presentations\n\n\n\nComputing throughout course\n\nStatistical analysis using R\nReproducible reports using Quarto\nVersion control and collaboration using git and GitHub\n\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#computing-as-a-learning-objective",
+    "href": "slides/02-pedagogy-draft.html#computing-as-a-learning-objective",
+    "title": "Curriculum and Pedagogy",
+    "section": "Computing as a learning objective",
+    "text": "Computing as a learning objective\n\n“The goal of teaching computing and information technologies is to remove obstacles to engagement with a problem.”\n(Nolan & Temple Lang, 2010)\n\n\n\n\nOpportunity for students to gain experience using professional computing tools\nEquip students to work with more realistic and complex data\nStudents can develop a reproducible workflow while learning statistical methods\n\n\n\n\n\nNolan, D., & Temple Lang, D. (2010)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#pedagogy---update-image",
+    "href": "slides/02-pedagogy-draft.html#pedagogy---update-image",
+    "title": "Curriculum and Pedagogy",
+    "section": "Pedagogy - UPDATE IMAGE",
+    "text": "Pedagogy - UPDATE IMAGE\n\n\n\n\n\n\n\n\n\n\nBuild: Introduce new content\nTrain: Put concepts into practice through hands-on class activities\n\nDo: Steps needed to accomplish a task\nThink: How to accomplish task in future\n\nCreate: Demonstrate learning through a variety of assessments\n\n\n\n\nSource: Meyer and Çetinkaya-Rundel (2025, preprint)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#tidyverse",
+    "href": "slides/02-pedagogy-draft.html#tidyverse",
+    "title": "Curriculum and Pedagogy",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\n\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.\n-tidyverse.org\n\n\n\n\n\n\n\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#tidyverse-1",
+    "href": "slides/02-pedagogy-draft.html#tidyverse-1",
+    "title": "Curriculum and Pedagogy",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\nSource: Çetinkaya-Rundel et al. (2022)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#pedagogical-benefits-of-the-tidyverse",
+    "href": "slides/02-pedagogy-draft.html#pedagogical-benefits-of-the-tidyverse",
+    "title": "Curriculum and Pedagogy",
+    "section": "Pedagogical benefits of the tidyverse",
+    "text": "Pedagogical benefits of the tidyverse\n\n\nConsistency: Syntax, function interfaces, argument names and order follow patterns\nMixability: Ability to use base R and other functions within tidyverse syntax\nScalability: Unified approach that works for data sets from a wide range of types and sizes\nUser-centered design: Function interfaces designed with users in mind\nReadability: Interfaces designed to produce readable code\nCommunity: Large, active, and welcoming community of users and resources\nTransferability: Data manipulation verbs inherit SQL’s query syntax\n\n\n\nSource: Çetinkaya-Rundel et al. (2022)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#tidy-data",
+    "href": "slides/02-pedagogy-draft.html#tidy-data",
+    "title": "Curriculum and Pedagogy",
+    "section": "Tidy data",
+    "text": "Tidy data\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\n\n\n\n\nNot tidy data\n\n\n\n\n\n\n\n\nTidy data\n\n\n\n\n\n\n\n\n\n\nSource: Wickham (2014)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#the-pipe",
+    "href": "slides/02-pedagogy-draft.html#the-pipe",
+    "title": "Curriculum and Pedagogy",
+    "section": "The pipe",
+    "text": "The pipe\nThe pipe, |&gt;, is used to pass information from one function to another in the tidyverse.\n\nWhen reading code aloud in English, say “and then” whenever you see a pipe. Below is a pipeline for a children’s poem.*\n\n\n\n\n\n\nLittle bunny Foo Foo\nWent hopping through the forest\nScooping up the field mice\nAnd bopping them on the head\n\n\nfoo_foo |&gt;\n  hop(through = forest) |&gt;\n  scoop(up = field_mice) |&gt;\n  bop(on = head)\n\n\n\n\n\n* Source: R for Data Science 1st Edition"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#data-palmer-penguins",
+    "href": "slides/02-pedagogy-draft.html#data-palmer-penguins",
+    "title": "Curriculum and Pedagogy",
+    "section": "Data: Palmer penguins",
+    "text": "Data: Palmer penguins\nWe will analyze the penguins data set from the palmerpenguins R package maintained by Dr. Allison Horst. This data set contains measurements and other characteristics for penguins observed near Palmer Station in Antarctica. The data were originally collected by Dr. Kristen Gorman.\nWe will use the following variables:\n\nspecies: a factor denoting penguin species (Adélie, Chinstrap and Gentoo)\nflipper_length_mm: an integer denoting flipper length (millimeters)\nbody_mass_g: an integer denoting body mass (grams)\n\nClick here for the full codebook."
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#penguins-data-frame",
+    "href": "slides/02-pedagogy-draft.html#penguins-data-frame",
+    "title": "Curriculum and Pedagogy",
+    "section": "penguins data frame",
+    "text": "penguins data frame\n\nlibrary(palmerpenguins)\npenguins\n\n\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics",
+    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics",
+    "title": "Curriculum and Pedagogy",
+    "section": "Base R: Compute summary statistics",
+    "text": "Base R: Compute summary statistics\n\nCompute the mean flipper length for Palmer penguins.\n\n\npenguins |&gt; slice(1:5)\n\n# A tibble: 5 × 8\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n\n\n\n\n\nmean(penguins$flipper_length_mm)\n\n[1] 200.9152"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics---add-citation",
+    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics---add-citation",
+    "title": "Curriculum and Pedagogy",
+    "section": "Base R: Compute summary statistics - add citation",
+    "text": "Base R: Compute summary statistics - add citation\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\n\nCompute number of penguins by species\n\nnum_penguins &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)\nnames(num_penguins)[2] &lt;- \"num_penguins\"\n\n\n\nCompute mean flipper length by species\n\nmean_flipper &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)\n\nnames(mean_flipper)[2] &lt;- \"mean_flipper_length\""
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics---add-citation-1",
+    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics---add-citation-1",
+    "title": "Curriculum and Pedagogy",
+    "section": "Base R: Compute summary statistics - add citation",
+    "text": "Base R: Compute summary statistics - add citation\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nCombine results and sort data frame\n\ndf &lt;- merge(num_penguins, mean_flipper)\ndf[order(df$num_penguins, decreasing = TRUE), ]\n\n    species num_penguins mean_flipper_length\n1    Adelie          151            189.9536\n3    Gentoo          123            217.1870\n2 Chinstrap           68            195.8235"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#base-r-full-code---add-citation",
+    "href": "slides/02-pedagogy-draft.html#base-r-full-code---add-citation",
+    "title": "Curriculum and Pedagogy",
+    "section": "Base R: Full code - add citation",
+    "text": "Base R: Full code - add citation\n\nnum_penguins &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)\nnames(num_penguins)[2] &lt;- \"num_penguins\"\n\nmean_flipper &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)\n\nnames(mean_flipper)[2] &lt;- \"mean_flipper_length\"\n\ndf &lt;- merge(num_penguins, mean_flipper)\ndf[order(df$num_penguins, decreasing = TRUE), ]\n\n    species num_penguins mean_flipper_length\n1    Adelie          151            189.9536\n3    Gentoo          123            217.1870\n2 Chinstrap           68            195.8235"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#your-turn",
+    "href": "slides/02-pedagogy-draft.html#your-turn",
+    "title": "Curriculum and Pedagogy",
+    "section": "Your turn!",
+    "text": "Your turn!\n\nUse tidyverse syntax to make the data frame described below:\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code",
+    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code",
+    "title": "Curriculum and Pedagogy",
+    "section": "Closer look at the code",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-1",
+    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-1",
+    "title": "Curriculum and Pedagogy",
+    "section": "Closer look at the code",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species)\n\n# A tibble: 342 × 8\n# Groups:   species [3]\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-2",
+    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-2",
+    "title": "Curriculum and Pedagogy",
+    "section": "Closer look at the code",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            )\n\n# A tibble: 3 × 2\n  species       n\n  &lt;fct&gt;     &lt;int&gt;\n1 Adelie      151\n2 Chinstrap    68\n3 Gentoo      123"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-3",
+    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-3",
+    "title": "Curriculum and Pedagogy",
+    "section": "Closer look at the code",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            )\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Chinstrap    68  196.\n3 Gentoo      123  217."
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-4",
+    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-4",
+    "title": "Curriculum and Pedagogy",
+    "section": "Closer look at the code",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm,\n                        na.rm = TRUE)\n            ) |&gt;\n  arrange(desc(n))\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Gentoo      123  217.\n3 Chinstrap    68  196."
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#your-turn-time-permitting",
+    "href": "slides/02-pedagogy-draft.html#your-turn-time-permitting",
+    "title": "Curriculum and Pedagogy",
+    "section": "Your turn! [Time permitting]",
+    "text": "Your turn! [Time permitting]\n\n\nCreate a new data frame that only contains the penguin from each species with the largest body mass.\nUse dplyr functions to continue exploring the penguins data set.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#tidyverse-beyond-the-intro-course",
+    "href": "slides/02-pedagogy-draft.html#tidyverse-beyond-the-intro-course",
+    "title": "Curriculum and Pedagogy",
+    "section": "Tidyverse beyond the intro course",
+    "text": "Tidyverse beyond the intro course"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#quote-from-tidyverse-paper",
+    "href": "slides/02-pedagogy-draft.html#quote-from-tidyverse-paper",
+    "title": "Curriculum and Pedagogy",
+    "section": "Quote from tidyverse paper?",
+    "text": "Quote from tidyverse paper?\n\nEducator’s guide to the tidyverse"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#what-about-ai",
+    "href": "slides/02-pedagogy-draft.html#what-about-ai",
+    "title": "Curriculum and Pedagogy",
+    "section": "What about AI?",
+    "text": "What about AI?\n\nWe recommend minimal use of generative artificial intelligence (AI) for coding when coding proficiency is a learning objective in an introductory course\nThere are a variety of perspectives on using generative AI tools to teaching coding:\n\n\nBien, J., & Mukherjee, G. (2025). Generative AI for Data Science 101: Coding Without Learning To Code. Journal of Statistics and Data Science Education, 33(2), 129-142.\nGenerative AI in Statistics and Data Science Education (Journal of Statistics and Data Science collection)\nLeveraging LLMs for student feedback in introductory data science courses by Mine Çetinkaya-Rundel (USCOTS presentation)\nLearning the tidyverse with the help of AI tools by Mine Çetinkaya-Rundel (Tidyverse blog)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#why-use-rstudio-in-the-cloud",
+    "href": "slides/02-pedagogy-draft.html#why-use-rstudio-in-the-cloud",
+    "title": "Curriculum and Pedagogy",
+    "section": "Why use RStudio in the cloud?",
+    "text": "Why use RStudio in the cloud?\n\nReduce friction at first exposure to R\n\nStart using R on Day 1!\n\nAvoid local installation\nInstall R and RStudio on a server and provide access to students:\n\nCentralized RStudio server\nDockerized RStudio server (what we’re using today)\nPosit Cloud\n\n\n[Check paper - are these the reasons in the paper?]\n\n\nÇetinkaya-Rundel and Rundel (2018)"
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#dockerized-rstudio",
+    "href": "slides/02-pedagogy-draft.html#dockerized-rstudio",
+    "title": "Curriculum and Pedagogy",
+    "section": "Dockerized Rstudio",
+    "text": "Dockerized Rstudio\n\nInfrastructure options\nBrief introduction to Quarto (like an R Markdown file)\nMake a qmd file . Render it.\nTurn the qmd into a web-r file."
+  },
+  {
+    "objectID": "slides/02-pedagogy-draft.html#discussion",
+    "href": "slides/02-pedagogy-draft.html#discussion",
+    "title": "Curriculum and Pedagogy",
+    "section": "Discussion",
+    "text": "Discussion\n\n\nWhat is something you’ve seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?\nAny other questions/ comments/ discussion points?"
+  },
+  {
+    "objectID": "Untitled.html",
+    "href": "Untitled.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Demo org"
   },
   {
     "objectID": "license.html",
@@ -759,7 +801,7 @@
     "href": "resources.html#getting-started-with-webr",
     "title": "Resources",
     "section": "Getting started with WebR",
-    "text": "Getting started with WebR",
+    "text": "Getting started with WebR\n\nEmpowering Your Quarto Documents with R through webR",
     "crumbs": [
       "Resources"
     ]
@@ -769,7 +811,7 @@
     "href": "resources.html#curriculum-and-pedagogy",
     "title": "Resources",
     "section": "Curriculum and pedagogy",
-    "text": "Curriculum and pedagogy\n\nBaumer, B. (2015). A data science course for undergraduates: Thinking with data. The American Statistician, 69(4), 334-342. https://doi.org/10.1080/00031305.2015.1081105.\nÇetinkaya-Rundel, M., & Ellison, V. (2021). A fresh look at introductory data science. Journal of Statistics and Data Science Education, 29(sup1), S16-S26. https://doi.org/10.1080/10691898.2020.1804497.\nÇetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., & Rundel, C. (2022). An educator’s perspective of the tidyverse. Technology Innovations in Statistics Education, 14(1). http://dx.doi.org/10.5070/T514154352.",
+    "text": "Curriculum and pedagogy\n\nBaumer, B. (2015). A data science course for undergraduates: Thinking with data. The American Statistician, 69(4), 334-342. https://doi.org/10.1080/00031305.2015.1081105.\nÇetinkaya-Rundel, M., & Ellison, V. (2021). A fresh look at introductory data science. Journal of Statistics and Data Science Education, 29(sup1), S16-S26. https://doi.org/10.1080/10691898.2020.1804497.\nÇetinkaya-Rundel, M., Hardin, J., Baumer, B., McNamara, A., Horton, N., & Rundel, C. (2022). An educator’s perspective of the tidyverse. Technology Innovations in Statistics Education, 14(1). http://dx.doi.org/10.5070/T514154352.\nNolan, D., & Temple Lang, D. (2010). Computing in the statistics curricula. The American Statistician, 64(2), 97-107.\n\n\nTeaching with AI tools\n\nBien, J., & Mukherjee, G. (2025). Generative AI for Data Science 101: Coding Without Learning To Code. Journal of Statistics and Data Science Education, 33(2), 129-142.\nGenerative AI in Statistics and Data Science Education (Journal of Statistics and Data Science collection)\nLeveraging LLMs for student feedback in introductory data science courses by Mine Çetinkaya-Rundel (USCOTS presentation)\nLearning the tidyverse with the help of AI tools by Mine Çetinkaya-Rundel (Tidyverse blog)",
     "crumbs": [
       "Resources"
     ]
@@ -789,7 +831,7 @@
     "href": "resources.html#making-teaching-materials-with-quarto",
     "title": "Resources",
     "section": "Making teaching materials with Quarto",
-    "text": "Making teaching materials with Quarto\n\nDogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. arXiv preprint arXiv:2202.09504. https://doi.org/10.48550/arXiv.2202.09504.",
+    "text": "Making teaching materials with Quarto\n\nDogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. arXiv preprint arXiv:2202.09504. https://doi.org/10.48550/arXiv.2202.09504\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org",
     "crumbs": [
       "Resources"
     ]
@@ -809,7 +851,7 @@
     "href": "resources.html#course-websites",
     "title": "Resources",
     "section": "Course websites",
-    "text": "Course websites",
+    "text": "Course websites\n\nIntroduction to Foundations of Data Science with R (Spring 2025), Elijah Meyer\nRegression Analysis (Spring 2025), Maria Tackett\nIntroduction to Data Science and Statistical Thinking (Fall 2024), Mine Çetinkaya-Rundel",
     "crumbs": [
       "Resources"
     ]
@@ -819,7 +861,7 @@
     "href": "resources.html#textbooks",
     "title": "Resources",
     "section": "Textbooks",
-    "text": "Textbooks\n\nR for Data Science by Hadley Wickham, Garret Grolemund, and Mine Çetinkaya-Rundel.\nIntroduction to Modern Statistics by Mine Çetinkaya-Rundel and Johanna Hardin\nTidy modeling with R by Max Kuhn and Julia Silge",
+    "text": "Textbooks\n\nR for Data Science by Hadley Wickham, Garret Grolemund, and Mine Çetinkaya-Rundel.\nIntroduction to Modern Statistics by Mine Çetinkaya-Rundel and Johanna Hardin\nModern Data Science with R by Ben Baumer, Daniel Kaplan, and Nick Horton\nTidy modeling with R by Max Kuhn and Julia Silge",
     "crumbs": [
       "Resources"
     ]

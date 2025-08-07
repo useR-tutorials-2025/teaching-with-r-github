@@ -94,7 +94,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-9fa4f32a4605b626363968225aac3b32.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-8e4d3aae5b3719d0c579b09b32b5a1ee.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -488,7 +488,7 @@
   };
 
   // Store cell data
-  globalThis.qwebrCellDetails = [{"code":"# add code here","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qwebrCellDetails = [{"code":"#remove 2 penguins with no measurements\n\npenguins <- penguins |> \n  filter(!is.na(flipper_length_mm))","id":1,"options":{"autorun":"true","classes":"","comment":"","context":"setup","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"penguins\n# add code here","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# add code here","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"0.5","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
   </script>
   <script type="module">
@@ -2046,7 +2046,8 @@ Maria Tackett
 <section>
 <section id="curriculum" class="title-slide slide level1 center">
 <h1>Curriculum</h1>
-
+<div id="qwebr-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="a-modern-approach" class="slide level2">
 <h2>A modern approach</h2>
@@ -2060,8 +2061,10 @@ Maria Tackett
 <h2>Intro Data Science</h2>
 
 <img data-src="images/ds-topics.png" class="r-stretch quarto-figure-center"><p class="caption">Image from <a href="https://datasciencebox.org">Data Science in a Box</a></p></section>
-<section id="intro-data-science-topics" class="slide level2">
+<section id="intro-data-science-topics" class="slide level2 midi">
 <h2>Intro Data Science topics</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <p><strong>Unit 1: Exploring data</strong></p>
 <ul>
 <li>Data visualization&nbsp;</li>
@@ -2069,19 +2072,24 @@ Maria Tackett
 <li>Data wrangling</li>
 <li>Importing data&nbsp;</li>
 </ul>
+</div><div class="column" style="width:50%;">
 <p><strong>Unit 2: Making rigorous conclusions</strong></p>
 <ul>
 <li>Relationships between multiple variables</li>
 <li>Predicting numeric and binary outcomes</li>
 <li>Model building and feature engineering</li>
 <li>Model evaluation and cross validation&nbsp;</li>
+<li>Simulation-based inference</li>
 </ul>
+</div></div>
 <div class="small">
-<p>Based on Çetinkaya-Rundel &amp; Ellison (2020)</p>
+<p>Source: Çetinkaya-Rundel &amp; Ellison (2020)</p>
 </div>
 </section>
-<section id="intro-data-science-topics-1" class="slide level2">
-<h2>Intro Data Science Topics</h2>
+<section id="intro-data-science-topics-1" class="slide level2 midi">
+<h2>Intro Data Science topics</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <p><strong>Additional topics (varies by instructor)</strong></p>
 <ul>
 <li>Interactive dashboards with Shiny</li>
@@ -2089,6 +2097,7 @@ Maria Tackett
 <li>Text analysis</li>
 <li>Customizing Quarto reports and presentations</li>
 </ul>
+</div><div class="column" style="width:50%;">
 <div class="highlight">
 <p><strong>Computing throughout course</strong></p>
 <ul>
@@ -2097,13 +2106,32 @@ Maria Tackett
 <li>Version control and collaboration using git and GitHub</li>
 </ul>
 </div>
+</div></div>
+<p><br></p>
 <div class="small">
-<p>Based on Çetinkaya-Rundel &amp; Ellison (2020)</p>
+<p>Source: Çetinkaya-Rundel &amp; Ellison (2020)</p>
 </div>
 </section>
-<section id="coding-as-a-learning-objective" class="slide level2">
-<h2>Coding as a learning objective</h2>
-<p>[ Start with ecots talk]</p>
+<section id="computing-as-a-learning-objective" class="slide level2">
+<h2>Computing as a learning objective</h2>
+<div class="highlight">
+<p>“The goal of teaching computing and information technologies is to remove obstacles to engagement with a problem.”</p>
+<p>(Nolan &amp; Temple Lang, 2010)</p>
+</div>
+<div class="fragment">
+<div>
+<ul>
+<li class="fragment"><p>Opportunity for students to gain experience using professional computing tools</p></li>
+<li class="fragment"><p>Equip students to work with more realistic and complex data</p></li>
+<li class="fragment"><p>Students can develop a reproducible workflow while learning statistical methods</p></li>
+</ul>
+</div>
+<!--# Add in curriculum guidelines, Hardin & Horton papers, and 2010 paper-->
+<p><br></p>
+<div class="small">
+<p>Nolan, D., &amp; Temple Lang, D. (2010)</p>
+</div>
+</div>
 </section></section>
 <section>
 <section id="pedagogy" class="title-slide slide level1 center">
@@ -2116,11 +2144,11 @@ Maria Tackett
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/sta199-pedagogy.png"></p>
-<figcaption>From Meyer and Çetinkaya-Rundel (2025, preprint)</figcaption>
+<p><img data-src="images/sta199-pedagogy.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
 </figure>
 </div>
 </div><div class="column" style="width:50%;">
+<div class="midi">
 <ul>
 <li><p><strong>Build</strong>: Introduce new content</p></li>
 <li><p><strong>Train</strong>: Put concepts into practice through hands-on class activities</p>
@@ -2130,17 +2158,11 @@ Maria Tackett
 </ul></li>
 <li><p><strong>Create:</strong> Demonstrate learning through a variety of assessments</p></li>
 </ul>
+</div>
 </div></div>
 <div class="small">
-<p>From Meyer and Çetinkaya-Rundel (2025, preprint)</p>
+<p>Source: Meyer and Çetinkaya-Rundel (2025, preprint)</p>
 </div>
-</section>
-<section id="let-them-eat-cake-approach" class="slide level2">
-<h2>Let them eat cake approach</h2>
-<ul>
-<li>Start with the cake then teach students how to make it (Mine’s work on this)</li>
-<li>How much is Elijah covering this in first session?</li>
-</ul>
 </section>
 <section id="tidyverse" class="slide level2">
 <h2>Tidyverse</h2>
@@ -2149,28 +2171,33 @@ Maria Tackett
 <p><em>The tidyverse is an opinionated <a href="https://www.tidyverse.org/packages"><strong>collection of R packages</strong></a> designed for data science. All packages share an underlying design philosophy, grammar, and data structures.</em></p>
 <p>-<a href="https://tidyverse.org">tidyverse.org</a></p>
 </div><div class="column" style="width:50%;">
-<p><img data-src="images/tidyverse.png" style="width:50.0%"></p>
-</div></div>
-<div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/tidyverse-ds-workflow.png"></p>
-<figcaption>Source: Çetinkaya-Rundel et al.&nbsp;(2022)</figcaption>
+<p><img data-src="images/tidyverse.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
+</div></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="pedagogical-benefits-of-the-tidyverse" class="slide level2">
+<section id="tidyverse-1" class="slide level2">
+<h2>Tidyverse</h2>
+
+<img data-src="images/tidyverse-ds-workflow.png" class="r-stretch quarto-figure-center"><p class="caption">Source: Çetinkaya-Rundel et al.&nbsp;(2022)</p></section>
+<section id="pedagogical-benefits-of-the-tidyverse" class="slide level2 midi">
 <h2>Pedagogical benefits of the tidyverse</h2>
+<div>
 <ul>
-<li><p><strong>Consistency</strong>: Syntax, function interfaces, argument names and order follow patterns</p></li>
-<li><p><strong>Mixability</strong>: Ability to use base R and other functions within tidyverse syntax</p></li>
-<li><p><strong>Scalability</strong>: Unified approach that works for data sets from a wide range of types and sizes</p></li>
-<li><p><strong>User-centered design</strong>: Function interfaces designed with users in mind</p></li>
-<li><p><strong>Readability</strong>: Interfaces designed to produce readable code</p></li>
-<li><p><strong>Community</strong>: Large, active, and welcoming community of users and resources</p></li>
-<li><p><strong>Transferability</strong>: Data manipulation verbs inherit SQL’s query syntax</p></li>
+<li class="fragment"><p><strong>Consistency</strong>: Syntax, function interfaces, argument names and order follow patterns</p></li>
+<li class="fragment"><p><strong>Mixability</strong>: Ability to use base R and other functions within tidyverse syntax</p></li>
+<li class="fragment"><p><strong>Scalability</strong>: Unified approach that works for data sets from a wide range of types and sizes</p></li>
+<li class="fragment"><p><strong>User-centered design</strong>: Function interfaces designed with users in mind</p></li>
+<li class="fragment"><p><strong>Readability</strong>: Interfaces designed to produce readable code</p></li>
+<li class="fragment"><p><strong>Community</strong>: Large, active, and welcoming community of users and resources</p></li>
+<li class="fragment"><p><strong>Transferability</strong>: Data manipulation verbs inherit SQL’s query syntax</p></li>
 </ul>
+</div>
 <div class="small">
 <p>Source: Çetinkaya-Rundel et al.&nbsp;(2022)</p>
 </div>
@@ -2182,7 +2209,7 @@ Maria Tackett
 <li>Each observation forms a row.</li>
 <li>Each type of observational unit forms a table.</li>
 </ol>
-<p><br></p>
+<div class="fragment">
 <div class="columns">
 <div class="column" style="width:50%;">
 <center>
@@ -2190,7 +2217,7 @@ Maria Tackett
 </center>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/not-tidy-data.png" class="quarto-figure quarto-figure-center" alt="Tidy data"></p>
+<p><img data-src="images/not-tidy-data.png" class="quarto-figure quarto-figure-center" style="width:100.0%" alt="Tidy data"></p>
 </figure>
 </div>
 </div><div class="column" style="width:50%;">
@@ -2199,11 +2226,12 @@ Maria Tackett
 </center>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/tidy-data.png" class="quarto-figure quarto-figure-center" alt="Tidy data"></p>
+<p><img data-src="images/tidy-data.png" class="quarto-figure quarto-figure-center" style="width:100.0%" alt="Tidy data"></p>
 </figure>
 </div>
 </div></div>
 
+</div>
 <aside><div>
 <p>Source: Wickham (2014)</p>
 </div></aside></section>
@@ -2211,19 +2239,30 @@ Maria Tackett
 <h2>The pipe</h2>
 <p>The <strong>pipe,</strong> <code>|&gt;</code>, is used to pass information from one function to another in the tidyverse.</p>
 <div class="fragment">
-<p>When reading code aloud in English, say “and then” whenever you see a pipe.</p>
-</div>
-<div class="fragment">
-<p>Below is a pipeline describing a typical morning.</p>
+<p>When reading code aloud in English, say “and then” whenever you see a pipe. Below is a pipeline for a children’s poem.*</p>
+
 <p><br></p>
 </div>
 <div class="fragment">
-<pre><code> find("keys") |&gt;
-  start_car() |&gt;
-  drive(to = "work") |&gt;
-  park()</code></pre>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Little bunny Foo Foo<br>
+Went hopping through the forest<br>
+Scooping up the field mice<br>
+And bopping them on the head</p>
+</div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>foo_foo <span class="sc">|&gt;</span></span>
+<span id="cb2-2"><a></a>  <span class="fu">hop</span>(<span class="at">through =</span> forest) <span class="sc">|&gt;</span></span>
+<span id="cb2-3"><a></a>  <span class="fu">scoop</span>(<span class="at">up =</span> field_mice) <span class="sc">|&gt;</span></span>
+<span id="cb2-4"><a></a>  <span class="fu">bop</span>(<span class="at">on =</span> head)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
+</div></div>
+<!--# do bunny foo foo example from Hadley Wickhim-->
+</div>
+<aside><div>
+<p>* Source: <a href="https://r4ds.had.co.nz/pipes.html">R for Data Science 1st Edition</a></p>
+</div></aside></section>
 <section id="data-palmer-penguins" class="slide level2 midi">
 <h2>Data: Palmer penguins</h2>
 <p>We will analyze the <code>penguins</code> data set from the <a href="https://allisonhorst.github.io/palmerpenguins/"><strong>palmerpenguins</strong> R package</a> maintained by Dr.&nbsp;Allison Horst. This data set contains measurements and other characteristics for penguins observed near Palmer Station in Antarctica. The data were originally collected by Dr.&nbsp;Kristen Gorman.</p>
@@ -2238,23 +2277,25 @@ Maria Tackett
 <section id="penguins-data-frame" class="slide level2">
 <h2><code>penguins</code> data frame</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">library</span>(palmerpenguins)</span>
-<span id="cb2-2"><a></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">library</span>(palmerpenguins)</span>
+<span id="cb3-2"><a></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 344 × 8
+<pre><code># A tibble: 342 × 8
    species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year
    &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;
  1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007
  2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007
  3 Adelie  Torgersen           40.3          18                 195        3250 female  2007
- 4 Adelie  Torgersen           NA            NA                  NA          NA &lt;NA&gt;    2007
- 5 Adelie  Torgersen           36.7          19.3               193        3450 female  2007
- 6 Adelie  Torgersen           39.3          20.6               190        3650 male    2007
- 7 Adelie  Torgersen           38.9          17.8               181        3625 female  2007
- 8 Adelie  Torgersen           39.2          19.6               195        4675 male    2007
- 9 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007
-10 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007
-# ℹ 334 more rows</code></pre>
+ 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007
+ 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007
+ 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007
+ 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007
+ 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007
+ 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007
+10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007
+# ℹ 332 more rows</code></pre>
 </div>
 </div>
 </section>
@@ -2264,63 +2305,60 @@ Maria Tackett
 <p>Compute the mean flipper length for Palmer penguins.</p>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>penguins <span class="sc">|&gt;</span> <span class="fu">slice</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 344 × 8
-   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year
-   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;
- 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007
- 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007
- 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007
- 4 Adelie  Torgersen           NA            NA                  NA          NA &lt;NA&gt;    2007
- 5 Adelie  Torgersen           36.7          19.3               193        3450 female  2007
- 6 Adelie  Torgersen           39.3          20.6               190        3650 male    2007
- 7 Adelie  Torgersen           38.9          17.8               181        3625 female  2007
- 8 Adelie  Torgersen           39.2          19.6               195        4675 male    2007
- 9 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007
-10 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007
-# ℹ 334 more rows</code></pre>
+<pre><code># A tibble: 5 × 8
+  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year
+  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;
+1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007
+2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007
+3 Adelie  Torgersen           40.3          18                 195        3250 female  2007
+4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007
+5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007</code></pre>
 </div>
 </div>
+<p><br></p>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">mean</span>(penguins<span class="sc">$</span>flipper_length_mm, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">mean</span>(penguins<span class="sc">$</span>flipper_length_mm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 200.9152</code></pre>
 </div>
 </div>
 </div>
 </section>
-<section id="base-r-compute-summary-statistics-1" class="slide level2 midi">
-<h2>Base R: Compute summary statistics</h2>
+<section id="base-r-compute-summary-statistics---add-citation" class="slide level2 midi">
+<h2>Base R: Compute summary statistics - add citation</h2>
 <div class="question">
 <p>For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
 </div>
+<p><br></p>
 <div class="fragment">
 <p><strong>Compute number of penguins by species</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>num_penguins <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> length)</span>
-<span id="cb8-2"><a></a><span class="fu">names</span>(num_penguins)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"num_penguins"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>num_penguins <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> length)</span>
+<span id="cb9-2"><a></a><span class="fu">names</span>(num_penguins)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"num_penguins"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <div class="fragment">
 <p><strong>Compute mean flipper length by species</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>mean_flipper <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> mean)</span>
-<span id="cb9-2"><a></a></span>
-<span id="cb9-3"><a></a><span class="fu">names</span>(mean_flipper)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"mean_flipper_length"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>mean_flipper <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> mean)</span>
+<span id="cb10-2"><a></a></span>
+<span id="cb10-3"><a></a><span class="fu">names</span>(mean_flipper)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"mean_flipper_length"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </section>
-<section id="base-r-compute-summary-statistics-2" class="slide level2 midi">
-<h2>Base R: Compute summary statistics</h2>
+<section id="base-r-compute-summary-statistics---add-citation-1" class="slide level2 midi">
+<h2>Base R: Compute summary statistics - add citation</h2>
 <div class="question">
 <p>For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
 </div>
+<p><br></p>
 <p><strong>Combine results and sort data frame</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">merge</span>(num_penguins, mean_flipper)</span>
-<span id="cb10-2"><a></a>df[<span class="fu">order</span>(df<span class="sc">$</span>num_penguins, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">merge</span>(num_penguins, mean_flipper)</span>
+<span id="cb11-2"><a></a>df[<span class="fu">order</span>(df<span class="sc">$</span>num_penguins, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    species num_penguins mean_flipper_length
 1    Adelie          151            189.9536
@@ -2329,26 +2367,172 @@ Maria Tackett
 </div>
 </div>
 </section>
-<section id="tidyverse-compute-summary-statistics" class="slide level2">
-<h2>Tidyverse: Compute summary statistics</h2>
-<ul>
-<li>Redo the example using tidyverse</li>
-</ul>
-<!--# Note that example is inspired by educators paper and DS in the classroom workshop-->
+<section id="base-r-full-code---add-citation" class="slide level2">
+<h2>Base R: Full code - add citation</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>num_penguins <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> length)</span>
+<span id="cb13-2"><a></a><span class="fu">names</span>(num_penguins)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"num_penguins"</span></span>
+<span id="cb13-3"><a></a></span>
+<span id="cb13-4"><a></a>mean_flipper <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> mean)</span>
+<span id="cb13-5"><a></a></span>
+<span id="cb13-6"><a></a><span class="fu">names</span>(mean_flipper)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"mean_flipper_length"</span></span>
+<span id="cb13-7"><a></a></span>
+<span id="cb13-8"><a></a>df <span class="ot">&lt;-</span> <span class="fu">merge</span>(num_penguins, mean_flipper)</span>
+<span id="cb13-9"><a></a>df[<span class="fu">order</span>(df<span class="sc">$</span>num_penguins, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>    species num_penguins mean_flipper_length
+1    Adelie          151            189.9536
+3    Gentoo          123            217.1870
+2 Chinstrap           68            195.8235</code></pre>
+</div>
+</div>
 </section>
 <section id="your-turn" class="slide level2">
 <h2>Your turn!</h2>
 <div class="question">
+<p>Use tidyverse syntax to make the data frame described below:</p>
+<p>For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
+</div>
+<div id="qwebr-insertion-location-2"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<!--# Note that example is inspired by educators paper and DS in the classroom workshop-->
+</section>
+<section id="closer-look-at-the-code" class="slide level2">
+<h2>Closer look at the code</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 342 × 8
+   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year
+   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;
+ 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007
+ 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007
+ 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007
+ 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007
+ 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007
+ 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007
+ 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007
+ 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007
+ 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007
+10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007
+# ℹ 332 more rows</code></pre>
+</div>
+</div>
+</div></div>
+</section>
+<section id="closer-look-at-the-code-1" class="slide level2">
+<h2>Closer look at the code</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span style="font-weight:bold;background-color:#ccddeb;">For each species</span>, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb17-2"><a></a>  <span class="fu">group_by</span>(species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 342 × 8
+# Groups:   species [3]
+   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year
+   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;
+ 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007
+ 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007
+ 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007
+ 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007
+ 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007
+ 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007
+ 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007
+ 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007
+ 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007
+10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007
+# ℹ 332 more rows</code></pre>
+</div>
+</div>
+</div></div>
+</section>
+<section id="closer-look-at-the-code-2" class="slide level2">
+<h2>Closer look at the code</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>For each species, <span style="font-weight:bold;background-color:#ccddeb;">compute the number of penguins</span> and the mean flipper length. Display the results in descending order by number of penguins.</p>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="3-4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb19-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb19-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
+<span id="cb19-4"><a></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 2
+  species       n
+  &lt;fct&gt;     &lt;int&gt;
+1 Adelie      151
+2 Chinstrap    68
+3 Gentoo      123</code></pre>
+</div>
+</div>
+</div></div>
+</section>
+<section id="closer-look-at-the-code-3" class="slide level2">
+<h2>Closer look at the code</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>For each species, compute the number of penguins and <span style="font-weight:bold;background-color:#ccddeb;">the mean flipper length</span>. Display the results in descending order by number of penguins.</p>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="4-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb21-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb21-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
+<span id="cb21-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm)</span>
+<span id="cb21-5"><a></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 3
+  species       n  mean
+  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;
+1 Adelie      151  190.
+2 Chinstrap    68  196.
+3 Gentoo      123  217.</code></pre>
+</div>
+</div>
+</div></div>
+</section>
+<section id="closer-look-at-the-code-4" class="slide level2">
+<h2>Closer look at the code</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>For each species, compute the number of penguins and the mean flipper length. <span style="font-weight:bold;background-color:#ccddeb;">Display the results in descending order by number of penguins.</span></p>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb23-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb23-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
+<span id="cb23-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm,</span>
+<span id="cb23-5"><a></a>                        <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb23-6"><a></a>            ) <span class="sc">|&gt;</span></span>
+<span id="cb23-7"><a></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 3
+  species       n  mean
+  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;
+1 Adelie      151  190.
+2 Gentoo      123  217.
+3 Chinstrap    68  196.</code></pre>
+</div>
+</div>
+</div></div>
+</section>
+<section id="your-turn-time-permitting" class="slide level2">
+<h2>Your turn! [Time permitting]</h2>
+<div class="question">
 <ul>
 <li>Create a new data frame that only contains the penguin from each species with the largest body mass.</li>
-</ul>
-<!-- -->
-<ul>
-<li><strong>[Time permitting]</strong> Use <a href="https://dplyr.tidyverse.org/reference/index.html"><strong>dplyr</strong></a> functions to continue exploring the <code>penguins</code> data set.</li>
+<li>Use <a href="https://dplyr.tidyverse.org/reference/index.html"><strong>dplyr</strong></a> functions to continue exploring the <code>penguins</code> data set.</li>
 </ul>
 </div>
 <p><br></p>
-<div id="qwebr-insertion-location-1"></div>
+<div id="qwebr-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="tidyverse-beyond-the-intro-course" class="slide level2">
@@ -2360,18 +2544,53 @@ Maria Tackett
 <li>Educator’s guide to the tidyverse</li>
 </ul>
 </section>
-<section id="what-about-ai" class="slide level2">
+<section id="what-about-ai" class="slide level2 midi">
 <h2>What about AI?</h2>
 <ul>
 <li><p>We recommend minimal use of generative artificial intelligence (AI) for coding when coding proficiency is a learning objective in an introductory course</p></li>
-<li><p>We will not cover generative AI in this tutorial</p></li>
 <li><p>There are a variety of perspectives on using generative AI tools to teaching coding:</p>
+<div class="small">
 <ul>
 <li><p>Bien, J., &amp; Mukherjee, G. (2025). <a href="https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2432397?src=exp-mr">Generative AI for Data Science 101: Coding Without Learning To Code</a>. <em>Journal of Statistics and Data Science Education</em>, <em>33</em>(2), 129-142.</p></li>
 <li><p><a href="https://www.tandfonline.com/journals/ujse21/collections/generative-ai">Generative AI in Statistics and Data Science Education</a> (Journal of Statistics and Data Science collection)</p></li>
 <li><p><a href="https://mine-cetinkaya-rundel.github.io/help-from-ai-uscots25/">Leveraging LLMs for student feedback in introductory data science courses</a> by Mine Çetinkaya-Rundel (USCOTS presentation)</p></li>
 <li><p><a href="https://www.tidyverse.org/blog/2025/04/learn-tidyverse-ai/">Learning the tidyverse with the help of AI tools</a> by Mine Çetinkaya-Rundel (Tidyverse blog)</p></li>
+</ul>
+</div></li>
+</ul>
+</section></section>
+<section>
+<section id="infrastructure" class="title-slide slide level1 center">
+<h1>Infrastructure</h1>
+
+</section>
+<section id="why-use-rstudio-in-the-cloud" class="slide level2">
+<h2>Why use RStudio in the cloud?</h2>
+<ul>
+<li>Reduce friction at first exposure to R
+<ul>
+<li>Start using R on Day 1!</li>
 </ul></li>
+<li>Avoid local installation</li>
+<li>Install R and RStudio on a server and provide access to students:
+<ul>
+<li>Centralized RStudio server</li>
+<li>Dockerized RStudio server (what we’re using today)</li>
+<li>Posit Cloud</li>
+</ul></li>
+</ul>
+<p>[Check paper - are these the reasons in the paper?]</p>
+
+<aside><div>
+<p>Çetinkaya-Rundel and Rundel (2018)</p>
+</div></aside></section>
+<section id="dockerized-rstudio" class="slide level2">
+<h2>Dockerized Rstudio</h2>
+<ul>
+<li><p>Infrastructure options</p></li>
+<li><p>Brief introduction to Quarto (like an R Markdown file)</p></li>
+<li><p>Make a qmd file . Render it.</p></li>
+<li><p>Turn the qmd into a web-r file.</p></li>
 </ul>
 </section>
 <section id="discussion" class="slide level2">
@@ -2382,48 +2601,13 @@ Maria Tackett
 <li><p>Any other questions/ comments/ discussion points?</p></li>
 </ul>
 </div>
-</section>
-<section id="additional-resources" class="slide level2">
-<h2>Additional resources</h2>
-<ul>
-<li><p>tidyverse websites</p></li>
-<li><p>datasciencebox.org</p></li>
-<li><p>educator’s perspective on tidyverse paper</p></li>
-<li><p>2 data science papers</p></li>
-<li><p>introductory statistics vs.&nbsp;introductory data science?</p></li>
-</ul>
-</section></section>
-<section>
-<section id="infrastructure" class="title-slide slide level1 center">
-<h1>Infrastructure</h1>
-
-</section>
-<section id="web-based-computing" class="slide level2">
-<h2>Web-based computing</h2>
-<ul>
-<li><p>Why use web-based computing rather than local install</p>
-<ul>
-<li><p>local R/ RStudio</p></li>
-<li><p>Posit Cloud</p></li>
-<li><p>Docker containers with RStudio license / NC Share</p></li>
-</ul></li>
-</ul>
-</section>
-<section id="docker-containers" class="slide level2">
-<h2>Docker containers</h2>
-<ul>
-<li><p>Infrastructure options</p></li>
-<li><p>Brief introduction to Quarto (like an R Markdown file)</p></li>
-<li><p>Make a qmd file . Render it.</p></li>
-<li><p>Turn the qmd into a web-r file.</p></li>
-</ul>
 
 
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-<p>LINK</p>
+<p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github">user-tutorials-2025.github.io/teaching-with-r-github</a></p>
 </div>
 </div></div>
 

@@ -2,7 +2,7 @@
 title: "Making teaching materials with Quarto"
 subtitle: "useR 2025"
 author: "Maria Tackett"
-footer: "LINK"
+footer: "[user-tutorials-2025.github.io/teaching-with-r-github](https://user-tutorials-2025.github.io/teaching-with-r-github)"
 image: "images/quarto2.png"
 logo: ""
 format: 
@@ -178,7 +178,7 @@ Source: [SLR: Mathematical models for inference](https://sta210-fa22.netlify.app
 ![](images/sta221-website.png){fig-align="center"}
 
 ::: small
-[Regression Analysis: Theory and Application](https://sta221-sp25.netlify.app/) taught by Maria Tackett
+Source: [Regression Analysis: Theory and Application](https://sta221-sp25.netlify.app/) taught by Maria Tackett
 :::
 
 ## Example website file structure
