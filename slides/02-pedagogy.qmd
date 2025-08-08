@@ -1,7 +1,7 @@
 ---
 title: "Curriculum and Pedagogy"
 subtitle: "useR 2025"
-logo: ""
+author: "Elijah Meyer & Maria Tackett"
 format: 
   revealjs:
     theme: slides.scss
@@ -9,6 +9,7 @@ format:
     slide-number: true
     incremental: false 
     chalkboard: true
+    fig-dpi: 300
 image: "images/tidyverse.png"
 execute:
   freeze: auto
@@ -20,7 +21,596 @@ knitr:
 filters: 
   - webr
 webr:
+  show-startup-message: false 
   packages: ['tidyverse', 'palmerpenguins']
 ---
 
-To be posted.
+# Curriculum
+
+```{r}
+#| include: false
+
+library(tidyverse)
+library(palmerpenguins)
+library(DiagrammeR)
+
+penguins <- penguins |>
+  filter(!is.na(flipper_length_mm))
+```
+
+```{webr-r}
+#| context: setup
+
+#remove 2 penguins with no measurements
+
+penguins <- penguins |> 
+  filter(!is.na(flipper_length_mm))
+```
+
+## Curriculum guidelines {.midi}
+
+::: incremental
+-   Use technology to explore concepts and analyze data. ([GAISE, 2016](https://www.amstat.org/docs/default-source/amstat-documents/gaisecollege_full.pdf))
+
+-   Incorporate software/apps to explore concepts and work with data. ([GAISE revision, in progress](https://community.amstat.org/collegegaiserevision/home))
+
+-   All programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. ([Two-Year College Data Science Summit, 2018](https://www.amstat.org/education/two-year-college-data-science-summit))
+
+-   The two pillars of computational and statistical thinking should not be taught separately. The balance between them may change from one course to another, but both should be present for the most effective and efficient teaching. ([Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-060116-053930)
+:::
+
+## Intro Data Science
+
+![](images/ds-topic-flow.png){fig-align="center" width="70%"}
+
+::: small
+Image from [Data Science in a Box](https://datasciencebox.org/01-topics)
+:::
+
+## Intro Data Science topics {.midi}
+
+::::: columns
+::: {.column width="50%"}
+**Unit 1: Exploring data**
+
+-   Data visualization 
+-   Exploring multivariable relationships
+-   Data wrangling
+-   Importing data 
+:::
+
+::: {.column width="50%"}
+**Unit 2: Making rigorous conclusions**
+
+-   Relationships between multiple variables
+-   Predicting numeric and binary outcomes
+-   Model building and feature engineering
+-   Model evaluation and cross validation 
+-   Simulation-based inference
+:::
+:::::
+
+::: aside
+Source: Çetinkaya-Rundel & Ellison (2020)
+:::
+
+## Intro Data Science topics {.midi}
+
+:::::: columns
+::: {.column width="50%"}
+**Additional topics (varies by instructor)**
+
+-   Interactive dashboards with Shiny
+-   Working productively with AI tools  
+-   Text analysis
+-   Customizing Quarto reports and presentations
+:::
+
+:::: {.column width="50%"}
+::: highlight
+**Computing throughout course**
+
+-   Statistical analysis using R
+-   Reproducible reports using Quarto
+-   Version control and collaboration using git and GitHub
+:::
+::::
+::::::
+
+<br>
+
+::: aside
+Source: Çetinkaya-Rundel & Ellison (2020)
+:::
+
+## Computing as a learning objective
+
+::: highlight
+"The goal of teaching computing and information technologies is to remove obstacles to engagement with a problem."
+
+(Nolan & Temple Lang, 2010)
+:::
+
+. . .
+
+::: incremental
+-   Students gain experience using professional computing tools
+
+-   Students develop reproducible workflow while learning statistical methods
+
+-   Students gain experience working with more complex and realistic data
+
+-   Students develop computational thinking and build confidence to handle computational challenges
+:::
+
+# Pedagogy
+
+## Pedagogy 
+
+:::::: columns
+::: {.column width="50%"}
+![](images/sta199-pedagogy.png){fig-align="center" width="60%"}
+:::
+
+:::: {.column width="50%"}
+::: midi
+-   **Build**: Introduce new content
+
+-   **Train**: Put concepts into practice through hands-on class activities
+
+    -   **Do**: Steps needed to accomplish a task
+
+    -   **Think**: How to accomplish task in future
+
+-   **Create:** Demonstrate learning through a variety of assessments
+:::
+::::
+::::::
+
+::: small
+Source: Meyer and Çetinkaya-Rundel (2025, preprint)
+:::
+
+## Tidyverse
+
+::::: columns
+::: {.column width="50%"}
+*The tidyverse is an opinionated [**collection of R packages**](https://www.tidyverse.org/packages) designed for data science. All packages share an underlying design philosophy, grammar, and data structures.*
+
+\-[tidyverse.org](https://tidyverse.org)
+:::
+
+::: {.column width="50%"}
+![](images/tidyverse.png){fig-align="center" width="80%"}
+:::
+:::::
+
+```{r}
+#| eval: false
+library(tidyverse)
+```
+
+## Tidyverse in data science workflow
+
+![Source: Çetinkaya-Rundel et al. (2022)](images/tidyverse-ds-workflow.png){fig-align="center" width="80%"}
+
+## Pedagogical benefits of the tidyverse {.midi}
+
+::: incremental
+-   **Consistency**: Syntax, function interfaces, argument names and order follow patterns
+
+-   **Mixability**: Ability to use base R and other functions within tidyverse syntax
+
+-   **Scalability**: Unified approach that works for data sets from a wide range of types and sizes
+
+-   **User-centered design**: Function interfaces designed with users in mind
+
+-   **Readability**: Interfaces designed to produce readable code
+
+-   **Community**: Large, active, and welcoming community of users and resources
+
+-   **Transferability**: Data manipulation verbs inherit SQL's query syntax
+:::
+
+::: small
+Source: Çetinkaya-Rundel et al. (2022)
+:::
+
+## Tidy data
+
+1.  Each variable forms a column.
+2.  Each observation forms a row.
+3.  Each type of observational unit forms a table.
+
+. . .
+
+::::: columns
+::: {.column width="50%"}
+<center><b>Not tidy data</b></center>
+
+![](images/not-tidy-data.png){alt="Tidy data" fig-align="center" width="100%"}
+:::
+
+::: {.column width="50%"}
+<center><b>Tidy data</b></center>
+
+![](images/tidy-data.png){alt="Tidy data" fig-align="center" width="100%"}
+:::
+:::::
+
+::: aside
+Source: Wickham (2014)
+:::
+
+## The pipe
+
+The **pipe,** `|>`, is used to pass information from one function to another in the tidyverse.
+
+. . .
+
+When reading code aloud in English, say "and then" whenever you see a pipe. Below is a pipeline for a children's poem.\*
+
+::: aside
+\* Source: [R for Data Science 1st Edition](https://r4ds.had.co.nz/pipes.html)
+:::
+
+<br>
+
+. . .
+
+::::: columns
+::: {.column width="50%"}
+Little bunny Foo Foo\
+Went hopping through the forest\
+Scooping up the field mice\
+And bopping them on the head
+:::
+
+::: {.column width="50%"}
+```{r}
+#| eval: false
+
+foo_foo |>
+  hop(through = forest) |>
+  scoop(up = field_mice) |>
+  bop(on = head)
+```
+:::
+:::::
+
+<!--# do bunny foo foo example from Hadley Wickhim-->
+
+## Data: Palmer penguins {.midi}
+
+We will analyze the `penguins` data set from the [**palmerpenguins** R package](https://allisonhorst.github.io/palmerpenguins/) maintained by Dr. Allison Horst. This data set contains measurements and other characteristics for penguins observed near Palmer Station in Antarctica. The data were originally collected by Dr. Kristen Gorman.
+
+We will use the following variables:
+
+-   `species`: a factor denoting penguin species (Adélie, Chinstrap and Gentoo)
+-   `flipper_length_mm`: an integer denoting flipper length (millimeters)
+-   `body_mass_g`: an integer denoting body mass (grams)
+
+[Click here](https://allisonhorst.github.io/palmerpenguins/reference/penguins.html) for the full codebook.
+
+## `penguins` data frame
+
+```{r}
+#| eval: false
+library(palmerpenguins)
+penguins
+```
+
+```{r}
+#| echo: false
+penguins
+```
+
+## Base R: Compute summary statistics
+
+::: question
+Compute the mean flipper length for Palmer penguins.
+:::
+
+<br>
+
+. . .
+
+```{r}
+mean(penguins$flipper_length_mm)
+```
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Base R: Compute summary statistics {.midi}
+
+::: question
+For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+<br>
+
+. . .
+
+**Compute number of penguins by species**
+
+```{r}
+num_penguins <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)
+names(num_penguins)[2] <- "num_penguins"
+```
+
+. . .
+
+**Compute mean flipper length by species**
+
+```{r}
+mean_flipper <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)
+names(mean_flipper)[2] <- "mean_flipper_length"
+
+```
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Base R: Compute summary statistics {.midi}
+
+::: question
+For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+<br>
+
+**Combine results and sort data frame**
+
+```{r}
+df <- merge(num_penguins, mean_flipper)
+df[order(df$num_penguins, decreasing = TRUE), ]
+```
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Base R: Full code
+
+```{r}
+num_penguins <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)
+names(num_penguins)[2] <- "num_penguins"
+
+mean_flipper <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)
+names(mean_flipper)[2] <- "mean_flipper_length"
+
+df <- merge(num_penguins, mean_flipper)
+df[order(df$num_penguins, decreasing = TRUE), ]
+```
+
+<br>
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Your turn!
+
+::: question
+Use tidyverse syntax to make the data frame described below:
+
+For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+```{webr-r}
+penguins
+# add code here
+```
+
+<br>
+
+::: callout-tip
+See [dplyr reference](https://dplyr.tidyverse.org/reference/index.html#data-frame-verbs) for list of functions.
+:::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+penguins
+```
+:::
+:::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+[For each species]{style="font-weight:bold;background-color:#ccddeb;"}, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "2"
+penguins |>
+  group_by(species)
+```
+:::
+:::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, [compute the number of penguins]{style="font-weight:bold;background-color:#ccddeb;"} and the mean flipper length. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "3-4"
+penguins |>
+  group_by(species) |>
+  summarise(n = n(), 
+            )
+```
+:::
+:::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, compute the number of penguins and [the mean flipper length]{style="font-weight:bold;background-color:#ccddeb;"}. Display the results in descending order by number of penguins.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "4-6"
+penguins |>
+  group_by(species) |>
+  summarise(n = n(), 
+            mean = mean(flipper_length_mm)
+            )
+```
+:::
+:::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Closer look at the code
+
+::::: columns
+::: {.column width="40%"}
+For each species, compute the number of penguins and the mean flipper length. [Display the results in descending order by number of penguins.]{style="font-weight:bold;background-color:#ccddeb;"}
+:::
+
+::: {.column width="60%"}
+```{r}
+#| code-line-numbers: "7"
+penguins |>
+  group_by(species) |>
+  summarise(n = n(), 
+            mean = mean(flipper_length_mm,
+                        na.rm = TRUE)
+            ) |>
+  arrange(desc(n))
+```
+:::
+:::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Your turn! \[Time permitting\]
+
+::: question
+-   Create a new data frame that only contains the penguin from each species with the largest body mass.
+-   Use [**dplyr**](https://dplyr.tidyverse.org/reference/index.html) functions to continue exploring the `penguins` data set.
+:::
+
+<br>
+
+```{webr-r}
+# add code here
+
+```
+
+---
+<br>
+
+<br>
+
+<br>
+
+> 
+> "The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle."
+>
+> -Çetinkaya-Rundel et al. (2022)
+
+## What about AI? {.midi}
+
+-   We recommend minimal use of generative artificial intelligence (AI) for coding when coding proficiency is a learning objective in an introductory course
+
+-   There are a variety of perspectives on using generative AI tools to teaching coding:
+
+    ::: small
+    -   Bien, J., & Mukherjee, G. (2025). [Generative AI for Data Science 101: Coding Without Learning To Code](https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2432397?src=exp-mr). *Journal of Statistics and Data Science Education*, *33*(2), 129-142.
+
+    -   [Generative AI in Statistics and Data Science Education](https://www.tandfonline.com/journals/ujse21/collections/generative-ai) (Journal of Statistics and Data Science collection)
+
+    -   [Leveraging LLMs for student feedback in introductory data science courses](https://mine-cetinkaya-rundel.github.io/help-from-ai-uscots25/) by Mine Çetinkaya-Rundel (USCOTS presentation)
+
+    -   [Learning the tidyverse with the help of AI tools](https://www.tidyverse.org/blog/2025/04/learn-tidyverse-ai/) by Mine Çetinkaya-Rundel (Tidyverse blog)
+    :::
+
+# Infrastructure
+
+## RStudio in the cloud  {.midi}
+
+::: incremental
+-   Removes the most common hurdle to get started with computing - installation and configuration
+    -   Start using R on Day 1!
+-   Actively engage students with all aspects of the course, not just in a computing lab
+-   Install R and RStudio on a server and provide access to students:
+    -   Centralized [RStudio Server / Posit Workbench](https://posit.co/products/enterprise/workbench/)
+    -   Dockerized RStudio Server (what we're using today)
+    -   [Posit Cloud](https://posit.cloud)
+:::
+
+::: aside
+Çetinkaya-Rundel and Rundel (2018)
+:::
+
+## RStudio in a Docker container
+
+-   RStudio in Docker containers built and maintained by Duke Office of Information Technology
+
+-   Customize the pre-installed packages, data sets, etc. for your course
+
+-   Students access their instance of RStudio using institution credentials
+
+## Demo 
+
+-   Open RStudio docker container (see email for URL)
+
+-   Click *File* -\> *New File* -\> *Quarto Document* to make a new Quarto document
+
+-   Parts of a Quarto document:
+
+    -   YAML
+
+    -   Narrative
+
+    -   Code
+
+-   Use Quarto for reproducible in-class activities and assignments
+
+## Discussion
+
+::: question
+-   What is something you've seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?
+
+-   Any other questions/ comments/ discussion points?
+:::

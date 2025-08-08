@@ -129,46 +129,202 @@
     "text": "Website"
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nStudents have heard about your class….\nAnxiety around coding….\n\nTalk\nBuild a community"
+    "objectID": "slides/04-teaching-materials.html#outline",
+    "href": "slides/04-teaching-materials.html#outline",
+    "title": "Making teaching materials with Quarto",
+    "section": "Outline",
+    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-1",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-1",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nTalk about mindset and perspective\n– The expectation is not to be an expert on the first day, or after one day – Give them “permission” to get excited and make mistakes – Calm anxiety around coding"
+    "objectID": "slides/04-teaching-materials.html#benefits-for-instructor",
+    "href": "slides/04-teaching-materials.html#benefits-for-instructor",
+    "title": "Making teaching materials with Quarto",
+    "section": "Benefits for instructor",
+    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-2",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-2",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nStart with cake 🍰"
+    "objectID": "slides/04-teaching-materials.html#benefits-for-students",
+    "href": "slides/04-teaching-materials.html#benefits-for-students",
+    "title": "Making teaching materials with Quarto",
+    "section": "Benefits for students",
+    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nAbility to read course materials on multiple devices",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-3",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-3",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\n🍰\n– Get students excited\n– Make them understand why they are in the class\n– Make them want to come back and keep learning"
+    "objectID": "slides/04-teaching-materials.html#teaching-materials-in-quarto",
+    "href": "slides/04-teaching-materials.html#teaching-materials-in-quarto",
+    "title": "Making teaching materials with Quarto",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\nSlides",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#webr",
-    "href": "slides/01-webR-slides-draft.html#webr",
-    "title": "Teaching with webR",
-    "section": "WebR",
-    "text": "WebR\nWebR is a version of the statistical language R compiled for the browser\n\nNo local installation\nNo downloading anything"
+    "objectID": "slides/04-teaching-materials.html#teaching-materials-in-quarto-1",
+    "href": "slides/04-teaching-materials.html#teaching-materials-in-quarto-1",
+    "title": "Making teaching materials with Quarto",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\nAssignment instructions",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#day-1",
-    "href": "slides/01-webR-slides-draft.html#day-1",
-    "title": "Teaching with webR",
-    "section": "Day-1",
-    "text": "Day-1\nwebR link"
+    "objectID": "slides/04-teaching-materials.html#slide-menu",
+    "href": "slides/04-teaching-materials.html#slide-menu",
+    "title": "Making teaching materials with Quarto",
+    "section": "Slide menu",
+    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#slide-with-code-output",
+    "href": "slides/04-teaching-materials.html#slide-with-code-output",
+    "title": "Making teaching materials with Quarto",
+    "section": "Slide with code + output",
+    "text": "Slide with code + output\n\n\nPublished slide\n\n\n\n\n\n\nSource code\n\n\n\n\n\n\n\n\nSource: Data visualization overview lecture by Mine Çetinkaya-Rundel",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#slide-with-mathematical-notation",
+    "href": "slides/04-teaching-materials.html#slide-with-mathematical-notation",
+    "title": "Making teaching materials with Quarto",
+    "section": "Slide with mathematical notation",
+    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\nSource: SLR: Mathematical models for inference lecture by Maria Tackett",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#example-course-website",
+    "href": "slides/04-teaching-materials.html#example-course-website",
+    "title": "Making teaching materials with Quarto",
+    "section": "Example course website",
+    "text": "Example course website\n\n\nSource: Regression Analysis: Theory and Application taught by Maria Tackett",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#example-website-file-structure",
+    "href": "slides/04-teaching-materials.html#example-website-file-structure",
+    "title": "Making teaching materials with Quarto",
+    "section": "Example website file structure",
+    "text": "Example website file structure",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#interactive-documents-with-webr",
+    "href": "slides/04-teaching-materials.html#interactive-documents-with-webr",
+    "title": "Making teaching materials with Quarto",
+    "section": "Interactive documents with webR",
+    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n---\n\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#getting-started-slides-documents",
+    "href": "slides/04-teaching-materials.html#getting-started-slides-documents",
+    "title": "Making teaching materials with Quarto",
+    "section": "Getting started: slides + documents",
+    "text": "Getting started: slides + documents\n\nBasicCustomized\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#getting-started-websites",
+    "href": "slides/04-teaching-materials.html#getting-started-websites",
+    "title": "Making teaching materials with Quarto",
+    "section": "Getting started: websites",
+    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\nRun the following code in the Terminal\nquarto create-project --type website\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information.",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#publishing-materials",
+    "href": "slides/04-teaching-materials.html#publishing-materials",
+    "title": "Making teaching materials with Quarto",
+    "section": "Publishing materials",
+    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options.",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#course-websites-created-with-quarto",
+    "href": "slides/04-teaching-materials.html#course-websites-created-with-quarto",
+    "title": "Making teaching materials with Quarto",
+    "section": "Course websites created with Quarto",
+    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#learn-more",
+    "href": "slides/04-teaching-materials.html#learn-more",
+    "title": "Making teaching materials with Quarto",
+    "section": "Learn more!",
+    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#recap",
+    "href": "slides/04-teaching-materials.html#recap",
+    "title": "Making teaching materials with Quarto",
+    "section": "Recap",
+    "text": "Recap\n\nBuild excitement about R on the first day\nwebR for interactive lectures\nComputing proficiency as a course learning objective\nPedagogy of teaching computing in statistics and data science courses\nReproducibility using Quarto and GitHub\nCreating and distributing assignments with GitHub\nMaking teaching materials with Quarto",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
+  },
+  {
+    "objectID": "slides/04-teaching-materials.html#lessons-learned",
+    "href": "slides/04-teaching-materials.html#lessons-learned",
+    "title": "Making teaching materials with Quarto",
+    "section": "Lessons learned",
+    "text": "Lessons learned\n\n\nIt is worth it!\n\nThere are resources. Here are a few.\nThe time investment pays off for your and your students\n\nPractice by using the same workflow as your students.\nTechnology is choose your own adventure. Consider your time, resources, and student population.\nGet connected to a community.\nYou (and your students) can do this!",
+    "crumbs": [
+      "Slides",
+      "Making teaching materials with Quarto"
+    ]
   },
   {
     "objectID": "slides/025-break.html#during-the-break",
@@ -468,333 +624,365 @@
     ]
   },
   {
-    "objectID": "slides/04-teaching-materials-draft.html#outline",
-    "href": "slides/04-teaching-materials-draft.html#outline",
-    "title": "Making teaching materials with Quarto",
-    "section": "Outline",
-    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#benefits-for-instructor",
-    "href": "slides/04-teaching-materials-draft.html#benefits-for-instructor",
-    "title": "Making teaching materials with Quarto",
-    "section": "Benefits for instructor",
-    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#benefits-for-students",
-    "href": "slides/04-teaching-materials-draft.html#benefits-for-students",
-    "title": "Making teaching materials with Quarto",
-    "section": "Benefits for students",
-    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nAbility to read course materials on multiple devices"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto",
-    "href": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto",
-    "title": "Making teaching materials with Quarto",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\nSlides"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto-1",
-    "href": "slides/04-teaching-materials-draft.html#teaching-materials-in-quarto-1",
-    "title": "Making teaching materials with Quarto",
-    "section": "Teaching materials in Quarto",
-    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\nAssignment instructions"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#slide-menu",
-    "href": "slides/04-teaching-materials-draft.html#slide-menu",
-    "title": "Making teaching materials with Quarto",
-    "section": "Slide menu",
-    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#slide-with-code-output",
-    "href": "slides/04-teaching-materials-draft.html#slide-with-code-output",
-    "title": "Making teaching materials with Quarto",
-    "section": "Slide with code + output",
-    "text": "Slide with code + output\n\n\nPublished slide\n\n\n\n\n\n\nSource code\n\n\n\n\n\n\n\n\nSource: Data visualization overview lecture by Mine Çetinkaya-Rundel"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#slide-with-mathematical-notation",
-    "href": "slides/04-teaching-materials-draft.html#slide-with-mathematical-notation",
-    "title": "Making teaching materials with Quarto",
-    "section": "Slide with mathematical notation",
-    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\nSource: SLR: Mathematical models for inference lecture by Maria Tackett"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#example-course-website",
-    "href": "slides/04-teaching-materials-draft.html#example-course-website",
-    "title": "Making teaching materials with Quarto",
-    "section": "Example course website",
-    "text": "Example course website\n\n\nSource: Regression Analysis: Theory and Application taught by Maria Tackett"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#example-website-file-structure",
-    "href": "slides/04-teaching-materials-draft.html#example-website-file-structure",
-    "title": "Making teaching materials with Quarto",
-    "section": "Example website file structure",
-    "text": "Example website file structure"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#interactive-documents-with-webr",
-    "href": "slides/04-teaching-materials-draft.html#interactive-documents-with-webr",
-    "title": "Making teaching materials with Quarto",
-    "section": "Interactive documents with webR",
-    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n---\n\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#getting-started-slides-documents",
-    "href": "slides/04-teaching-materials-draft.html#getting-started-slides-documents",
-    "title": "Making teaching materials with Quarto",
-    "section": "Getting started: slides + documents",
-    "text": "Getting started: slides + documents\n\nBasicCustomized\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#getting-started-websites",
-    "href": "slides/04-teaching-materials-draft.html#getting-started-websites",
-    "title": "Making teaching materials with Quarto",
-    "section": "Getting started: websites",
-    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\nRun the following code in the Terminal\nquarto create-project --type website\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#publishing-materials",
-    "href": "slides/04-teaching-materials-draft.html#publishing-materials",
-    "title": "Making teaching materials with Quarto",
-    "section": "Publishing materials",
-    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#course-websites-created-with-quarto",
-    "href": "slides/04-teaching-materials-draft.html#course-websites-created-with-quarto",
-    "title": "Making teaching materials with Quarto",
-    "section": "Course websites created with Quarto",
-    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#learn-more",
-    "href": "slides/04-teaching-materials-draft.html#learn-more",
-    "title": "Making teaching materials with Quarto",
-    "section": "Learn more!",
-    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#recap",
-    "href": "slides/04-teaching-materials-draft.html#recap",
-    "title": "Making teaching materials with Quarto",
-    "section": "Recap",
-    "text": "Recap\n\nBuild excitement about R on the first day\nwebR for interactive lectures\nComputing proficiency as a course learning objective\nPedagogy of teaching computing in statistics and data science courses\nReproducibility using Quarto and GitHub\nCreating and distributing assignments with GitHub\nMaking teaching materials with Quarto"
-  },
-  {
-    "objectID": "slides/04-teaching-materials-draft.html#lessons-learned",
-    "href": "slides/04-teaching-materials-draft.html#lessons-learned",
-    "title": "Making teaching materials with Quarto",
-    "section": "Lessons learned",
-    "text": "Lessons learned\n\n\nIt is worth it!\n\nThere are resources. Here are a few.\nThe time investment pays off for your and your students\n\nPractice by using the same workflow as your students.\nTechnology is choose your own adventure. Consider your time, resources, and student population.\nGet connected to a community.\nYou (and your students) can do this!"
-  },
-  {
-    "objectID": "slides/02-pedagogy-draft.html#curriculum-guidelines",
-    "href": "slides/02-pedagogy-draft.html#curriculum-guidelines",
+    "objectID": "slides/02-pedagogy.html#curriculum-guidelines",
+    "href": "slides/02-pedagogy.html#curriculum-guidelines",
     "title": "Curriculum and Pedagogy",
     "section": "Curriculum guidelines",
-    "text": "Curriculum guidelines\n\n\nUse technology to explore concepts and analyze data. (GAISE, 2016)\nIncorporate software/apps to explore concepts and work with data. (GAISE revision, in progress)\nAll programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. (Two-Year College Data Science Summit, 2018)\nThe two pillars of computational and statistical thinking should not be taught separately. The balance between them may change from one course to another, but both should be present for the most effective and efficient teaching. (Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)"
+    "text": "Curriculum guidelines\n\n\nUse technology to explore concepts and analyze data. (GAISE, 2016)\nIncorporate software/apps to explore concepts and work with data. (GAISE revision, in progress)\nAll programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. (Two-Year College Data Science Summit, 2018)\nThe two pillars of computational and statistical thinking should not be taught separately. The balance between them may change from one course to another, but both should be present for the most effective and efficient teaching. (Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#intro-data-science",
-    "href": "slides/02-pedagogy-draft.html#intro-data-science",
+    "objectID": "slides/02-pedagogy.html#intro-data-science",
+    "href": "slides/02-pedagogy.html#intro-data-science",
     "title": "Curriculum and Pedagogy",
     "section": "Intro Data Science",
-    "text": "Intro Data Science\n\n\nImage from Data Science in a Box"
+    "text": "Intro Data Science\n\n\nImage from Data Science in a Box",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#intro-data-science-topics",
-    "href": "slides/02-pedagogy-draft.html#intro-data-science-topics",
+    "objectID": "slides/02-pedagogy.html#intro-data-science-topics",
+    "href": "slides/02-pedagogy.html#intro-data-science-topics",
     "title": "Curriculum and Pedagogy",
     "section": "Intro Data Science topics",
-    "text": "Intro Data Science topics\n\n\nUnit 1: Exploring data\n\nData visualization \nExploring multivariable relationships\nData wrangling\nImporting data \n\n\nUnit 2: Making rigorous conclusions\n\nRelationships between multiple variables\nPredicting numeric and binary outcomes\nModel building and feature engineering\nModel evaluation and cross validation \nSimulation-based inference\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)"
+    "text": "Intro Data Science topics\n\n\nUnit 1: Exploring data\n\nData visualization \nExploring multivariable relationships\nData wrangling\nImporting data \n\n\nUnit 2: Making rigorous conclusions\n\nRelationships between multiple variables\nPredicting numeric and binary outcomes\nModel building and feature engineering\nModel evaluation and cross validation \nSimulation-based inference\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#intro-data-science-topics-1",
-    "href": "slides/02-pedagogy-draft.html#intro-data-science-topics-1",
+    "objectID": "slides/02-pedagogy.html#intro-data-science-topics-1",
+    "href": "slides/02-pedagogy.html#intro-data-science-topics-1",
     "title": "Curriculum and Pedagogy",
     "section": "Intro Data Science topics",
-    "text": "Intro Data Science topics\n\n\nAdditional topics (varies by instructor)\n\nInteractive dashboards with Shiny\nWorking productively with AI tools  \nText analysis\nCustomizing Quarto reports and presentations\n\n\n\nComputing throughout course\n\nStatistical analysis using R\nReproducible reports using Quarto\nVersion control and collaboration using git and GitHub\n\n\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)"
+    "text": "Intro Data Science topics\n\n\nAdditional topics (varies by instructor)\n\nInteractive dashboards with Shiny\nWorking productively with AI tools  \nText analysis\nCustomizing Quarto reports and presentations\n\n\n\nComputing throughout course\n\nStatistical analysis using R\nReproducible reports using Quarto\nVersion control and collaboration using git and GitHub\n\n\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#computing-as-a-learning-objective",
-    "href": "slides/02-pedagogy-draft.html#computing-as-a-learning-objective",
+    "objectID": "slides/02-pedagogy.html#computing-as-a-learning-objective",
+    "href": "slides/02-pedagogy.html#computing-as-a-learning-objective",
     "title": "Curriculum and Pedagogy",
     "section": "Computing as a learning objective",
-    "text": "Computing as a learning objective\n\n“The goal of teaching computing and information technologies is to remove obstacles to engagement with a problem.”\n(Nolan & Temple Lang, 2010)\n\n\n\n\nStudents gain experience using professional computing tools\nStudents develop reproducible workflow while learning statistical methods\nStudents gain experience working with more complex and realistic data\nStudents develop computational thinking and build confidence to handle computational challenges"
+    "text": "Computing as a learning objective\n\n“The goal of teaching computing and information technologies is to remove obstacles to engagement with a problem.”\n(Nolan & Temple Lang, 2010)\n\n\n\n\nStudents gain experience using professional computing tools\nStudents develop reproducible workflow while learning statistical methods\nStudents gain experience working with more complex and realistic data\nStudents develop computational thinking and build confidence to handle computational challenges",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#pedagogy-1",
-    "href": "slides/02-pedagogy-draft.html#pedagogy-1",
+    "objectID": "slides/02-pedagogy.html#pedagogy-1",
+    "href": "slides/02-pedagogy.html#pedagogy-1",
     "title": "Curriculum and Pedagogy",
     "section": "Pedagogy",
-    "text": "Pedagogy\n\n\n\n\n\n\n\n\n\n\nBuild: Introduce new content\nTrain: Put concepts into practice through hands-on class activities\n\nDo: Steps needed to accomplish a task\nThink: How to accomplish task in future\n\nCreate: Demonstrate learning through a variety of assessments\n\n\n\n\nSource: Meyer and Çetinkaya-Rundel (2025, preprint)"
+    "text": "Pedagogy\n\n\n\n\n\n\n\n\n\n\nBuild: Introduce new content\nTrain: Put concepts into practice through hands-on class activities\n\nDo: Steps needed to accomplish a task\nThink: How to accomplish task in future\n\nCreate: Demonstrate learning through a variety of assessments\n\n\n\n\nSource: Meyer and Çetinkaya-Rundel (2025, preprint)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#tidyverse",
-    "href": "slides/02-pedagogy-draft.html#tidyverse",
+    "objectID": "slides/02-pedagogy.html#tidyverse",
+    "href": "slides/02-pedagogy.html#tidyverse",
     "title": "Curriculum and Pedagogy",
     "section": "Tidyverse",
-    "text": "Tidyverse\n\n\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.\n-tidyverse.org\n\n\n\n\n\n\n\n\nlibrary(tidyverse)"
+    "text": "Tidyverse\n\n\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.\n-tidyverse.org\n\n\n\n\n\n\n\n\nlibrary(tidyverse)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#tidyverse-in-data-science-workflow",
-    "href": "slides/02-pedagogy-draft.html#tidyverse-in-data-science-workflow",
+    "objectID": "slides/02-pedagogy.html#tidyverse-in-data-science-workflow",
+    "href": "slides/02-pedagogy.html#tidyverse-in-data-science-workflow",
     "title": "Curriculum and Pedagogy",
     "section": "Tidyverse in data science workflow",
-    "text": "Tidyverse in data science workflow\n\nSource: Çetinkaya-Rundel et al. (2022)"
+    "text": "Tidyverse in data science workflow\n\nSource: Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#pedagogical-benefits-of-the-tidyverse",
-    "href": "slides/02-pedagogy-draft.html#pedagogical-benefits-of-the-tidyverse",
+    "objectID": "slides/02-pedagogy.html#pedagogical-benefits-of-the-tidyverse",
+    "href": "slides/02-pedagogy.html#pedagogical-benefits-of-the-tidyverse",
     "title": "Curriculum and Pedagogy",
     "section": "Pedagogical benefits of the tidyverse",
-    "text": "Pedagogical benefits of the tidyverse\n\n\nConsistency: Syntax, function interfaces, argument names and order follow patterns\nMixability: Ability to use base R and other functions within tidyverse syntax\nScalability: Unified approach that works for data sets from a wide range of types and sizes\nUser-centered design: Function interfaces designed with users in mind\nReadability: Interfaces designed to produce readable code\nCommunity: Large, active, and welcoming community of users and resources\nTransferability: Data manipulation verbs inherit SQL’s query syntax\n\n\n\nSource: Çetinkaya-Rundel et al. (2022)"
+    "text": "Pedagogical benefits of the tidyverse\n\n\nConsistency: Syntax, function interfaces, argument names and order follow patterns\nMixability: Ability to use base R and other functions within tidyverse syntax\nScalability: Unified approach that works for data sets from a wide range of types and sizes\nUser-centered design: Function interfaces designed with users in mind\nReadability: Interfaces designed to produce readable code\nCommunity: Large, active, and welcoming community of users and resources\nTransferability: Data manipulation verbs inherit SQL’s query syntax\n\n\n\nSource: Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#tidy-data",
-    "href": "slides/02-pedagogy-draft.html#tidy-data",
+    "objectID": "slides/02-pedagogy.html#tidy-data",
+    "href": "slides/02-pedagogy.html#tidy-data",
     "title": "Curriculum and Pedagogy",
     "section": "Tidy data",
-    "text": "Tidy data\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\n\n\n\n\nNot tidy data\n\n\n\n\n\n\n\n\nTidy data\n\n\n\n\n\n\n\n\n\n\nSource: Wickham (2014)"
+    "text": "Tidy data\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\n\n\n\n\nNot tidy data\n\n\n\n\n\n\n\n\nTidy data\n\n\n\n\n\n\n\n\n\n\nSource: Wickham (2014)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#the-pipe",
-    "href": "slides/02-pedagogy-draft.html#the-pipe",
+    "objectID": "slides/02-pedagogy.html#the-pipe",
+    "href": "slides/02-pedagogy.html#the-pipe",
     "title": "Curriculum and Pedagogy",
     "section": "The pipe",
-    "text": "The pipe\nThe pipe, |&gt;, is used to pass information from one function to another in the tidyverse.\n\nWhen reading code aloud in English, say “and then” whenever you see a pipe. Below is a pipeline for a children’s poem.*\n\n\n\n\n\n\nLittle bunny Foo Foo\nWent hopping through the forest\nScooping up the field mice\nAnd bopping them on the head\n\n\nfoo_foo |&gt;\n  hop(through = forest) |&gt;\n  scoop(up = field_mice) |&gt;\n  bop(on = head)\n\n\n\n\n\n* Source: R for Data Science 1st Edition"
+    "text": "The pipe\nThe pipe, |&gt;, is used to pass information from one function to another in the tidyverse.\n\nWhen reading code aloud in English, say “and then” whenever you see a pipe. Below is a pipeline for a children’s poem.*\n\n\n\n\n\n\nLittle bunny Foo Foo\nWent hopping through the forest\nScooping up the field mice\nAnd bopping them on the head\n\n\nfoo_foo |&gt;\n  hop(through = forest) |&gt;\n  scoop(up = field_mice) |&gt;\n  bop(on = head)\n\n\n\n\n\n* Source: R for Data Science 1st Edition",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#data-palmer-penguins",
-    "href": "slides/02-pedagogy-draft.html#data-palmer-penguins",
+    "objectID": "slides/02-pedagogy.html#data-palmer-penguins",
+    "href": "slides/02-pedagogy.html#data-palmer-penguins",
     "title": "Curriculum and Pedagogy",
     "section": "Data: Palmer penguins",
-    "text": "Data: Palmer penguins\nWe will analyze the penguins data set from the palmerpenguins R package maintained by Dr. Allison Horst. This data set contains measurements and other characteristics for penguins observed near Palmer Station in Antarctica. The data were originally collected by Dr. Kristen Gorman.\nWe will use the following variables:\n\nspecies: a factor denoting penguin species (Adélie, Chinstrap and Gentoo)\nflipper_length_mm: an integer denoting flipper length (millimeters)\nbody_mass_g: an integer denoting body mass (grams)\n\nClick here for the full codebook."
+    "text": "Data: Palmer penguins\nWe will analyze the penguins data set from the palmerpenguins R package maintained by Dr. Allison Horst. This data set contains measurements and other characteristics for penguins observed near Palmer Station in Antarctica. The data were originally collected by Dr. Kristen Gorman.\nWe will use the following variables:\n\nspecies: a factor denoting penguin species (Adélie, Chinstrap and Gentoo)\nflipper_length_mm: an integer denoting flipper length (millimeters)\nbody_mass_g: an integer denoting body mass (grams)\n\nClick here for the full codebook.",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#penguins-data-frame",
-    "href": "slides/02-pedagogy-draft.html#penguins-data-frame",
+    "objectID": "slides/02-pedagogy.html#penguins-data-frame",
+    "href": "slides/02-pedagogy.html#penguins-data-frame",
     "title": "Curriculum and Pedagogy",
     "section": "penguins data frame",
-    "text": "penguins data frame\n\nlibrary(palmerpenguins)\npenguins\n\n\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows"
+    "text": "penguins data frame\n\nlibrary(palmerpenguins)\npenguins\n\n\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics",
-    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics",
+    "objectID": "slides/02-pedagogy.html#base-r-compute-summary-statistics",
+    "href": "slides/02-pedagogy.html#base-r-compute-summary-statistics",
     "title": "Curriculum and Pedagogy",
     "section": "Base R: Compute summary statistics",
-    "text": "Base R: Compute summary statistics\n\nCompute the mean flipper length for Palmer penguins.\n\n\n\n\nmean(penguins$flipper_length_mm)\n\n[1] 200.9152\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Base R: Compute summary statistics\n\nCompute the mean flipper length for Palmer penguins.\n\n\n\n\nmean(penguins$flipper_length_mm)\n\n[1] 200.9152\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-1",
-    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-1",
+    "objectID": "slides/02-pedagogy.html#base-r-compute-summary-statistics-1",
+    "href": "slides/02-pedagogy.html#base-r-compute-summary-statistics-1",
     "title": "Curriculum and Pedagogy",
     "section": "Base R: Compute summary statistics",
-    "text": "Base R: Compute summary statistics\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\n\nCompute number of penguins by species\n\nnum_penguins &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)\nnames(num_penguins)[2] &lt;- \"num_penguins\"\n\n\n\nCompute mean flipper length by species\n\nmean_flipper &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)\nnames(mean_flipper)[2] &lt;- \"mean_flipper_length\"\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Base R: Compute summary statistics\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\n\nCompute number of penguins by species\n\nnum_penguins &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)\nnames(num_penguins)[2] &lt;- \"num_penguins\"\n\n\n\nCompute mean flipper length by species\n\nmean_flipper &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)\nnames(mean_flipper)[2] &lt;- \"mean_flipper_length\"\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-2",
-    "href": "slides/02-pedagogy-draft.html#base-r-compute-summary-statistics-2",
+    "objectID": "slides/02-pedagogy.html#base-r-compute-summary-statistics-2",
+    "href": "slides/02-pedagogy.html#base-r-compute-summary-statistics-2",
     "title": "Curriculum and Pedagogy",
     "section": "Base R: Compute summary statistics",
-    "text": "Base R: Compute summary statistics\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nCombine results and sort data frame\n\ndf &lt;- merge(num_penguins, mean_flipper)\ndf[order(df$num_penguins, decreasing = TRUE), ]\n\n    species num_penguins mean_flipper_length\n1    Adelie          151            189.9536\n3    Gentoo          123            217.1870\n2 Chinstrap           68            195.8235\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Base R: Compute summary statistics\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nCombine results and sort data frame\n\ndf &lt;- merge(num_penguins, mean_flipper)\ndf[order(df$num_penguins, decreasing = TRUE), ]\n\n    species num_penguins mean_flipper_length\n1    Adelie          151            189.9536\n3    Gentoo          123            217.1870\n2 Chinstrap           68            195.8235\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#base-r-full-code",
-    "href": "slides/02-pedagogy-draft.html#base-r-full-code",
+    "objectID": "slides/02-pedagogy.html#base-r-full-code",
+    "href": "slides/02-pedagogy.html#base-r-full-code",
     "title": "Curriculum and Pedagogy",
     "section": "Base R: Full code",
-    "text": "Base R: Full code\n\nnum_penguins &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)\nnames(num_penguins)[2] &lt;- \"num_penguins\"\n\nmean_flipper &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)\nnames(mean_flipper)[2] &lt;- \"mean_flipper_length\"\n\ndf &lt;- merge(num_penguins, mean_flipper)\ndf[order(df$num_penguins, decreasing = TRUE), ]\n\n    species num_penguins mean_flipper_length\n1    Adelie          151            189.9536\n3    Gentoo          123            217.1870\n2 Chinstrap           68            195.8235\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Base R: Full code\n\nnum_penguins &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)\nnames(num_penguins)[2] &lt;- \"num_penguins\"\n\nmean_flipper &lt;- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)\nnames(mean_flipper)[2] &lt;- \"mean_flipper_length\"\n\ndf &lt;- merge(num_penguins, mean_flipper)\ndf[order(df$num_penguins, decreasing = TRUE), ]\n\n    species num_penguins mean_flipper_length\n1    Adelie          151            189.9536\n3    Gentoo          123            217.1870\n2 Chinstrap           68            195.8235\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#your-turn",
-    "href": "slides/02-pedagogy-draft.html#your-turn",
+    "objectID": "slides/02-pedagogy.html#your-turn",
+    "href": "slides/02-pedagogy.html#your-turn",
     "title": "Curriculum and Pedagogy",
     "section": "Your turn!",
-    "text": "Your turn!\n\nUse tidyverse syntax to make the data frame described below:\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\nTip\n\n\nSee dplyr reference for list of functions.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Your turn!\n\nUse tidyverse syntax to make the data frame described below:\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\nTip\n\n\nSee dplyr reference for list of functions.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code",
-    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code",
+    "objectID": "slides/02-pedagogy.html#closer-look-at-the-code",
+    "href": "slides/02-pedagogy.html#closer-look-at-the-code",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-1",
-    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-1",
+    "objectID": "slides/02-pedagogy.html#closer-look-at-the-code-1",
+    "href": "slides/02-pedagogy.html#closer-look-at-the-code-1",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species)\n\n# A tibble: 342 × 8\n# Groups:   species [3]\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species)\n\n# A tibble: 342 × 8\n# Groups:   species [3]\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-2",
-    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-2",
+    "objectID": "slides/02-pedagogy.html#closer-look-at-the-code-2",
+    "href": "slides/02-pedagogy.html#closer-look-at-the-code-2",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            )\n\n# A tibble: 3 × 2\n  species       n\n  &lt;fct&gt;     &lt;int&gt;\n1 Adelie      151\n2 Chinstrap    68\n3 Gentoo      123\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            )\n\n# A tibble: 3 × 2\n  species       n\n  &lt;fct&gt;     &lt;int&gt;\n1 Adelie      151\n2 Chinstrap    68\n3 Gentoo      123\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-3",
-    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-3",
+    "objectID": "slides/02-pedagogy.html#closer-look-at-the-code-3",
+    "href": "slides/02-pedagogy.html#closer-look-at-the-code-3",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            )\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Chinstrap    68  196.\n3 Gentoo      123  217.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            )\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Chinstrap    68  196.\n3 Gentoo      123  217.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#closer-look-at-the-code-4",
-    "href": "slides/02-pedagogy-draft.html#closer-look-at-the-code-4",
+    "objectID": "slides/02-pedagogy.html#closer-look-at-the-code-4",
+    "href": "slides/02-pedagogy.html#closer-look-at-the-code-4",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm,\n                        na.rm = TRUE)\n            ) |&gt;\n  arrange(desc(n))\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Gentoo      123  217.\n3 Chinstrap    68  196.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)"
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm,\n                        na.rm = TRUE)\n            ) |&gt;\n  arrange(desc(n))\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Gentoo      123  217.\n3 Chinstrap    68  196.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#your-turn-time-permitting",
-    "href": "slides/02-pedagogy-draft.html#your-turn-time-permitting",
+    "objectID": "slides/02-pedagogy.html#your-turn-time-permitting",
+    "href": "slides/02-pedagogy.html#your-turn-time-permitting",
     "title": "Curriculum and Pedagogy",
     "section": "Your turn! [Time permitting]",
-    "text": "Your turn! [Time permitting]\n\n\nCreate a new data frame that only contains the penguin from each species with the largest body mass.\nUse dplyr functions to continue exploring the penguins data set.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Your turn! [Time permitting]\n\n\nCreate a new data frame that only contains the penguin from each species with the largest body mass.\nUse dplyr functions to continue exploring the penguins data set.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#what-about-ai",
-    "href": "slides/02-pedagogy-draft.html#what-about-ai",
+    "objectID": "slides/02-pedagogy.html#what-about-ai",
+    "href": "slides/02-pedagogy.html#what-about-ai",
     "title": "Curriculum and Pedagogy",
     "section": "What about AI?",
-    "text": "What about AI?\n\nWe recommend minimal use of generative artificial intelligence (AI) for coding when coding proficiency is a learning objective in an introductory course\nThere are a variety of perspectives on using generative AI tools to teaching coding:\n\n\nBien, J., & Mukherjee, G. (2025). Generative AI for Data Science 101: Coding Without Learning To Code. Journal of Statistics and Data Science Education, 33(2), 129-142.\nGenerative AI in Statistics and Data Science Education (Journal of Statistics and Data Science collection)\nLeveraging LLMs for student feedback in introductory data science courses by Mine Çetinkaya-Rundel (USCOTS presentation)\nLearning the tidyverse with the help of AI tools by Mine Çetinkaya-Rundel (Tidyverse blog)"
+    "text": "What about AI?\n\nWe recommend minimal use of generative artificial intelligence (AI) for coding when coding proficiency is a learning objective in an introductory course\nThere are a variety of perspectives on using generative AI tools to teaching coding:\n\n\nBien, J., & Mukherjee, G. (2025). Generative AI for Data Science 101: Coding Without Learning To Code. Journal of Statistics and Data Science Education, 33(2), 129-142.\nGenerative AI in Statistics and Data Science Education (Journal of Statistics and Data Science collection)\nLeveraging LLMs for student feedback in introductory data science courses by Mine Çetinkaya-Rundel (USCOTS presentation)\nLearning the tidyverse with the help of AI tools by Mine Çetinkaya-Rundel (Tidyverse blog)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#rstudio-in-the-cloud",
-    "href": "slides/02-pedagogy-draft.html#rstudio-in-the-cloud",
+    "objectID": "slides/02-pedagogy.html#rstudio-in-the-cloud",
+    "href": "slides/02-pedagogy.html#rstudio-in-the-cloud",
     "title": "Curriculum and Pedagogy",
     "section": "RStudio in the cloud",
-    "text": "RStudio in the cloud\n\n\nRemoves the most common hurdle to get started with computing - installation and configuration\n\nStart using R on Day 1!\n\nActively engage students with all aspects of the course, not just in a computing lab\nInstall R and RStudio on a server and provide access to students:\n\nCentralized RStudio Server / Posit Workbench\nDockerized RStudio Server (what we’re using today)\nPosit Cloud\n\n\n\n\n\nÇetinkaya-Rundel and Rundel (2018)"
+    "text": "RStudio in the cloud\n\n\nRemoves the most common hurdle to get started with computing - installation and configuration\n\nStart using R on Day 1!\n\nActively engage students with all aspects of the course, not just in a computing lab\nInstall R and RStudio on a server and provide access to students:\n\nCentralized RStudio Server / Posit Workbench\nDockerized RStudio Server (what we’re using today)\nPosit Cloud\n\n\n\n\n\nÇetinkaya-Rundel and Rundel (2018)",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#rstudio-in-a-docker-container",
-    "href": "slides/02-pedagogy-draft.html#rstudio-in-a-docker-container",
+    "objectID": "slides/02-pedagogy.html#rstudio-in-a-docker-container",
+    "href": "slides/02-pedagogy.html#rstudio-in-a-docker-container",
     "title": "Curriculum and Pedagogy",
     "section": "RStudio in a Docker container",
-    "text": "RStudio in a Docker container\n\nRStudio in Docker containers built and maintained by Duke Office of Information Technology\nCustomize the pre-installed packages, data sets, etc. for your course\nStudents access their instance of RStudio using institution credentials"
+    "text": "RStudio in a Docker container\n\nRStudio in Docker containers built and maintained by Duke Office of Information Technology\nCustomize the pre-installed packages, data sets, etc. for your course\nStudents access their instance of RStudio using institution credentials",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#demo",
-    "href": "slides/02-pedagogy-draft.html#demo",
+    "objectID": "slides/02-pedagogy.html#demo",
+    "href": "slides/02-pedagogy.html#demo",
     "title": "Curriculum and Pedagogy",
     "section": "Demo",
-    "text": "Demo\n\nOpen RStudio docker container (see email for URL)\nClick File -&gt; New File -&gt; Quarto Document to make a new Quarto document\nParts of a Quarto document:\n\nYAML\nNarrative\nCode\n\nUse Quarto for reproducible in-class activities and assignments"
+    "text": "Demo\n\nOpen RStudio docker container (see email for URL)\nClick File -&gt; New File -&gt; Quarto Document to make a new Quarto document\nParts of a Quarto document:\n\nYAML\nNarrative\nCode\n\nUse Quarto for reproducible in-class activities and assignments",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
   },
   {
-    "objectID": "slides/02-pedagogy-draft.html#discussion",
-    "href": "slides/02-pedagogy-draft.html#discussion",
+    "objectID": "slides/02-pedagogy.html#discussion",
+    "href": "slides/02-pedagogy.html#discussion",
     "title": "Curriculum and Pedagogy",
     "section": "Discussion",
-    "text": "Discussion\n\n\nWhat is something you’ve seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?\nAny other questions/ comments/ discussion points?"
+    "text": "Discussion\n\n\nWhat is something you’ve seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?\nAny other questions/ comments/ discussion points?",
+    "crumbs": [
+      "Slides",
+      "Curriculum and Pedagogy"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\nStudents have heard about your class….\nAnxiety around coding….\n\nTalk\nBuild a community"
+  },
+  {
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-1",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class-1",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\nTalk about mindset and perspective\n– The expectation is not to be an expert on the first day, or after one day – Give them “permission” to get excited and make mistakes – Calm anxiety around coding"
+  },
+  {
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-2",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class-2",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\nStart with cake 🍰"
+  },
+  {
+    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-3",
+    "href": "slides/01-webR-slides-draft.html#first-day-of-class-3",
+    "title": "Teaching with webR",
+    "section": "First Day of Class",
+    "text": "First Day of Class\n🍰\n– Get students excited\n– Make them understand why they are in the class\n– Make them want to come back and keep learning"
+  },
+  {
+    "objectID": "slides/01-webR-slides-draft.html#webr",
+    "href": "slides/01-webR-slides-draft.html#webr",
+    "title": "Teaching with webR",
+    "section": "WebR",
+    "text": "WebR\nWebR is a version of the statistical language R compiled for the browser\n\nNo local installation\nNo downloading anything"
+  },
+  {
+    "objectID": "slides/01-webR-slides-draft.html#day-1",
+    "href": "slides/01-webR-slides-draft.html#day-1",
+    "title": "Teaching with webR",
+    "section": "Day-1",
+    "text": "Day-1\nwebR link"
   },
   {
     "objectID": "Untitled.html",
