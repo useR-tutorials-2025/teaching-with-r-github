@@ -33,8 +33,11 @@ website:
             text: Demo GitHub assignment
       - href: resources.qmd
         text: Resources
+      - href:  https://github.com/useR-tutorials-2025/teaching-with-r-github
+        text: "Tutorial GitHub repo"
       - href: license.qmd
         text: License
+        
   page-footer:
     background: "#207282"
     left: Copyright 2025, Elijah Meyer and Maria Tackett
