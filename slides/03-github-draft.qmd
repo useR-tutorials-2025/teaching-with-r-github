@@ -1,12 +1,10 @@
 ---
 title: "Teaching with git and GitHub"
-author: "Elijah Meyer"
 format: 
   revealjs:
     incremental: true 
     theme: slides.scss
 image: "images/github.png"
-footer: "[user-tutorials-2025.github.io/teaching-with-r-github](https://user-tutorials-2025.github.io/teaching-with-r-github)"
 ---
 
 ## Signing up for GitHub

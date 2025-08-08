@@ -8,15 +8,16 @@ listing:
       - slides/025-break.qmd
       - slides/03-github.qmd
       - slides/04-teaching-materials.qmd
-    type: table
-    fields: [image, title, author]
+    type: default
+    fields: [image, title]
     field-display-names:
       title: "Module"
-      author: "Presenter"
     date-format: "MMMM DD, YYYY"
     sort: [filename]
     sort-ui: false
     filter-ui: false
+    image-align: "left"
+    image-height: 250px
 editor: visual
 ---
 

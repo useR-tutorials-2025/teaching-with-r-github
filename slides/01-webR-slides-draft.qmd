@@ -1,12 +1,10 @@
 ---
 title: "Teaching with webR"
-author: "Elijah Meyer"
 format: 
   revealjs:
     incremental: true 
     theme: slides.scss
 image: "images/webr.png"
-footer: "[user-tutorials-2025.github.io/teaching-with-r-github](https://user-tutorials-2025.github.io/teaching-with-r-github)"
 ---
 
 ## First Day of Class

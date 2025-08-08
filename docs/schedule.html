@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -221,7 +221,7 @@ window.Quarto = {
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">WebR demo</span>
+ <span class="menu-text">demo/demo-webr.html</span>
   </li>
           <li class="sidebar-item">
  <span class="menu-text">SSH Key instructions</span>
@@ -276,78 +276,104 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-schedule" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-Module
-</th>
-<th>
-Presenter
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1754276202607" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Teaching with webR" data-listing-filename-sort="01-webR-slides.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./slides/images/webr.png" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./slides/01-webR-slides.html" class="title listing-title">Teaching with webR</a>
-</td>
-<td>
-<span class="listing-author">Elijah Meyer</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1754276550040" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Curriculum and Pedagogy" data-listing-filename-sort="02-pedagogy.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./slides/images/tidyverse.png" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./slides/02-pedagogy.html" class="title listing-title">Curriculum and Pedagogy</a>
-</td>
-<td>
-<span class="listing-author">Maria Tackett</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1754594834231" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Break" data-listing-filename-sort="025-break.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./slides/images/coffee.jpg" style="height: 40px;" alt="A coffee cup."></span>
-</td>
-<td>
-<a href="./slides/025-break.html" class="title listing-title">Break</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1754429089630" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Teaching with git and GitHub" data-listing-filename-sort="03-github.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./slides/images/github.png" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./slides/03-github.html" class="title listing-title">Teaching with git and GitHub</a>
-</td>
-<td>
-<span class="listing-author">Elijah Meyer</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1754428882814" data-listing-reading-time-sort="1" data-listing-word-count-sort="3" data-listing-title-sort="Making teaching materials with Quarto" data-listing-filename-sort="04-teaching-materials.qmd">
-<td>
-<span class="listing-image"><img loading="lazy" src="./slides/images/quarto2.png" style="height: 40px;"></span>
-</td>
-<td>
-<a href="./slides/04-teaching-materials.html" class="title listing-title">Making teaching materials with Quarto</a>
-</td>
-<td>
-<span class="listing-author">Maria Tackett</span>
-</td>
-</tr>
-</tbody>
-</table>
+<div id="listing-schedule" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1754276202607" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail">
+<p><a href="./slides/01-webR-slides.html" class="no-external"></a></p><a href="./slides/01-webR-slides.html" class="no-external">
+<p><img loading="lazy" src="./slides/images/webr.png" class="thumbnail-image" style="height: 250px;"></p>
+</a><p><a href="./slides/01-webR-slides.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./slides/01-webR-slides.html" class="no-external">Teaching with webR</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./slides/01-webR-slides.html" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./slides/01-webR-slides.html" class="no-external"></a></p><a href="./slides/01-webR-slides.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1754276550040" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail">
+<p><a href="./slides/02-pedagogy.html" class="no-external"></a></p><a href="./slides/02-pedagogy.html" class="no-external">
+<p><img loading="lazy" src="./slides/images/tidyverse.png" class="thumbnail-image" style="height: 250px;"></p>
+</a><p><a href="./slides/02-pedagogy.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./slides/02-pedagogy.html" class="no-external">Curriculum and Pedagogy</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./slides/02-pedagogy.html" class="no-external">useR 2025</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./slides/02-pedagogy.html" class="no-external"></a></p><a href="./slides/02-pedagogy.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1754594834231" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="thumbnail">
+<p><a href="./slides/025-break.html" class="no-external"></a></p><a href="./slides/025-break.html" class="no-external">
+<p><img loading="lazy" src="./slides/images/coffee.jpg" class="thumbnail-image" style="height: 250px;" alt="A coffee cup."></p>
+</a><p><a href="./slides/025-break.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./slides/025-break.html" class="no-external">Break</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./slides/025-break.html" class="no-external">30 minutes</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./slides/025-break.html" class="no-external"></a></p><a href="./slides/025-break.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1754604368826" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail">
+<p><a href="./slides/03-github.html" class="no-external"></a></p><a href="./slides/03-github.html" class="no-external">
+<p><img loading="lazy" src="./slides/images/github.png" class="thumbnail-image" style="height: 250px;"></p>
+</a><p><a href="./slides/03-github.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./slides/03-github.html" class="no-external">Teaching with git and GitHub</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./slides/03-github.html" class="no-external">useR 2025</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./slides/03-github.html" class="no-external"></a></p><a href="./slides/03-github.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1754428882814" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail">
+<p><a href="./slides/04-teaching-materials.html" class="no-external"></a></p><a href="./slides/04-teaching-materials.html" class="no-external">
+<p><img loading="lazy" src="./slides/images/quarto2.png" class="thumbnail-image" style="height: 250px;"></p>
+</a><p><a href="./slides/04-teaching-materials.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./slides/04-teaching-materials.html" class="no-external">Making teaching materials with Quarto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./slides/04-teaching-materials.html" class="no-external">useR 2025</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./slides/04-teaching-materials.html" class="no-external"></a></p><a href="./slides/04-teaching-materials.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

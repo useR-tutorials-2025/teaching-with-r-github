@@ -24,10 +24,11 @@ website:
         - href: slides/04-teaching-materials.qmd
       - section: Demos
         contents: 
-          - WebR demo 
-          - SSH Key instructions
-          - GitHub org 
-          - Assignment link 
+          - demo/demo-webr.html
+          - https://st295.github.io/st295-sp25/ae-sa/github-config-post.html
+            text: Set up git and R
+          - https://github.com/useR-org-demo/my-class
+          - Github assignment link 
       - href: resources.qmd
         text: Resources
       - href: license.qmd

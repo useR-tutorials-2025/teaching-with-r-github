@@ -1,6 +1,7 @@
 ---
 title: "Teaching with git and GitHub"
 author: "Elijah Meyer"
+subtitle: "useR 2025"
 format: 
   revealjs:
     incremental: true 
