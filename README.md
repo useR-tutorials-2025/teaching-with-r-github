@@ -6,12 +6,11 @@ by Elijah Meyer and Maria Tackett
 
 :spiral_calendar: August 8, 2025\
 :alarm_clock: 13:00 - 16:30\
-:location: Duke University
-:writing_hand: \[Add website link\]
+:location: Duke University :writing_hand: \[Add website link\]
 
 ------------------------------------------------------------------------
 
-This repository contains materials for the "Teaching statistics and data science with R and GitHub" workshop at useR 2025. See \[UPDATE WEBSITE\] for rendered workshop materials.
+This repository contains materials for the "Teaching statistics and data science with R and GitHub" workshop at useR 2025. See [bit.ly/useR-2025-teach](https://bit.ly/useR-2025-teach) for rendered workshop materials.
 
 ------------------------------------------------------------------------
 
