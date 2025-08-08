@@ -25,7 +25,7 @@ image: "images/github.png"
 
 ## Outline
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 What is git and GitHub?
 
@@ -33,17 +33,15 @@ Why do we care about it?
 
 Why should we use it?
 
-        
-- student perspective 
-  
-- instructor perspective
+-   student perspective
 
+-   instructor perspective
 :::
 
 ::: {.column width="50%"}
 ![](images/github.png){fig-align="left"}
 :::
-:::
+:::::
 
 ## git and GitHub: Teaching termonilogy
 
@@ -103,7 +101,6 @@ Efficient way to run a course
 
 -   assessments
 
-
 ## What do you get?
 
 Efficient way to run a course
@@ -114,16 +111,15 @@ Efficient way to run a course
 
 -   assessments
 
-
 That is timeless across semesters
 
 ## Timeless
 
 Encourages time investment into the creation of assessments and lesson plans
 
-- Easily transferable across semesters
+-   Easily transferable across semesters
 
-- Hosting assessments on GitHub provides the ability to eﬀiciently manage, update, and re-use materials for subsequent semesters
+-   Hosting assessments on GitHub provides the ability to eﬀiciently manage, update, and re-use materials for subsequent semesters
 
 ::: small
 [example](https://github.com/sta199-f23-1/sta199-f23-1.github.io)
@@ -139,18 +135,17 @@ Efficient way to run a course
 
 -   assessments
 
-
 especially useful in large class sizes
 
 ## Personalized student repos
 
-Within personalized student repos, we can facilitate an interactive lesson for each student + have them practice using version control 
+Within personalized student repos, we can facilitate an interactive lesson for each student + have them practice using version control
 
 ## Steps for interactive lessons
 
-- Connect GitHub and R/RStudio
+-   Connect GitHub and R/RStudio
 
-- Take advantage of GitHub as an instructor to create an assignment in GitHub we can distribute to our class 
+-   Take advantage of GitHub as an instructor to create an assignment in GitHub we can distribute to our class
 
 ## Connect GitHub and R/RStudio
 
@@ -170,30 +165,28 @@ We are going to connect GitHub and R/RStudio together using lab instructions bel
 
 ## Instructor logistics
 
-- Make a free [GitHub Organization](github.com/organizations/new)
+-   Make a free [GitHub Organization](github.com/organizations/new)
 
-- [Request teacher benefits](education.github.com/discount)
+-   [Request teacher benefits](education.github.com/discount)
 
-- Upgrade your organization with GitHub Classroom
+-   Upgrade your organization with GitHub Classroom
 
-- Make the assignment
+-   Make the assignment
 
-- Distribute the assignment
+-   Distribute the assignment
 
 ## GitHub organization
 
 A GitHub organization is a shared account on GitHub that allows multiple users to collaborate on shared projects, making it easier for teams to work together
 
-  -   owners can control who has access to repositories and other resources within the organization
-  -   keeps student repos private by default
-  -   allow for the creation of teams
-  -   allows us to work with GitHub classroom features 
-  (ex. distributing assignments)
-  
+-   owners can control who has access to repositories and other resources within the organization
+-   keeps student repos private by default
+-   allow for the creation of teams
+-   allows us to work with GitHub classroom features (ex. distributing assignments)
 
 ## GitHub organization
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/neworg1.png)
 :::
@@ -201,11 +194,11 @@ A GitHub organization is a shared account on GitHub that allows multiple users t
 ::: {.column width="50%"}
 ![](images/neworg2.png)
 :::
-:::
+:::::
 
 ## Teacher benefits
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/teacher-benefits-1.png)
 :::
@@ -213,7 +206,7 @@ A GitHub organization is a shared account on GitHub that allows multiple users t
 ::: {.column width="50%"}
 ![](images/teacher-benefits-2.png)
 :::
-:::
+:::::
 
 ::: smaller
 Slide adapted from Designing the data science classroom by Dr. Çetinkaya-Rundel & Dr. Tackett (2022)
@@ -234,27 +227,26 @@ Slide adapted from Designing the data science classroom by Dr. Çetinkaya-Rundel
 📍 [useR-org-demo](https://github.com/useR-org-demo/my-class)
 
 my-class repository
-        
-  📂 - slides
 
-  📂 - homework
+📂 - slides
 
-  📂 - in-class-activities
-  
+📂 - homework
+
+📂 - in-class-activities
+
 ... and you can make other repos within the organization to distribute!
-
 
 ## Inside your GitHub organization
 
 Let's demo
 
-- Creating a GitHub repo inside the org
+-   Creating a GitHub repo inside the org
 
-- Basic GitHub workflow within a repo
+-   Basic GitHub workflow within a repo
 
-- Create an assignment
+-   Create an assignment
 
-- Distribute it to your class
+-   Distribute it to your class
 
 ## How to distribute a assignment
 
@@ -266,34 +258,34 @@ Let's demo
 
 Or go to our website and click the `demo-assignment` link.
 
-- Accept the assignment
+-   Accept the assignment
 
-- Clone the repo
+-   Clone the repo
 
-- Make changes
+-   Make changes
 
-- Push the changes back to GitHub
+-   Push the changes back to GitHub
 
 ## Cloning instructions
 
 On the repo page
 
-- Click **Code**
+-   Click **Code**
 
-- Click **SSH**
+-   Click **SSH**
 
-- Copy the link to your clipboard
+-   Copy the link to your clipboard
 
-In RStudio 
+In RStudio
 
-- Click **File**
+-   Click **File**
 
-- Click **New Project** 
+-   Click **New Project**
 
-- Click **Git**
+-   Click **Git**
 
-- Paste link and create project!
+-   Paste link and create project!
 
-## Q&A \ Discussion
+## Q&A  Discussion
 
 What are you left wondering after this GitHub demonstration?

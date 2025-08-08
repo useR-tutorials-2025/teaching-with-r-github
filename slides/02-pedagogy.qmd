@@ -146,7 +146,7 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 
 # Pedagogy
 
-## Pedagogy 
+## Pedagogy
 
 :::::: columns
 ::: {.column width="50%"}
@@ -538,14 +538,14 @@ Example inspired by Çetinkaya-Rundel et al. (2022)
 
 ```
 
----
-<br>
+------------------------------------------------------------------------
 
 <br>
 
 <br>
 
-> 
+<br>
+
 > "The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle."
 >
 > -Çetinkaya-Rundel et al. (2022)
@@ -568,7 +568,7 @@ Example inspired by Çetinkaya-Rundel et al. (2022)
 
 # Infrastructure
 
-## RStudio in the cloud  {.midi}
+## RStudio in the cloud {.midi}
 
 ::: incremental
 -   Removes the most common hurdle to get started with computing - installation and configuration
@@ -592,7 +592,7 @@ Example inspired by Çetinkaya-Rundel et al. (2022)
 
 -   Students access their instance of RStudio using institution credentials
 
-## Demo 
+## Demo
 
 -   Open RStudio docker container (see email for URL)
 
