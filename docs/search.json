@@ -327,300 +327,289 @@
     ]
   },
   {
-    "objectID": "slides/025-break.html#during-the-break",
-    "href": "slides/025-break.html#during-the-break",
-    "title": "Break",
-    "section": "During the break",
-    "text": "During the break\n\n\nGrab coffee ☕️\nFeel free to ask questions!\nRegister for a GitHub account (if you haven’t already)\n\n\n\n\nGo to github.com, and create an account (unless you already have one).\nCreate a username. Some tips on creating a username from Happy Git and GitHub for the useR include…\n\nIncorporate your actual name!\nReuse your username from other contexts if you can, e. g., Twitter or Slack.\nBe as unique as possible in as few characters as possible. Shorter is better than longer.\nAvoid words with special meaning in programming (e.g. NA)."
-  },
-  {
-    "objectID": "slides/03-github-draft.html#signing-up-for-github",
-    "href": "slides/03-github-draft.html#signing-up-for-github",
-    "title": "Teaching with git and GitHub",
-    "section": "Signing up for GitHub",
-    "text": "Signing up for GitHub\nGo to https://github.com/, and create an account (unless you already have one).\nSome tips from Happy Git with R.\n– Incorporate your actual name!\n– Reuse your username from other contexts if you can, e. g., Twitter or Slack.\n– Pick a username you will be comfortable revealing to your future boss.\n– Be as unique as possible in as few characters as possible. Shorter is better than longer.\n– Avoid words with special meaning in programming (e.g. NA)."
-  },
-  {
-    "objectID": "slides/03-github-draft.html#outline",
-    "href": "slides/03-github-draft.html#outline",
+    "objectID": "slides/03-github.html#outline",
+    "href": "slides/03-github.html#outline",
     "title": "Teaching with git and GitHub",
     "section": "Outline",
-    "text": "Outline\n\n\nWhat is Git and GitHub?\nWhy do we care about it?\nWhy should we use it?\n  - student perspective \n  \n  - instructor perspective"
+    "text": "Outline\n\n\nWhat is git and GitHub?\nWhy do we care about it?\nWhy should we use it?\n\nstudent perspective\ninstructor perspective",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#git-and-github-teaching-termonilogy",
-    "href": "slides/03-github-draft.html#git-and-github-teaching-termonilogy",
+    "objectID": "slides/03-github.html#git-and-github-teaching-termonilogy",
+    "href": "slides/03-github.html#git-and-github-teaching-termonilogy",
     "title": "Teaching with git and GitHub",
-    "section": "Git and GitHub: Teaching Termonilogy",
-    "text": "Git and GitHub: Teaching Termonilogy\nOften used interchangeably, but it’s nice to know the difference…\nGit is a version control system that intelligently tracks changes in files.\nGitHub is a cloud-based platform where you can store, share, and work together with others to write code.\nThink of this as email (Git) vs Gmail (GitHub)"
+    "section": "git and GitHub: Teaching termonilogy",
+    "text": "git and GitHub: Teaching termonilogy\nOften used interchangeably, but it’s nice to know the difference…\nGit is a version control system that intelligently tracks changes in files.\nGitHub is a cloud-based platform where you can store, share, and work together with others to write code.\nThink of this as email (git) vs Gmail (GitHub)",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#github-version-control",
-    "href": "slides/03-github-draft.html#github-version-control",
+    "objectID": "slides/03-github.html#github-version-control",
+    "href": "slides/03-github.html#github-version-control",
     "title": "Teaching with git and GitHub",
     "section": "GitHub: Version control",
-    "text": "GitHub: Version control\nGitHub allows you to create, store, change, merge, and collaborate on files or code. Any member of a team can access the GitHub repository and see the most recent version in real-time. Then, they can make edits or changes that the other collaborators also see.\nGitHub also lets users make requests of one another and internally discuss the iterations along the way.\nWhat is Git"
+    "text": "GitHub: Version control\nGitHub allows you to create, store, change, merge, and collaborate on files or code. Any member of a team can access the GitHub repository and see the most recent version in real-time. Then, they can make edits or changes that the other collaborators also see.\nGitHub also lets users make requests of one another and internally discuss the iterations along the way.",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#github-version-control-1",
-    "href": "slides/03-github-draft.html#github-version-control-1",
+    "objectID": "slides/03-github.html#github-version-control-1",
+    "href": "slides/03-github.html#github-version-control-1",
     "title": "Teaching with git and GitHub",
     "section": "GitHub: Version control",
-    "text": "GitHub: Version control"
+    "text": "GitHub: Version control",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#why-does-this-matter",
-    "href": "slides/03-github-draft.html#why-does-this-matter",
+    "objectID": "slides/03-github.html#why-does-this-matter",
+    "href": "slides/03-github.html#why-does-this-matter",
     "title": "Teaching with git and GitHub",
-    "section": "Why does this matter",
-    "text": "Why does this matter\n\nBaker, M. 1,500 scientists lift the lid on reproducibility. Nature 533, 452–454 (2016). https://doi.org/10.1038/533452a"
+    "section": "Why does this matter?",
+    "text": "Why does this matter?\n\n\nSource: Baker (2016)",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#what-do-students-immediately-get-out-of-it",
-    "href": "slides/03-github-draft.html#what-do-students-immediately-get-out-of-it",
+    "objectID": "slides/03-github.html#what-do-students-immediately-get-out-of-it",
+    "href": "slides/03-github.html#what-do-students-immediately-get-out-of-it",
     "title": "Teaching with git and GitHub",
     "section": "What do students immediately get out of it?",
-    "text": "What do students immediately get out of it?\nBesides saving the world….\n\ndevelop good habits as researchers\nemphasize the importance of reproducibility in science"
+    "text": "What do students immediately get out of it?\nBesides saving the world….\n\ndevelop good habits as researchers\nemphasize the importance of reproducibility in science\nget experience using professional computing tools",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#avoid-this",
-    "href": "slides/03-github-draft.html#avoid-this",
+    "objectID": "slides/03-github.html#avoid-this",
+    "href": "slides/03-github.html#avoid-this",
     "title": "Teaching with git and GitHub",
     "section": "Avoid this",
-    "text": "Avoid this"
+    "text": "Avoid this",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#gain-this",
-    "href": "slides/03-github-draft.html#gain-this",
+    "objectID": "slides/03-github.html#gain-this",
+    "href": "slides/03-github.html#gain-this",
     "title": "Teaching with git and GitHub",
     "section": "Gain this",
-    "text": "Gain this"
+    "text": "Gain this",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#what-do-you-get",
-    "href": "slides/03-github-draft.html#what-do-you-get",
+    "objectID": "slides/03-github.html#what-do-you-get",
+    "href": "slides/03-github.html#what-do-you-get",
     "title": "Teaching with git and GitHub",
     "section": "What do you get?",
-    "text": "What do you get?\nEfficient way to run a course\n--   lecutres\n--   in-class activities\n--   assessments"
+    "text": "What do you get?\nEfficient way to run a course\n\nlecutres\nin-class activities\nassessments",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#what-do-you-get-1",
-    "href": "slides/03-github-draft.html#what-do-you-get-1",
+    "objectID": "slides/03-github.html#what-do-you-get-1",
+    "href": "slides/03-github.html#what-do-you-get-1",
     "title": "Teaching with git and GitHub",
     "section": "What do you get?",
-    "text": "What do you get?\nEfficient way to run a course\n--   lecutres\n--   in-class activities\n--   assessments\nThat is timeless across semesters"
+    "text": "What do you get?\nEfficient way to run a course\n\nlecutres\nin-class activities\nassessments\n\nThat is timeless across semesters",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#timeless",
-    "href": "slides/03-github-draft.html#timeless",
+    "objectID": "slides/03-github.html#timeless",
+    "href": "slides/03-github.html#timeless",
     "title": "Teaching with git and GitHub",
     "section": "Timeless",
-    "text": "Timeless\nEncourages time investment into the creation of assessments and lesson plans\n– Easily transferable across semesters\n– Hosting assessments on GitHub provides the ability to eﬀiciently manage, update, and re-use materials for subsequent semesters\nexample"
+    "text": "Timeless\nEncourages time investment into the creation of assessments and lesson plans\n\nEasily transferable across semesters\nHosting assessments on GitHub provides the ability to eﬀiciently manage, update, and re-use materials for subsequent semesters\n\n\nexample",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#what-do-you-get-2",
-    "href": "slides/03-github-draft.html#what-do-you-get-2",
+    "objectID": "slides/03-github.html#what-do-you-get-2",
+    "href": "slides/03-github.html#what-do-you-get-2",
     "title": "Teaching with git and GitHub",
     "section": "What do you get?",
-    "text": "What do you get?\nEfficient way to run a course\n--   lecutres\n--   in-class activities\n--   assessments\nespecially useful in large class sizes"
+    "text": "What do you get?\nEfficient way to run a course\n\nlecutres\nin-class activities\nassessments\n\nespecially useful in large class sizes",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#in-class-activities",
-    "href": "slides/03-github-draft.html#in-class-activities",
+    "objectID": "slides/03-github.html#personalized-student-repos",
+    "href": "slides/03-github.html#personalized-student-repos",
     "title": "Teaching with git and GitHub",
-    "section": "in-class activities",
-    "text": "in-class activities\nWithin personalized student repos, we can provide template code and other resources necessary to best facilitate an interactive lesson"
+    "section": "Personalized student repos",
+    "text": "Personalized student repos\nWithin personalized student repos, we can facilitate an interactive lesson for each student + have them practice using version control",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#steps-for-interactive-lessons",
-    "href": "slides/03-github-draft.html#steps-for-interactive-lessons",
+    "objectID": "slides/03-github.html#steps-for-interactive-lessons",
+    "href": "slides/03-github.html#steps-for-interactive-lessons",
     "title": "Teaching with git and GitHub",
     "section": "Steps for interactive lessons",
-    "text": "Steps for interactive lessons\n– Connect GitHub and R/Rstudio\n– Take advantage of GitHub as an instructor to create an assignment in GitHub we can distribute to our class"
+    "text": "Steps for interactive lessons\n\nConnect GitHub and R/RStudio\nTake advantage of GitHub as an instructor to create an assignment in GitHub we can distribute to our class",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#lab-0-day-2",
-    "href": "slides/03-github-draft.html#lab-0-day-2",
+    "objectID": "slides/03-github.html#connect-github-and-rrstudio",
+    "href": "slides/03-github.html#connect-github-and-rrstudio",
     "title": "Teaching with git and GitHub",
-    "section": "lab-0 / day-2",
-    "text": "lab-0 / day-2\nGetting students set up\nWe are going to connect GitHub and R/Rstudio together!\ninstructions"
+    "section": "Connect GitHub and R/RStudio",
+    "text": "Connect GitHub and R/RStudio\n… often done on the first lab / second day of class\nHelp create the ability for students to practice with version control\nDemo together: Please use your assigned Docker URL to access R/RStudio\nWe are going to connect GitHub and R/RStudio together using lab instructions below!\n\ninstructions",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#instructor-logistics",
-    "href": "slides/03-github-draft.html#instructor-logistics",
+    "objectID": "slides/03-github.html#instructor-logistics",
+    "href": "slides/03-github.html#instructor-logistics",
     "title": "Teaching with git and GitHub",
     "section": "Instructor logistics",
-    "text": "Instructor logistics\n– Make a free GitHub Organization\n– Request teacher benefits\n– Upgrade your organization with GitHub Classroom\n– Make the assignment\n– Distribute the assignment"
+    "text": "Instructor logistics\n\nMake a free GitHub Organization\nRequest teacher benefits\nUpgrade your organization with GitHub Classroom\nMake the assignment\nDistribute the assignment",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#github-organization",
-    "href": "slides/03-github-draft.html#github-organization",
+    "objectID": "slides/03-github.html#github-organization",
+    "href": "slides/03-github.html#github-organization",
     "title": "Teaching with git and GitHub",
-    "section": "GitHub Organization",
-    "text": "GitHub Organization\nA GitHub organization is a shared account on GitHub that allows multiple users to collaborate on shared projects, making it easier for teams to work together\n  -   owners can control who has access to repositories and other resources within the organization\n  -   keeps student repos private by default\n  -   allow for the creation of teams\n  -   allows us to work with GitHub classroom features (ex. distributing assignments)"
+    "section": "GitHub organization",
+    "text": "GitHub organization\nA GitHub organization is a shared account on GitHub that allows multiple users to collaborate on shared projects, making it easier for teams to work together\n\nowners can control who has access to repositories and other resources within the organization\nkeeps student repos private by default\nallow for the creation of teams\nallows us to work with GitHub classroom features (ex. distributing assignments)",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#github-organization-1",
-    "href": "slides/03-github-draft.html#github-organization-1",
+    "objectID": "slides/03-github.html#github-organization-1",
+    "href": "slides/03-github.html#github-organization-1",
     "title": "Teaching with git and GitHub",
-    "section": "GitHub Organization",
-    "text": "GitHub Organization"
+    "section": "GitHub organization",
+    "text": "GitHub organization",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#teacher-benefits",
-    "href": "slides/03-github-draft.html#teacher-benefits",
+    "objectID": "slides/03-github.html#teacher-benefits",
+    "href": "slides/03-github.html#teacher-benefits",
     "title": "Teaching with git and GitHub",
     "section": "Teacher benefits",
-    "text": "Teacher benefits"
+    "text": "Teacher benefits\n\n\n\n\n\n\n\nSlide adapted from Designing the data science classroom by Dr. Çetinkaya-Rundel & Dr. Tackett (2022)",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#github-classroom",
-    "href": "slides/03-github-draft.html#github-classroom",
+    "objectID": "slides/03-github.html#github-classroom",
+    "href": "slides/03-github.html#github-classroom",
     "title": "Teaching with git and GitHub",
-    "section": "GitHub Classroom",
-    "text": "GitHub Classroom\n… is a tool provided by GitHub Education to help instructors manage assignments and coursework"
+    "section": "GitHub classroom",
+    "text": "GitHub classroom\n… is a tool provided by GitHub Education to help instructors manage assignments and coursework\n\n\nSlide adapted from Designing the data science classroom by Dr. Çetinkaya-Rundel & Dr. Tackett (2022)",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#inside-your-github-organization",
-    "href": "slides/03-github-draft.html#inside-your-github-organization",
+    "objectID": "slides/03-github.html#inside-your-github-organization",
+    "href": "slides/03-github.html#inside-your-github-organization",
     "title": "Teaching with git and GitHub",
     "section": "Inside your GitHub Organization",
-    "text": "Inside your GitHub Organization\nClass Repo\n📁 - slides\n📁 - homework\n📁 - in-class-activities"
+    "text": "Inside your GitHub Organization\n📍 useR-org-demo\nmy-class repository\n📂 - slides\n📂 - homework\n📂 - in-class-activities\n… and you can make other repos within the organization to distribute!",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#in-class-activities-1",
-    "href": "slides/03-github-draft.html#in-class-activities-1",
+    "objectID": "slides/03-github.html#inside-your-github-organization-1",
+    "href": "slides/03-github.html#inside-your-github-organization-1",
     "title": "Teaching with git and GitHub",
-    "section": "📁 - in-class-activities",
-    "text": "📁 - in-class-activities\nLet’s demo\n– Basic GitHub workflow\n– How to create an assignment\n– How to distribute it to your class"
+    "section": "Inside your GitHub organization",
+    "text": "Inside your GitHub organization\nLet’s demo\n\nCreating a GitHub repo inside the org\nBasic GitHub workflow within a repo\nCreate an assignment\nDistribute it to your class",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#accept-the-assignment-yourself",
-    "href": "slides/03-github-draft.html#accept-the-assignment-yourself",
+    "objectID": "slides/03-github.html#how-to-distribute-a-assignment",
+    "href": "slides/03-github.html#how-to-distribute-a-assignment",
+    "title": "Teaching with git and GitHub",
+    "section": "How to distribute a assignment",
+    "text": "How to distribute a assignment\nGitHub Classroom",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
+  },
+  {
+    "objectID": "slides/03-github.html#accept-the-assignment-yourself",
+    "href": "slides/03-github.html#accept-the-assignment-yourself",
     "title": "Teaching with git and GitHub",
     "section": "Accept the assignment yourself!",
-    "text": "Accept the assignment yourself!\nGo to our website and click the demo-assignment link.\n– Accept the assignment\n– Clone the repo\n– Make changes"
+    "text": "Accept the assignment yourself!\nassignment\nOr go to our website and click the demo-assignment link.\n\nAccept the assignment\nClone the repo\nMake changes\nPush the changes back to GitHub",
+    "crumbs": [
+      "Slides",
+      "Teaching with git and GitHub"
+    ]
   },
   {
-    "objectID": "slides/03-github-draft.html#discussion-qa",
-    "href": "slides/03-github-draft.html#discussion-qa",
+    "objectID": "slides/03-github.html#cloning-instructions",
+    "href": "slides/03-github.html#cloning-instructions",
     "title": "Teaching with git and GitHub",
-    "section": "Discussion + Q&A",
-    "text": "Discussion + Q&A\nWhat are you left wondering after this GitHub demonstration?"
-  },
-  {
-    "objectID": "demo/demo-webr.html",
-    "href": "demo/demo-webr.html",
-    "title": "Day-1 Activity",
-    "section": "",
-    "text": "Green means go!",
+    "section": "Cloning instructions",
+    "text": "Cloning instructions\nOn the repo page\n\nClick Code\nClick SSH\nCopy the link to your clipboard\n\nIn RStudio\n\nClick File\nClick New Project\nClick Git\nPaste link and create project!",
     "crumbs": [
-      "Demos",
-      "Day-1 Activity"
+      "Slides",
+      "Teaching with git and GitHub"
     ]
   },
   {
-    "objectID": "demo/demo-webr.html#getting-started",
-    "href": "demo/demo-webr.html#getting-started",
-    "title": "Day-1 Activity",
-    "section": "Getting started",
-    "text": "Getting started\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIn this mini analysis we work with the data used in the FiveThirtyEight story titled “The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women”.\nThis analysis is about the Bechdel test, a measure of the representation of women in fiction. The Bechdel Test is a measure used to assess the representation of women in fiction, particularly in films.\n\nPackages\nWe’ll use: tidyverse for majority of the analysis and scales for pretty plot labels later on. These are ready to use for you in this activity!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPackages contain pieces of code (functions) that we want to use in order to plot / model data. Using library() around the pacakge name opens up the package for us to use the functions inside!\n\n\nData\nThe data are stored as a CSV (comma separated values) file in the data folder of your repository. Let’s read it from there and save it as an object called bechdel.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nNote\n\n\n\nThis a modified version of the bechdel dataset from the previous application exercise. It’s been modified to include some new variables derived from existing variables as well as to limit the scope of the data to movies released between 1990 and 2013.\n\n\n\n\nGet to know the data\nWe can use the glimpse function to get an overview (or “glimpse”) of the data. Write the following code below to accomplish this task.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWith your output, confirm that:\n– There are 1615 rows\n– There are 7 variables (columns) in the dataset\nWe can use slice to look at rows of our data. Run the following code. Change the 5 to another number to print that many rows!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWhat does each observation (row) in the data set represent?\nAnswer: \n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEach observation represents a movie.",
+    "objectID": "slides/03-github.html#qa-discussion",
+    "href": "slides/03-github.html#qa-discussion",
+    "title": "Teaching with git and GitHub",
+    "section": "Q&A  Discussion",
+    "text": "Q&A  Discussion\nWhat are you left wondering after this GitHub demonstration?",
     "crumbs": [
-      "Demos",
-      "Day-1 Activity"
-    ]
-  },
-  {
-    "objectID": "demo/demo-webr.html#variables-of-interest",
-    "href": "demo/demo-webr.html#variables-of-interest",
-    "title": "Day-1 Activity",
-    "section": "Variables of Interest",
-    "text": "Variables of Interest\nThe variables we’ll focus on are the following:\n\nbudget_2013: Budget in 2013 inflation adjusted dollars.\ngross_2013: Gross (US and international combined) in 2013 inflation adjusted dollars.\nroi: Return on investment, calculated as the ratio of the gross to budget.\nclean_test: Bechdel test result:\n\nok = passes test\ndubious\nmen = women only talk about men\nnotalk = women don’t talk to each other\nnowomen = fewer than two women\n\nbinary: Bechdel Test PASS vs FAIL binary\n\nWe will also use the year of release in data prep and title of movie to take a deeper look at some outliers.\nThere are a few other variables in the dataset, but we won’t be using them in this analysis.",
-    "crumbs": [
-      "Demos",
-      "Day-1 Activity"
-    ]
-  },
-  {
-    "objectID": "demo/demo-webr.html#visualizing-data-with-ggplot2",
-    "href": "demo/demo-webr.html#visualizing-data-with-ggplot2",
-    "title": "Day-1 Activity",
-    "section": "Visualizing data with ggplot2",
-    "text": "Visualizing data with ggplot2\nggplot2 is the package and ggplot() is the function in this package that is used to create a plot. Interact with the code below by either running the code given, or adding code to achieve the expected solution when asked within the code chunk!\n\nggplot() creates the initial base coordinate system, and we will add layers to that base. We first specify the data set we will use with data = bechdel.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe mapping argument is paired with an aesthetic (aes()), which tells us how the variables in our data set should be mapped to the visual properties of the graph. Type the variable budget_2013 for our x, and gross_2013 for our y. Next, click run!\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe geom_xx function specifies the type of plot we want to use to represent the data. In the code below, we want to use geom_point, which creates a plot where each observation is represented by a point. Type geom_point() below. That is, add it to your code.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nNote that this results in a warning as well.\nThis warning represents the number of observations that were removed because there were missing data!",
-    "crumbs": [
-      "Demos",
-      "Day-1 Activity"
-    ]
-  },
-  {
-    "objectID": "demo/demo-webr.html#gross-revenue-vs.-budget",
-    "href": "demo/demo-webr.html#gross-revenue-vs.-budget",
-    "title": "Day-1 Activity",
-    "section": "Gross revenue vs. budget",
-    "text": "Gross revenue vs. budget\n\nStep 1 - Your turn\nThe following code changes the color of all points to coral. Explore different colors by changing “coral” to different colors!\n\n\n\n\n\n\nTip\n\n\n\nSee http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf for many color options you can use by name in R or use the hex code for a color of your choice.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nStep 2 - Your turn\nAdd labels for the title and x and y axes using labs. Do this by modifying the existing code below. Things to think about when we add labels:\n\nwe use the labs() function\ninside the labs() function, can use arguments such as x, y, and title =.\nany text that we add to the plot (like labels) will have quotes around them.\n\nTry it below!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n#| label: plot-labels\n#| echo: false\n\nggplot(bechdel, \n       aes(x = budget_2013, y = gross_2013))+\n  geom_point(color = \"deepskyblue3\") + \n  labs(\n    x = \"Budget (in 2013 $)\", \n    y = \"Gross revenue (in 2013 $)\", \n    title = \"Gross revenue vs. budget\"\n    )\n\n\n\n\n\nStep 3 - Your turn\nAn aesthetic is a visual property of one of the objects in your plot. Commonly used aesthetic options are:\n\ncolor\nfill\nshape\nsize\nalpha (transparency)\n\nModify the plot below, so the color of the points is based on the variable binary.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nCan you take anything meaningful from this plot?\nHow could this plot be improved?\nWhat other data do you wish we had?",
-    "crumbs": [
-      "Demos",
-      "Day-1 Activity"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "",
-    "text": "🗓️ August 8, 2025\n⏰ 13:00 - 16:30\n📍 Gross Hall 270",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Overview",
-    "text": "Overview\nIn this tutorial, participants will learn about teaching R and GitHub in statistics and data science courses. We will discuss pedagogy and curriculum design for effectively teaching computing alongside statistical concepts. Participants will explore example in-class activities and assignments that demonstrate the student experience, while discussing strategies for implementing such activities from the instructor perspective. We will also discuss computing infrastructure options that enable students to use R and Rstudio from a web browser with minimal set up. Lastly, we will show how instructors can use R and Quarto to make course materials and streamline their workflow in a reproducible way using GitHub. The tutorial will focus on teaching introductory-level undergraduate students with no previous computing experience, but the tutorial content is applicable for instructors teaching high school courses and courses throughout the undergraduate statistics and data science curriculum.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#learning-goals",
-    "href": "index.html#learning-goals",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Learning goals",
-    "text": "Learning goals\n\nLearn pedagogical strategies for teaching R and GitHub in a statistics or data science course\nIdentify how computing can be integrated alongside statistical concepts in a course curriculum\nExperience computing activities and assignments from both the student and instructor perspective\nConsider the computing infrastructure that may be the best fit for your student population\nLearn how to develop course materials with R and Quarto and develop a reproducible workflow with GitHub",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#target-audience",
-    "href": "index.html#target-audience",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Target audience",
-    "text": "Target audience\nThis workshop is for instructors interested in teaching R in their statistics and data science courses. The workshop will be presented from the perspective of teaching at the undergraduate level;; however, the contents of this workshop will also be beneficial to instructors teaching high school statistics and data science.",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#computing",
-    "href": "index.html#computing",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Computing",
-    "text": "Computing\n\nRStudio Docker containers\nRStudio with available through Docker containers provided by Duke Office of Information Technology. You will be able to access RStudio through a web browser. The link to access RStudio will be provided at the workshop.\nAll you need is a laptop or any other device that has internet access and a keyboard. No set up is necessary!\n\n\nR packages and installations (optional)\nWe will use the following packages during the tutorial. If you are using RStudio installed directly on your laptop, please install the following prior to the tutorial:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")\ninstall.packages(\"usethis\")\ninstall.packages(\"credentials\")\ninstall.packages(\"devtools\")\ninstall.packages(\"scales\")\n\nWe will also work with GitHub, so you will need git installed on your machine. To do so, follow these instructions from Happy Git and GitHub for the useR. (Note: you do not need to do this if you are using RStudio through the Docker containers).\n\n\nGitHub\nYou will work with GitHub during this workshop. There will be time during our scheduled break to create an account. However, if you’d like to do this before the workshop starts, please do so! See the steps below.\n\nGo to github.com, and create an account (unless you already have one).\nCreate a username. Some tips on creating a username from Happy Git and GitHub for the useR include…\n\nIncorporate your actual name!\nReuse your username from other contexts if you can, e. g., Twitter or Slack.\nBe as unique as possible in as few characters as possible. Shorter is better than longer.\nAvoid words with special meaning in programming (e.g. NA).",
-    "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "index.html#instructors",
-    "href": "index.html#instructors",
-    "title": "Teaching statistics and data science with R and GitHub",
-    "section": "Instructors",
-    "text": "Instructors\n\n\n\n\n\nDr. Elijah Meyer\n\n\n\nDr. Elijah Meyer is a teaching assistant professor at North Carolina State University with 12+ years of experience in both developing and instructing in-person and online courses in statistics and data science. Prior to becoming faculty at NC State, Elijah earned his Ph.D. is Statistics, with a focus in Education, from Montana State University. After this, Elijah completed a two-year post-doc position at Duke University where he was responsible for teaching introductory data science courses, and various research projects in statistics/data science education. His current research focuses on how to better the teaching and learning experiences for those involved. Elijah developed the first introductory data science course at NC State, and has re-designed other graduate level courses to incorporate R and GitHub.\n\n\n\n\n\n\n\nDr. Maria Tackett\n\n\n\nDr. Maria Tackett is an Associate Professor of the Practice at Duke University. Prior to joining the faculty at Duke in 2018, Maria earned a Ph.D. in Statistics from the University of Virginia and worked as a statistician (now called a “data scientist”) at Capital One. Her research focuses on students’ sense of belonging and inclusive teaching practices in introductory math and statistics courses. She teaches using R and GitHub in multiple courses in the undergraduate curriculum, from introductory-level to upper-level electives. She is an RStudio certified trainer in Tidyverse and is active in the statistics and data science education community.",
-    "crumbs": [
-      "Welcome"
+      "Slides",
+      "Teaching with git and GitHub"
     ]
   },
   {
@@ -628,7 +617,7 @@
     "href": "slides/02-pedagogy.html#curriculum-guidelines",
     "title": "Curriculum and Pedagogy",
     "section": "Curriculum guidelines",
-    "text": "Curriculum guidelines\n\n\nUse technology to explore concepts and analyze data. (GAISE, 2016)\nIncorporate software/apps to explore concepts and work with data. (GAISE revision, in progress)\nAll programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. (Two-Year College Data Science Summit, 2018)\nThe two pillars of computational and statistical thinking should not be taught separately. The balance between them may change from one course to another, but both should be present for the most effective and efficient teaching. (Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)",
+    "text": "Curriculum guidelines\n\n\nUse technology to explore concepts and analyze data. (GAISE, 2016)\nIncorporate software/apps to explore concepts and work with data. (GAISE revision, in progress)\nAll programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. (Two-Year College Data Science Summit, 2018)\nThe two pillars of computational and statistical thinking should not be taught separately…both should be present for the most effective and efficient teaching. (Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -943,46 +932,257 @@
     ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nStudents have heard about your class….\nAnxiety around coding….\n\nTalk\nBuild a community"
+    "objectID": "demo/demo-webr.html",
+    "href": "demo/demo-webr.html",
+    "title": "Day-1 Activity",
+    "section": "",
+    "text": "Green means go!",
+    "crumbs": [
+      "Demos",
+      "Day-1 Activity"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-1",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-1",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nTalk about mindset and perspective\n– The expectation is not to be an expert on the first day, or after one day – Give them “permission” to get excited and make mistakes – Calm anxiety around coding"
+    "objectID": "demo/demo-webr.html#getting-started",
+    "href": "demo/demo-webr.html#getting-started",
+    "title": "Day-1 Activity",
+    "section": "Getting started",
+    "text": "Getting started\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIn this mini analysis we work with the data used in the FiveThirtyEight story titled “The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women”.\nThis analysis is about the Bechdel test, a measure of the representation of women in fiction. The Bechdel Test is a measure used to assess the representation of women in fiction, particularly in films.\n\nPackages\nWe’ll use: tidyverse for majority of the analysis and scales for pretty plot labels later on. These are ready to use for you in this activity!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPackages contain pieces of code (functions) that we want to use in order to plot / model data. Using library() around the pacakge name opens up the package for us to use the functions inside!\n\n\nData\nThe data are stored as a CSV (comma separated values) file in the data folder of your repository. Let’s read it from there and save it as an object called bechdel.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nNote\n\n\n\nThis a modified version of the bechdel dataset from the previous application exercise. It’s been modified to include some new variables derived from existing variables as well as to limit the scope of the data to movies released between 1990 and 2013.\n\n\n\n\nGet to know the data\nWe can use the glimpse function to get an overview (or “glimpse”) of the data. Write the following code below to accomplish this task.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWith your output, confirm that:\n– There are 1615 rows\n– There are 7 variables (columns) in the dataset\nWe can use slice to look at rows of our data. Run the following code. Change the 5 to another number to print that many rows!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWhat does each observation (row) in the data set represent?\nAnswer: \n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nEach observation represents a movie.",
+    "crumbs": [
+      "Demos",
+      "Day-1 Activity"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-2",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-2",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\nStart with cake 🍰"
+    "objectID": "demo/demo-webr.html#variables-of-interest",
+    "href": "demo/demo-webr.html#variables-of-interest",
+    "title": "Day-1 Activity",
+    "section": "Variables of Interest",
+    "text": "Variables of Interest\nThe variables we’ll focus on are the following:\n\nbudget_2013: Budget in 2013 inflation adjusted dollars.\ngross_2013: Gross (US and international combined) in 2013 inflation adjusted dollars.\nroi: Return on investment, calculated as the ratio of the gross to budget.\nclean_test: Bechdel test result:\n\nok = passes test\ndubious\nmen = women only talk about men\nnotalk = women don’t talk to each other\nnowomen = fewer than two women\n\nbinary: Bechdel Test PASS vs FAIL binary\n\nWe will also use the year of release in data prep and title of movie to take a deeper look at some outliers.\nThere are a few other variables in the dataset, but we won’t be using them in this analysis.",
+    "crumbs": [
+      "Demos",
+      "Day-1 Activity"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#first-day-of-class-3",
-    "href": "slides/01-webR-slides-draft.html#first-day-of-class-3",
-    "title": "Teaching with webR",
-    "section": "First Day of Class",
-    "text": "First Day of Class\n🍰\n– Get students excited\n– Make them understand why they are in the class\n– Make them want to come back and keep learning"
+    "objectID": "demo/demo-webr.html#visualizing-data-with-ggplot2",
+    "href": "demo/demo-webr.html#visualizing-data-with-ggplot2",
+    "title": "Day-1 Activity",
+    "section": "Visualizing data with ggplot2",
+    "text": "Visualizing data with ggplot2\nggplot2 is the package and ggplot() is the function in this package that is used to create a plot. Interact with the code below by either running the code given, or adding code to achieve the expected solution when asked within the code chunk!\n\nggplot() creates the initial base coordinate system, and we will add layers to that base. We first specify the data set we will use with data = bechdel.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe mapping argument is paired with an aesthetic (aes()), which tells us how the variables in our data set should be mapped to the visual properties of the graph. Type the variable budget_2013 for our x, and gross_2013 for our y. Next, click run!\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThe geom_xx function specifies the type of plot we want to use to represent the data. In the code below, we want to use geom_point, which creates a plot where each observation is represented by a point. Type geom_point() below. That is, add it to your code.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nNote that this results in a warning as well.\nThis warning represents the number of observations that were removed because there were missing data!",
+    "crumbs": [
+      "Demos",
+      "Day-1 Activity"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#webr",
-    "href": "slides/01-webR-slides-draft.html#webr",
-    "title": "Teaching with webR",
-    "section": "WebR",
-    "text": "WebR\nWebR is a version of the statistical language R compiled for the browser\n\nNo local installation\nNo downloading anything"
+    "objectID": "demo/demo-webr.html#gross-revenue-vs.-budget",
+    "href": "demo/demo-webr.html#gross-revenue-vs.-budget",
+    "title": "Day-1 Activity",
+    "section": "Gross revenue vs. budget",
+    "text": "Gross revenue vs. budget\n\nStep 1 - Your turn\nThe following code changes the color of all points to coral. Explore different colors by changing “coral” to different colors!\n\n\n\n\n\n\nTip\n\n\n\nSee http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf for many color options you can use by name in R or use the hex code for a color of your choice.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nStep 2 - Your turn\nAdd labels for the title and x and y axes using labs. Do this by modifying the existing code below. Things to think about when we add labels:\n\nwe use the labs() function\ninside the labs() function, can use arguments such as x, y, and title =.\nany text that we add to the plot (like labels) will have quotes around them.\n\nTry it below!\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n#| label: plot-labels\n#| echo: false\n\nggplot(bechdel, \n       aes(x = budget_2013, y = gross_2013))+\n  geom_point(color = \"deepskyblue3\") + \n  labs(\n    x = \"Budget (in 2013 $)\", \n    y = \"Gross revenue (in 2013 $)\", \n    title = \"Gross revenue vs. budget\"\n    )\n\n\n\n\n\nStep 3 - Your turn\nAn aesthetic is a visual property of one of the objects in your plot. Commonly used aesthetic options are:\n\ncolor\nfill\nshape\nsize\nalpha (transparency)\n\nModify the plot below, so the color of the points is based on the variable binary.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nExpected Result\n\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nCan you take anything meaningful from this plot?\nHow could this plot be improved?\nWhat other data do you wish we had?",
+    "crumbs": [
+      "Demos",
+      "Day-1 Activity"
+    ]
   },
   {
-    "objectID": "slides/01-webR-slides-draft.html#day-1",
-    "href": "slides/01-webR-slides-draft.html#day-1",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "",
+    "text": "🗓️ August 8, 2025\n⏰ 13:00 - 16:30\n📍 Gross Hall 270",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Overview",
+    "text": "Overview\nIn this tutorial, participants will learn about teaching R and GitHub in statistics and data science courses. We will discuss pedagogy and curriculum design for effectively teaching computing alongside statistical concepts. Participants will explore example in-class activities and assignments that demonstrate the student experience, while discussing strategies for implementing such activities from the instructor perspective. We will also discuss computing infrastructure options that enable students to use R and RStudio from a web browser with minimal set up. Lastly, we will show how instructors can use R and Quarto to make course materials and streamline their workflow in a reproducible way using GitHub. The tutorial will focus on teaching introductory-level undergraduate students with no previous computing experience, but the tutorial content is applicable for instructors teaching high school courses and courses throughout the undergraduate statistics and data science curriculum.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-goals",
+    "href": "index.html#learning-goals",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Learning goals",
+    "text": "Learning goals\n\nLearn pedagogical strategies for teaching R and GitHub in a statistics or data science course\nIdentify how computing can be integrated alongside statistical concepts in a course curriculum\nExperience computing activities and assignments from both the student and instructor perspective\nConsider the computing infrastructure that may be the best fit for your student population\nLearn how to develop course materials with R and Quarto and develop a reproducible workflow with GitHub",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#target-audience",
+    "href": "index.html#target-audience",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Target audience",
+    "text": "Target audience\nThis workshop is for instructors interested in teaching R in their statistics and data science courses. The workshop will be presented from the perspective of teaching at the undergraduate level;; however, the contents of this workshop will also be beneficial to instructors teaching high school statistics and data science.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#computing",
+    "href": "index.html#computing",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Computing",
+    "text": "Computing\n\nRStudio Docker containers\nRStudio with available through Docker containers provided by Duke Office of Information Technology. You will be able to access RStudio through a web browser. The link to access RStudio will be provided at the workshop.\nAll you need is a laptop or any other device that has internet access and a keyboard. No set up is necessary!\n\n\nR packages and installations (optional)\nWe will use the following packages during the tutorial. If you are using RStudio installed directly on your laptop, please install the following prior to the tutorial:\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")\ninstall.packages(\"usethis\")\ninstall.packages(\"credentials\")\ninstall.packages(\"devtools\")\ninstall.packages(\"scales\")\n\nWe will also work with GitHub, so you will need git installed on your machine. To do so, follow these instructions from Happy Git and GitHub for the useR. (Note: you do not need to do this if you are using RStudio through the Docker containers).\n\n\nGitHub\nYou will work with GitHub during this workshop. There will be time during our scheduled break to create an account. However, if you’d like to do this before the workshop starts, please do so! See the steps below.\n\nGo to github.com, and create an account (unless you already have one).\nCreate a username. Some tips on creating a username from Happy Git and GitHub for the useR include…\n\nIncorporate your actual name!\nReuse your username from other contexts if you can, e. g., Twitter or Slack.\nBe as unique as possible in as few characters as possible. Shorter is better than longer.\nAvoid words with special meaning in programming (e.g. NA).",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#instructors",
+    "href": "index.html#instructors",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Instructors",
+    "text": "Instructors\n\n\n\n\n\nDr. Elijah Meyer\n\n\n\nDr. Elijah Meyer is a teaching assistant professor at North Carolina State University with 12+ years of experience in both developing and instructing in-person and online courses in statistics and data science. Prior to becoming faculty at NC State, Elijah earned his Ph.D. is Statistics, with a focus in Education, from Montana State University. After this, Elijah completed a two-year post-doc position at Duke University where he was responsible for teaching introductory data science courses, and various research projects in statistics/data science education. His current research focuses on how to better the teaching and learning experiences for those involved. Elijah developed the first introductory data science course at NC State, and has re-designed other graduate level courses to incorporate R and GitHub.\n\n\n\n\n\n\n\nDr. Maria Tackett\n\n\n\nDr. Maria Tackett is an Associate Professor of the Practice at Duke University. Prior to joining the faculty at Duke in 2018, Maria earned a Ph.D. in Statistics from the University of Virginia and worked as a statistician (now called a “data scientist”) at Capital One. Her research focuses on students’ sense of belonging and inclusive teaching practices in introductory math and statistics courses. She teaches using R and GitHub in multiple courses in the undergraduate curriculum, from introductory-level to upper-level electives. She is an RStudio certified trainer in Tidyverse and is active in the statistics and data science education community.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Teaching statistics and data science with R and GitHub",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThe materials in this tutorial were inspired by the Designing the data science classroom workshop taught by Mine Çetinkaya-Rundel and Maria Tackett at rstudio::conf(2022).\nThank you to Mark McCahill and Duke Office of Information Technology for providing RStudio Docker containers for this tutorial.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "slides/025-break.html#during-the-break",
+    "href": "slides/025-break.html#during-the-break",
+    "title": "Break",
+    "section": "During the break",
+    "text": "During the break\n\n\nGrab coffee ☕️\nFeel free to ask questions!\nRegister for a GitHub account (if you haven’t already)\n\n\n\n\nGo to github.com, and create an account (unless you already have one).\nCreate a username. Some tips on creating a username from Happy Git and GitHub for the useR include…\n\nIncorporate your actual name!\nReuse your username from other contexts if you can, e. g., Twitter or Slack.\nBe as unique as possible in as few characters as possible. Shorter is better than longer.\nAvoid words with special meaning in programming (e.g. NA)."
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#introductions",
+    "href": "slides/01-webR-slides.html#introductions",
+    "title": "Teaching with webR",
+    "section": "Introductions",
+    "text": "Introductions\n\n\n\n\n\n\n\n\nDr. Elijah Meyer\n\n\n\n\n\n\n\n\nDr. Maria Tackett",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#your-turn",
+    "href": "slides/01-webR-slides.html#your-turn",
+    "title": "Teaching with webR",
+    "section": "Your turn!",
+    "text": "Your turn!\n\n\nName\nWhere do you teach / have recently taught?\nWhat is your favorite course to teach?",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#website",
+    "href": "slides/01-webR-slides.html#website",
+    "title": "Teaching with webR",
+    "section": "Website",
+    "text": "Website\n\n\nbit.ly/useR-2025-teach",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#computing",
+    "href": "slides/01-webR-slides.html#computing",
+    "title": "Teaching with webR",
+    "section": "Computing",
+    "text": "Computing\nWiFi\n\nDuke attendees can use DukeBlue\nDuke also offers eduroam and Duke Visitor\n\nR & RStudio\nWill be accessed through your personal Docker URL. More to come!",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#schedule",
+    "href": "slides/01-webR-slides.html#schedule",
+    "title": "Teaching with webR",
+    "section": "Schedule",
+    "text": "Schedule\n\nTeaching with webR\nCurriculum and Pedagogy\nBreak\nTeaching with git and GitHub\nMaking teaching materials with Quarto",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#first-day-of-class",
+    "href": "slides/01-webR-slides.html#first-day-of-class",
+    "title": "Teaching with webR",
+    "section": "First day of class",
+    "text": "First day of class\n🧠 - mindset and perspective\n🍰 - webR",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#first-day-of-class-1",
+    "href": "slides/01-webR-slides.html#first-day-of-class-1",
+    "title": "Teaching with webR",
+    "section": "First day of class",
+    "text": "First day of class\nTalk about mindset and perspective\n\nThe expectation is not to be an expert on the first day, or after one day\nGive them “permission” to get excited and make mistakes\nCalm anxiety around coding",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#first-day-of-class-2",
+    "href": "slides/01-webR-slides.html#first-day-of-class-2",
+    "title": "Teaching with webR",
+    "section": "First day of class",
+    "text": "First day of class\nStart with cake 🍰",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#first-day-of-class-3",
+    "href": "slides/01-webR-slides.html#first-day-of-class-3",
+    "title": "Teaching with webR",
+    "section": "First day of class",
+    "text": "First day of class\n🍰\n\nGet students excited\n\n\n\nMake them understand why they are in the class\nMake them want to come back and keep learning",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#webr",
+    "href": "slides/01-webR-slides.html#webr",
+    "title": "Teaching with webR",
+    "section": "webR",
+    "text": "webR\nwebR is a version of the statistical language R compiled for the browser\n\nNo local installation\nNo downloading anything",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
+  },
+  {
+    "objectID": "slides/01-webR-slides.html#day-1",
+    "href": "slides/01-webR-slides.html#day-1",
     "title": "Teaching with webR",
     "section": "Day-1",
-    "text": "Day-1\nwebR link"
+    "text": "Day-1\nwebR link\nuser-tutorials-2025.github.io/teaching-with-r-github/slides/demo-webr.html",
+    "crumbs": [
+      "Slides",
+      "Teaching with webR"
+    ]
   },
   {
     "objectID": "Untitled.html",

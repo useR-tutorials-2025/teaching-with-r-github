@@ -2,6 +2,7 @@
 title: "Curriculum and Pedagogy"
 subtitle: "useR 2025"
 author: "Elijah Meyer & Maria Tackett"
+footer: "[Teaching with R and GitHub](https://user-tutorials-2025.github.io/teaching-with-r-github/)"
 format: 
   revealjs:
     theme: slides.scss
@@ -56,7 +57,7 @@ penguins <- penguins |>
 
 -   All programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. ([Two-Year College Data Science Summit, 2018](https://www.amstat.org/education/two-year-college-data-science-summit))
 
--   The two pillars of computational and statistical thinking should not be taught separately. The balance between them may change from one course to another, but both should be present for the most effective and efficient teaching. ([Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-060116-053930)
+-   The two pillars of computational and statistical thinking should not be taught separately...both should be present for the most effective and efficient teaching. ([Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-060116-053930)
 :::
 
 ## Intro Data Science

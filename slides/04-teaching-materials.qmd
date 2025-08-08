@@ -3,6 +3,7 @@ title: "Making teaching materials with Quarto"
 author: "Elijah Meyer & Maria Tackett"
 subtitle: "useR 2025"
 image: "images/quarto2.png"
+footer: "[Teaching with R and GitHub](https://user-tutorials-2025.github.io/teaching-with-r-github/)"
 format: 
   revealjs:
     theme: slides.scss

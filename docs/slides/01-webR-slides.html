@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
+  <meta name="author" content="Elijah Meyer &amp; Maria Tackett">
   <title>Teaching with R – Teaching with webR</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -32,6 +33,8 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -130,19 +133,136 @@
   <p class="subtitle">useR 2025</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Elijah Meyer &amp; Maria Tackett 
+</div>
+</div>
 </div>
 
 </section>
-<section class="slide level2">
+<section>
+<section id="welcome" class="title-slide slide level1 center">
+<h1>Welcome!</h1>
 
-<p>To be posted.</p>
+</section>
+<section id="introductions" class="slide level2">
+<h2>Introductions</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/elijah.png" class="quarto-figure quarto-figure-center" height="300"></p>
+</figure>
+</div>
+<center>
+Dr.&nbsp;Elijah Meyer
+</center>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/maria.png" class="quarto-figure quarto-figure-center" height="300"></p>
+</figure>
+</div>
+<center>
+Dr.&nbsp;Maria Tackett
+</center>
+</div></div>
+</section>
+<section id="your-turn" class="slide level2">
+<h2>Your turn!</h2>
+<div class="highlight">
+<ul>
+<li><p>Name</p></li>
+<li><p>Where do you teach / have recently taught?</p></li>
+<li><p>What is your favorite course to teach?</p></li>
+</ul>
+</div>
+</section>
+<section id="website" class="slide level2">
+<h2>Website</h2>
+
+<img data-src="images/user-logo.png" style="width:100.0%" class="r-stretch"><center>
+<a href="bit.ly/useR-2025-teach">bit.ly/useR-2025-teach</a>
+</center>
+</section>
+<section id="computing" class="slide level2">
+<h2>Computing</h2>
+<p><strong>WiFi</strong></p>
+<ul>
+<li><p>Duke attendees can use <strong>DukeBlue</strong></p></li>
+<li><p>Duke also offers <strong>eduroam</strong> and <strong>Duke Visitor</strong></p></li>
+</ul>
+<p><strong>R &amp; RStudio</strong></p>
+<p>Will be accessed through your personal Docker URL. More to come!</p>
+</section>
+<section id="schedule" class="slide level2">
+<h2>Schedule</h2>
+<ul>
+<li><p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github/slides/01-webR-slides.html">Teaching with webR</a></p></li>
+<li><p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github/slides/02-pedagogy.html">Curriculum and Pedagogy</a></p></li>
+<li><p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github/slides/025-break.html">Break</a></p></li>
+<li><p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github/slides/03-github.html">Teaching with git and GitHub</a></p></li>
+<li><p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github/slides/04-teaching-materials.html">Making teaching materials with Quarto</a></p></li>
+</ul>
+</section></section>
+<section>
+<section id="webr-first-day-of-class" class="title-slide slide level1 center">
+<h1>webR: First day of class</h1>
+
+</section>
+<section id="first-day-of-class" class="slide level2">
+<h2>First day of class</h2>
+<p>🧠 - mindset and perspective</p>
+<p>🍰 - webR</p>
+</section>
+<section id="first-day-of-class-1" class="slide level2">
+<h2>First day of class</h2>
+<p>Talk about mindset and perspective</p>
+<ul>
+<li><p>The expectation is not to be an expert on the first day, or after one day</p></li>
+<li><p>Give them “permission” to get excited and make mistakes</p></li>
+<li><p>Calm anxiety around coding</p></li>
+</ul>
+</section>
+<section id="first-day-of-class-2" class="slide level2">
+<h2>First day of class</h2>
+<p>Start with cake 🍰</p>
+</section>
+<section id="first-day-of-class-3" class="slide level2">
+<h2>First day of class</h2>
+<p>🍰</p>
+<ul>
+<li>Get students excited</li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Make them understand why they are in the class</p></li>
+<li><p>Make them want to come back and keep learning</p></li>
+</ul>
+</section>
+<section id="webr" class="slide level2">
+<h2>webR</h2>
+<p>webR is a version of the statistical language R compiled for the browser</p>
+<ul>
+<li><p>No local installation</p></li>
+<li><p>No downloading anything</p></li>
+</ul>
+</section>
+<section id="day-1" class="slide level2">
+<h2>Day-1</h2>
+<p><a href="demo-webr.html">webR link</a></p>
+<p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github/slides/demo-webr.html">user-tutorials-2025.github.io/teaching-with-r-github/slides/demo-webr.html</a></p>
+</section></section>
+<section id="qa-discussion" class="title-slide slide level1 center">
+<h1>Q&amp;A / Discussion</h1>
 
 
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
-
+<p><a href="https://user-tutorials-2025.github.io/teaching-with-r-github/">Teaching with R and GitHub</a></p>
 </div>
 </div></div>
 
@@ -153,6 +273,7 @@
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -174,7 +295,8 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -195,7 +317,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -300,7 +422,7 @@
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -345,7 +467,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -354,6 +476,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,11 +1,130 @@
 ---
 title: "Teaching with webR"
 subtitle: "useR 2025"
+author: "Elijah Meyer & Maria Tackett"
+footer: "[Teaching with R and GitHub](https://user-tutorials-2025.github.io/teaching-with-r-github/)"
 format: 
   revealjs:
-    incremental: true 
     theme: slides.scss
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    fig-dpi: 300
 image: "images/webr.png"
+execute:
+  freeze: auto
+  echo: true
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 200
 ---
 
-To be posted.
+# Welcome!
+
+## Introductions
+
+::::: columns
+::: {.column width="50%"}
+![](images/elijah.png){fig-align="center" height="300"}
+
+<center>Dr. Elijah Meyer</center>
+:::
+
+::: {.column width="50%"}
+![](images/maria.png){fig-align="center" height="300"}
+
+<center>Dr. Maria Tackett</center>
+:::
+:::::
+
+## Your turn!
+
+::: highlight
+-   Name
+
+-   Where do you teach / have recently taught?
+
+-   What is your favorite course to teach?
+:::
+
+## Website
+
+![](images/user-logo.png){width="100%"}
+
+<center>[bit.ly/useR-2025-teach](bit.ly/useR-2025-teach)</center>
+
+## Computing
+
+**WiFi**
+
+-   Duke attendees can use **DukeBlue**
+
+-   Duke also offers **eduroam** and **Duke Visitor**
+
+**R & RStudio**
+
+Will be accessed through your personal Docker URL. More to come!
+
+## Schedule
+
+-   [Teaching with webR](https://user-tutorials-2025.github.io/teaching-with-r-github/slides/01-webR-slides.html)
+
+-   [Curriculum and Pedagogy](https://user-tutorials-2025.github.io/teaching-with-r-github/slides/02-pedagogy.html)
+
+-   [Break](https://user-tutorials-2025.github.io/teaching-with-r-github/slides/025-break.html)
+
+-   [Teaching with git and GitHub](https://user-tutorials-2025.github.io/teaching-with-r-github/slides/03-github.html)
+
+-   [Making teaching materials with Quarto](https://user-tutorials-2025.github.io/teaching-with-r-github/slides/04-teaching-materials.html)
+
+# webR: First day of class
+
+## First day of class
+
+🧠 - mindset and perspective
+
+🍰 - webR
+
+## First day of class
+
+Talk about mindset and perspective
+
+-   The expectation is not to be an expert on the first day, or after one day
+
+-   Give them "permission" to get excited and make mistakes
+
+-   Calm anxiety around coding
+
+## First day of class
+
+Start with cake 🍰
+
+## First day of class
+
+🍰
+
+-   Get students excited
+
+<!-- -->
+
+-   Make them understand why they are in the class
+
+-   Make them want to come back and keep learning
+
+## webR
+
+webR is a version of the statistical language R compiled for the browser
+
+-   No local installation
+
+-   No downloading anything
+
+## Day-1
+
+[webR link](demo-webr.html)
+
+[user-tutorials-2025.github.io/teaching-with-r-github/slides/demo-webr.html](https://user-tutorials-2025.github.io/teaching-with-r-github/slides/demo-webr.html)
+
+# Q&A / Discussion
