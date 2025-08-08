@@ -508,8 +508,7 @@ For each species, compute the number of penguins and the mean flipper length. [D
 penguins |>
   group_by(species) |>
   summarise(n = n(), 
-            mean = mean(flipper_length_mm,
-                        na.rm = TRUE)
+            mean = mean(flipper_length_mm)
             ) |>
   arrange(desc(n))
 ```

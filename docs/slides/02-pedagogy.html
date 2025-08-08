@@ -2533,10 +2533,9 @@ And bopping them on the head</p>
 <div class="sourceCode cell-code" id="cb21" data-code-line-numbers="7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>penguins <span class="sc">|&gt;</span></span>
 <span id="cb21-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
 <span id="cb21-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
-<span id="cb21-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm,</span>
-<span id="cb21-5"><a></a>                        <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb21-6"><a></a>            ) <span class="sc">|&gt;</span></span>
-<span id="cb21-7"><a></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb21-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm)</span>
+<span id="cb21-5"><a></a>            ) <span class="sc">|&gt;</span></span>
+<span id="cb21-6"><a></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 3
   species       n  mean

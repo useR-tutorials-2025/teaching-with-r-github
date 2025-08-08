@@ -859,7 +859,7 @@
     "href": "slides/02-pedagogy.html#closer-look-at-the-code-4",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm,\n                        na.rm = TRUE)\n            ) |&gt;\n  arrange(desc(n))\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Gentoo      123  217.\n3 Chinstrap    68  196.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            ) |&gt;\n  arrange(desc(n))\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Gentoo      123  217.\n3 Chinstrap    68  196.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
