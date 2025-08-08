@@ -28,7 +28,9 @@ website:
           - href: https://st295.github.io/st295-sp25/ae-sa/github-config-post.html
             text: Set up git and R
           - href: https://github.com/useR-org-demo/my-class
-            text: Github assignment link 
+            text: Demo GitHub organization
+          - href: https://classroom.github.com/a/S-N-TQ7U
+            text: Demo GitHub assignment
       - href: resources.qmd
         text: Resources
       - href: license.qmd

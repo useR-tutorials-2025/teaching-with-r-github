@@ -84,9 +84,9 @@ We can use the `glimpse` function to get an overview (or "glimpse") of the data.
 
 With your output, confirm that:
 
--- There are 1615 rows
+-   There are 1615 rows
 
--- There are 7 variables (columns) in the dataset
+-   There are 7 variables (columns) in the dataset
 
 We can use `slice` to look at rows of our data. Run the following code. Change the `5` to another number to print that many rows!
 
