@@ -804,7 +804,7 @@
     "href": "slides/02-pedagogy.html#your-turn",
     "title": "Curriculum and Pedagogy",
     "section": "Your turn!",
-    "text": "Your turn!\n\nUse tidyverse syntax to make the data frame described below:\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\nTip\n\n\nSee dplyr reference for list of functions.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "text": "Your turn!\n\nUse tidyverse syntax to make the data frame described below:\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\n\nTip\n\n\nSee dplyr reference for list of functions.",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"

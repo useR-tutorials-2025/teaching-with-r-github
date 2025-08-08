@@ -193,7 +193,7 @@ library(tidyverse)
 
 ## Tidyverse in data science workflow
 
-![Source: Çetinkaya-Rundel et al. (2022)](images/tidyverse-ds-workflow.png){fig-align="center" width="80%"}
+![Source: Çetinkaya-Rundel et al. (2022)](images/tidyverse-ds-workflow.png){fig-align="center" width="70%"}
 
 ## Pedagogical benefits of the tidyverse {.midi}
 
@@ -229,13 +229,13 @@ Source: Çetinkaya-Rundel et al. (2022)
 ::: {.column width="50%"}
 <center><b>Not tidy data</b></center>
 
-![](images/not-tidy-data.png){alt="Tidy data" fig-align="center" width="100%"}
+![](images/not-tidy-data.png){alt="Tidy data" fig-align="center" width="80%"}
 :::
 
 ::: {.column width="50%"}
 <center><b>Tidy data</b></center>
 
-![](images/tidy-data.png){alt="Tidy data" fig-align="center" width="100%"}
+![](images/tidy-data.png){alt="Tidy data" fig-align="center" width="80%"}
 :::
 :::::
 
@@ -393,7 +393,7 @@ df[order(df$num_penguins, decreasing = TRUE), ]
 Example inspired by Çetinkaya-Rundel et al. (2022)
 :::
 
-## Your turn!
+## Your turn! {.midi}
 
 ::: question
 Use tidyverse syntax to make the data frame described below:
@@ -410,10 +410,6 @@ penguins
 
 ::: callout-tip
 See [dplyr reference](https://dplyr.tidyverse.org/reference/index.html#data-frame-verbs) for list of functions.
-:::
-
-::: aside
-Example inspired by Çetinkaya-Rundel et al. (2022)
 :::
 
 ## Closer look at the code
