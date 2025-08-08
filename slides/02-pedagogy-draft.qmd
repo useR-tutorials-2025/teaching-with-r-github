@@ -1,7 +1,7 @@
 ---
 title: "Curriculum and Pedagogy"
 subtitle: "useR 2025"
-logo: ""
+author: "Elijah Meyer & Maria Tackett"
 format: 
   revealjs:
     theme: slides.scss
@@ -9,6 +9,7 @@ format:
     slide-number: true
     incremental: false 
     chalkboard: true
+    fig-dpi: 300
 image: "images/tidyverse.png"
 execute:
   freeze: auto
@@ -20,6 +21,7 @@ knitr:
 filters: 
   - webr
 webr:
+  show-startup-message: false 
   packages: ['tidyverse', 'palmerpenguins']
 ---
 
@@ -30,6 +32,7 @@ webr:
 
 library(tidyverse)
 library(palmerpenguins)
+library(DiagrammeR)
 
 penguins <- penguins |>
   filter(!is.na(flipper_length_mm))
@@ -44,17 +47,25 @@ penguins <- penguins |>
   filter(!is.na(flipper_length_mm))
 ```
 
-## A modern approach
+## Curriculum guidelines {.midi}
 
--   Modern approach to teaching statistics and now the onset of data science
+::: incremental
+-   Use technology to explore concepts and analyze data. ([GAISE, 2016](https://www.amstat.org/docs/default-source/amstat-documents/gaisecollege_full.pdf))
 
--   How is this different from the traditional approach - the computing is infused throughout
+-   Incorporate software/apps to explore concepts and work with data. ([GAISE revision, in progress](https://community.amstat.org/collegegaiserevision/home))
 
--   Bring in curriculum guidelines - what they are saying about computing
+-   All programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. ([Two-Year College Data Science Summit, 2018](https://www.amstat.org/education/two-year-college-data-science-summit))
+
+-   The two pillars of computational and statistical thinking should not be taught separately. The balance between them may change from one course to another, but both should be present for the most effective and efficient teaching. ([Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-060116-053930)
+:::
 
 ## Intro Data Science
 
-![Image from [Data Science in a Box](https://datasciencebox.org)](images/ds-topics.png){fig-align="center"}
+![](images/ds-topic-flow.png){fig-align="center" width="70%"}
+
+::: small
+Image from [Data Science in a Box](https://datasciencebox.org/01-topics)
+:::
 
 ## Intro Data Science topics {.midi}
 
@@ -79,7 +90,7 @@ penguins <- penguins |>
 :::
 :::::
 
-::: small
+::: aside
 Source: Çetinkaya-Rundel & Ellison (2020)
 :::
 
@@ -108,7 +119,7 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 
 <br>
 
-::: small
+::: aside
 Source: Çetinkaya-Rundel & Ellison (2020)
 :::
 
@@ -123,24 +134,18 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 . . .
 
 ::: incremental
--   Opportunity for students to gain experience using professional computing tools
+-   Students gain experience using professional computing tools
 
--   Equip students to work with more realistic and complex data
+-   Students develop reproducible workflow while learning statistical methods
 
--   Students can develop a reproducible workflow while learning statistical methods
-:::
+-   Students gain experience working with more complex and realistic data
 
-<!--# Add in curriculum guidelines, Hardin & Horton papers, and 2010 paper-->
-
-<br>
-
-::: small
-Nolan, D., & Temple Lang, D. (2010)
+-   Students develop computational thinking and build confidence to handle computational challenges
 :::
 
 # Pedagogy
 
-## Pedagogy - UPDATE IMAGE
+## Pedagogy 
 
 :::::: columns
 ::: {.column width="50%"}
@@ -185,9 +190,9 @@ Source: Meyer and Çetinkaya-Rundel (2025, preprint)
 library(tidyverse)
 ```
 
-## Tidyverse
+## Tidyverse in data science workflow
 
-![Source: Çetinkaya-Rundel et al. (2022)](images/tidyverse-ds-workflow.png)
+![Source: Çetinkaya-Rundel et al. (2022)](images/tidyverse-ds-workflow.png){fig-align="center" width="80%"}
 
 ## Pedagogical benefits of the tidyverse {.midi}
 
@@ -306,10 +311,6 @@ penguins
 Compute the mean flipper length for Palmer penguins.
 :::
 
-```{r}
-penguins |> slice(1:5)
-```
-
 <br>
 
 . . .
@@ -318,7 +319,11 @@ penguins |> slice(1:5)
 mean(penguins$flipper_length_mm)
 ```
 
-## Base R: Compute summary statistics - add citation {.midi}
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Base R: Compute summary statistics {.midi}
 
 ::: question
 For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
@@ -341,12 +346,15 @@ names(num_penguins)[2] <- "num_penguins"
 
 ```{r}
 mean_flipper <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)
-
 names(mean_flipper)[2] <- "mean_flipper_length"
 
 ```
 
-## Base R: Compute summary statistics - add citation {.midi}
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Base R: Compute summary statistics {.midi}
 
 ::: question
 For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
@@ -361,19 +369,28 @@ df <- merge(num_penguins, mean_flipper)
 df[order(df$num_penguins, decreasing = TRUE), ]
 ```
 
-## Base R: Full code - add citation
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
+## Base R: Full code
 
 ```{r}
 num_penguins <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = length)
 names(num_penguins)[2] <- "num_penguins"
 
 mean_flipper <- aggregate(flipper_length_mm ~ species, data = penguins, FUN = mean)
-
 names(mean_flipper)[2] <- "mean_flipper_length"
 
 df <- merge(num_penguins, mean_flipper)
 df[order(df$num_penguins, decreasing = TRUE), ]
 ```
+
+<br>
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
 
 ## Your turn!
 
@@ -388,7 +405,15 @@ penguins
 # add code here
 ```
 
-<!--# Note that example is inspired by educators paper and DS in the classroom workshop-->
+<br>
+
+::: callout-tip
+See [dplyr reference](https://dplyr.tidyverse.org/reference/index.html#data-frame-verbs) for list of functions.
+:::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
 
 ## Closer look at the code
 
@@ -403,6 +428,10 @@ penguins
 ```
 :::
 :::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
 
 ## Closer look at the code
 
@@ -419,6 +448,10 @@ penguins |>
 ```
 :::
 :::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
 
 ## Closer look at the code
 
@@ -438,6 +471,10 @@ penguins |>
 :::
 :::::
 
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
 ## Closer look at the code
 
 ::::: columns
@@ -456,6 +493,10 @@ penguins |>
 ```
 :::
 :::::
+
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
 
 ## Closer look at the code
 
@@ -478,6 +519,10 @@ penguins |>
 :::
 :::::
 
+::: aside
+Example inspired by Çetinkaya-Rundel et al. (2022)
+:::
+
 ## Your turn! \[Time permitting\]
 
 ::: question
@@ -492,11 +537,17 @@ penguins |>
 
 ```
 
-## Tidyverse beyond the intro course
+---
+<br>
 
-## Quote from tidyverse paper?
+<br>
 
--   Educator's guide to the tidyverse
+<br>
+
+> 
+> "The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle."
+>
+> -Çetinkaya-Rundel et al. (2022)
 
 ## What about AI? {.midi}
 
@@ -516,31 +567,45 @@ penguins |>
 
 # Infrastructure
 
-## Why use RStudio in the cloud?
+## RStudio in the cloud  {.midi}
 
--   Reduce friction at first exposure to R
+::: incremental
+-   Removes the most common hurdle to get started with computing - installation and configuration
     -   Start using R on Day 1!
--   Avoid local installation
+-   Actively engage students with all aspects of the course, not just in a computing lab
 -   Install R and RStudio on a server and provide access to students:
-    -   Centralized RStudio server
-    -   Dockerized RStudio server (what we're using today)
-    -   Posit Cloud
-
-\[Check paper - are these the reasons in the paper?\]
+    -   Centralized [RStudio Server / Posit Workbench](https://posit.co/products/enterprise/workbench/)
+    -   Dockerized RStudio Server (what we're using today)
+    -   [Posit Cloud](https://posit.cloud)
+:::
 
 ::: aside
 Çetinkaya-Rundel and Rundel (2018)
 :::
 
-## Dockerized Rstudio
+## RStudio in a Docker container
 
--   Infrastructure options
+-   RStudio in Docker containers built and maintained by Duke Office of Information Technology
 
--   Brief introduction to Quarto (like an R Markdown file)
+-   Customize the pre-installed packages, data sets, etc. for your course
 
--   Make a qmd file . Render it.
+-   Students access their instance of RStudio using institution credentials
 
--   Turn the qmd into a web-r file.
+## Demo 
+
+-   Open RStudio docker container (see email for URL)
+
+-   Click *File* -\> *New File* -\> *Quarto Document* to make a new Quarto document
+
+-   Parts of a Quarto document:
+
+    -   YAML
+
+    -   Narrative
+
+    -   Code
+
+-   Use Quarto for reproducible in-class activities and assignments
 
 ## Discussion
 

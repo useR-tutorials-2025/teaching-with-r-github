@@ -1,8 +1,6 @@
 ---
 title: "Making teaching materials with Quarto"
 subtitle: "useR 2025"
-author: "Maria Tackett"
-footer: "LINK"
 image: "images/quarto2.png"
 logo: ""
 format: 

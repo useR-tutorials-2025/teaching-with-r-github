@@ -1,8 +1,8 @@
 ---
 title: "Making teaching materials with Quarto"
+author: "Elijah Meyer & Maria Tackett"
 subtitle: "useR 2025"
 image: "images/quarto2.png"
-logo: ""
 format: 
   revealjs:
     theme: slides.scss
@@ -10,6 +10,7 @@ format:
     slide-number: true
     incremental: false 
     chalkboard: true
+    fig-dpi: 300
 execute:
   freeze: auto
   echo: true
@@ -344,19 +345,19 @@ See [Publishing Basics](https://quarto.org/docs/publishing/) on quarto.org for m
 
 ## Lessons learned
 
--   You can do this!
-
+::: incremental
 -   It is worth it!
 
-    -   There are resources.
+    -   There are resources. Here are a [few](../resources.html).
     -   The time investment pays off for your and your students
 
 -   Practice by using the same workflow as your students.
 
--   Technology is choose your own adventure - start small or dive in the deep in. Do what works for you, your resources, and your student population.
-
--   Your students are capable of the challenge!
+-   Technology is choose your own adventure. Consider your time, resources, and student population.
 
 -   Get connected to a community.
+
+-   You (and your students) can do this!
+:::
 
 # Q&A / Discussion

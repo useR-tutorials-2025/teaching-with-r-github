@@ -3,14 +3,40 @@ title: "Break"
 subtitle: "30 minutes"
 image: "images/coffee.jpg"
 image-alt: "A coffee cup."
+format: 
+  revealjs:
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    fig-dpi: 300
+execute:
+  freeze: auto
+  echo: true
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 200
 ---
 
-## During the break 
+## During the break
 
--   Grab coffee ?
+::: highlight
+-   Grab coffee ☕️
 
 -   Feel free to ask questions!
 
--   Register for GitHub (if you haven't already)
+-   Register for a GitHub account (if you haven't already)
+:::
 
-    -   \[Add Elijah's notes\]
+::: small
+-   Go to [github.com](https://github.com/), and create an account (unless you already have one).
+
+-   Create a username. Some tips on creating a username from *Happy Git and GitHub for the useR* include…
+
+    1.  Incorporate your actual name!
+    2.  Reuse your username from other contexts if you can, e. g., Twitter or Slack.
+    3.  Be as unique as possible in as few characters as possible. Shorter is better than longer.
+    4.  Avoid words with special meaning in programming (e.g. NA).
+:::

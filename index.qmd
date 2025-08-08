@@ -56,7 +56,7 @@ You will work with GitHub during this workshop. There will be time during our sc
 
 1.  Go to [github.com](https://github.com), and create an account (unless you already have one).
 
-2.  Create a username. Some tips on creating a username *Happy Git and GitHub for the useR* include...
+2.  Create a username. Some tips on creating a username from *Happy Git and GitHub for the useR* include...
 
     1.  Incorporate your actual name!
 
@@ -65,8 +65,6 @@ You will work with GitHub during this workshop. There will be time during our sc
     3.  Be as unique as possible in as few characters as possible. Shorter is better than longer.
 
     4.  Avoid words with special meaning in programming (e.g. NA).
-
-    <!--# removed this tip:Pick a username you will be comfortable revealing to your future boss. for this audeince-->
 
 ## Instructors
 

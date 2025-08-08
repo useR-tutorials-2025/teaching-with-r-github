@@ -1,0 +1,15 @@
+{
+  "hash": "93be22a27cc74990bd8768353863264b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Teaching with webR\"\nsubtitle: \"useR 2025\"\nauthor: \"Elijah Meyer & Maria Tackett\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: true\n    incremental: false \n    chalkboard: true\n    fig-dpi: 300\nimage: \"images/webr.png\"\nexecute:\n  freeze: auto\n  echo: true\nknitr:\n  opts_chunk: \n    R.options:\n      width: 200\n---\n\n\n\n\n\n## First Day of Class\n\nStudents have heard about your class....\n\nAnxiety around coding....\n\n-   Talk\n-   Build a community\n\n## First Day of Class\n\nTalk about mindset and perspective\n\n-- The expectation is not to be an expert on the first day, or after one day -- Give them \"permission\" to get excited and make mistakes -- Calm anxiety around coding\n\n## First Day of Class\n\nStart with cake 🍰\n\n## First Day of Class\n\n🍰\n\n-- Get students excited\n\n-- Make them understand why they are in the class\n\n-- Make them want to come back and keep learning\n\n## WebR\n\nWebR is a version of the statistical language R compiled for the browser\n\n-   No local installation\n-   No downloading anything\n\n## Day-1\n\n[webR link]()\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

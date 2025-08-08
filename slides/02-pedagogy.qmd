@@ -1,8 +1,6 @@
 ---
 title: "Curriculum and Pedagogy"
 subtitle: "useR 2025"
-author: "Maria Tackett"
-footer: "LINK"
 logo: ""
 format: 
   revealjs:

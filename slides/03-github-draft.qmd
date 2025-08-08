@@ -1,9 +1,22 @@
 ---
 title: "Teaching with git and GitHub"
+subtitle: "useR 2025"
+author: "Elijah Meyer & Maria Tackett"
 format: 
   revealjs:
-    incremental: true 
     theme: slides.scss
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    fig-dpi: 300
+execute:
+  freeze: auto
+  echo: true
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 200
 image: "images/github.png"
 ---
 

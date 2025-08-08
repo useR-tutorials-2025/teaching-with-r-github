@@ -21,6 +21,14 @@ This page is under construction and will be updated until the start of the tutor
 -   Meyer, E., & Çetinkaya-Rundel, M. (2025). *A Blueprint to Design Curriculum and Pedagogy for Introductory Data Science.* arXiv. <https://doi.org/10.48550/arXiv.2508.03952>
 -   Nolan, D., & Temple Lang, D. (2010). Computing in the statistics curricula. *The American Statistician*, *64*(2), 97-107.
 
+### Computing infrastructure
+
+-   Çetinkaya-Rundel, M., & Rundel, C. (2018). Infrastructure and tools for teaching computing throughout the statistical curriculum. *The American Statistician*, *72*(1), 58-65.
+
+-   [RStudio in a Docker Container (at Duke)](https://github.com/mccahill/docker-rstudio) by Mark McCahill
+
+-   [Posit Cloud](https://posit.cloud/plans/instructor)
+
 ### Teaching with AI tools 
 
 -   Bien, J., & Mukherjee, G. (2025). [Generative AI for Data Science 101: Coding Without Learning To Code](https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2432397?src=exp-mr). *Journal of Statistics and Data Science Education*, *33*(2), 129-142.

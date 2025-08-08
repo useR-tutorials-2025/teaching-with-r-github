@@ -1,0 +1,19 @@
+{
+  "hash": "6015c79fa0cc65c4c548aeb4e4ae6d77",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Break\"\nsubtitle: \"30 minutes\"\nimage: \"images/coffee.jpg\"\nimage-alt: \"A coffee cup.\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: true\n    incremental: false \n    chalkboard: true\n    fig-dpi: 300\nexecute:\n  freeze: auto\n  echo: true\nknitr:\n  opts_chunk: \n    R.options:\n      width: 200\n---\n\n\n\n## During the break\n\n::: highlight\n-   Grab coffee ☕️\n\n-   Feel free to ask questions!\n\n-   Register for a GitHub account (if you haven't already)\n:::\n\n::: small\n-   Go to [github.com](https://github.com/), and create an account (unless you already have one).\n\n-   Create a username. Some tips on creating a username from *Happy Git and GitHub for the useR* include…\n\n    1.  Incorporate your actual name!\n    2.  Reuse your username from other contexts if you can, e. g., Twitter or Slack.\n    3.  Be as unique as possible in as few characters as possible. Shorter is better than longer.\n    4.  Avoid words with special meaning in programming (e.g. NA).\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

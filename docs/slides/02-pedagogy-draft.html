@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
+  <meta name="author" content="Elijah Meyer &amp; Maria Tackett">
   <title>Teaching with R – Curriculum and Pedagogy</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -475,7 +476,7 @@
   globalThis.qwebrAutoloadRPackages = true;
 
   // Display a startup message?
-  globalThis.qwebrShowStartupMessage = true;
+  globalThis.qwebrShowStartupMessage = false;
   globalThis.qwebrShowHeaderMessage = false;
 
   // Describe the webR settings that should be used
@@ -2034,6 +2035,11 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
   <p class="subtitle">useR 2025</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Elijah Meyer &amp; Maria Tackett 
+</div>
+</div>
 </div>
 
 </section>
@@ -2043,18 +2049,24 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div id="qwebr-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="a-modern-approach" class="slide level2">
-<h2>A modern approach</h2>
+<section id="curriculum-guidelines" class="slide level2 midi">
+<h2>Curriculum guidelines</h2>
+<div>
 <ul>
-<li><p>Modern approach to teaching statistics and now the onset of data science</p></li>
-<li><p>How is this different from the traditional approach - the computing is infused throughout</p></li>
-<li><p>Bring in curriculum guidelines - what they are saying about computing</p></li>
+<li class="fragment"><p>Use technology to explore concepts and analyze data. (<a href="https://www.amstat.org/docs/default-source/amstat-documents/gaisecollege_full.pdf">GAISE, 2016</a>)</p></li>
+<li class="fragment"><p>Incorporate software/apps to explore concepts and work with data. (<a href="https://community.amstat.org/collegegaiserevision/home">GAISE revision, in progress</a>)</p></li>
+<li class="fragment"><p>All programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. (<a href="https://www.amstat.org/education/two-year-college-data-science-summit">Two-Year College Data Science Summit, 2018</a>)</p></li>
+<li class="fragment"><p>The two pillars of computational and statistical thinking should not be taught separately. The balance between them may change from one course to another, but both should be present for the most effective and efficient teaching. (<a href="https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-060116-053930">Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)</a></p></li>
 </ul>
+</div>
 </section>
 <section id="intro-data-science" class="slide level2">
 <h2>Intro Data Science</h2>
 
-<img data-src="images/ds-topics.png" class="r-stretch quarto-figure-center"><p class="caption">Image from <a href="https://datasciencebox.org">Data Science in a Box</a></p></section>
+<img data-src="images/ds-topic-flow.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><div class="small">
+<p>Image from <a href="https://datasciencebox.org/01-topics">Data Science in a Box</a></p>
+</div>
+</section>
 <section id="intro-data-science-topics" class="slide level2 midi">
 <h2>Intro Data Science topics</h2>
 <div class="columns">
@@ -2076,10 +2088,10 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <li>Simulation-based inference</li>
 </ul>
 </div></div>
-<div class="small">
+
+<aside><div>
 <p>Source: Çetinkaya-Rundel &amp; Ellison (2020)</p>
-</div>
-</section>
+</div></aside></section>
 <section id="intro-data-science-topics-1" class="slide level2 midi">
 <h2>Intro Data Science topics</h2>
 <div class="columns">
@@ -2102,10 +2114,10 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </div>
 </div></div>
 <p><br></p>
-<div class="small">
+
+<aside><div>
 <p>Source: Çetinkaya-Rundel &amp; Ellison (2020)</p>
-</div>
-</section>
+</div></aside></section>
 <section id="computing-as-a-learning-objective" class="slide level2">
 <h2>Computing as a learning objective</h2>
 <div class="highlight">
@@ -2115,15 +2127,11 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="fragment">
 <div>
 <ul>
-<li class="fragment"><p>Opportunity for students to gain experience using professional computing tools</p></li>
-<li class="fragment"><p>Equip students to work with more realistic and complex data</p></li>
-<li class="fragment"><p>Students can develop a reproducible workflow while learning statistical methods</p></li>
+<li class="fragment"><p>Students gain experience using professional computing tools</p></li>
+<li class="fragment"><p>Students develop reproducible workflow while learning statistical methods</p></li>
+<li class="fragment"><p>Students gain experience working with more complex and realistic data</p></li>
+<li class="fragment"><p>Students develop computational thinking and build confidence to handle computational challenges</p></li>
 </ul>
-</div>
-<!--# Add in curriculum guidelines, Hardin & Horton papers, and 2010 paper-->
-<p><br></p>
-<div class="small">
-<p>Nolan, D., &amp; Temple Lang, D. (2010)</p>
 </div>
 </div>
 </section></section>
@@ -2132,8 +2140,8 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <h1>Pedagogy</h1>
 
 </section>
-<section id="pedagogy---update-image" class="slide level2">
-<h2>Pedagogy - UPDATE IMAGE</h2>
+<section id="pedagogy-1" class="slide level2">
+<h2>Pedagogy</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
@@ -2175,10 +2183,10 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="tidyverse-1" class="slide level2">
-<h2>Tidyverse</h2>
+<section id="tidyverse-in-data-science-workflow" class="slide level2">
+<h2>Tidyverse in data science workflow</h2>
 
-<img data-src="images/tidyverse-ds-workflow.png" class="r-stretch quarto-figure-center"><p class="caption">Source: Çetinkaya-Rundel et al.&nbsp;(2022)</p></section>
+<img data-src="images/tidyverse-ds-workflow.png" style="width:80.0%" class="r-stretch quarto-figure-center"><p class="caption">Source: Çetinkaya-Rundel et al.&nbsp;(2022)</p></section>
 <section id="pedagogical-benefits-of-the-tidyverse" class="slide level2 midi">
 <h2>Pedagogical benefits of the tidyverse</h2>
 <div>
@@ -2298,31 +2306,21 @@ And bopping them on the head</p>
 <div class="question">
 <p>Compute the mean flipper length for Palmer penguins.</p>
 </div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>penguins <span class="sc">|&gt;</span> <span class="fu">slice</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 8
-  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year
-  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;
-1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007
-2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007
-3 Adelie  Torgersen           40.3          18                 195        3250 female  2007
-4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007
-5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007</code></pre>
-</div>
-</div>
 <p><br></p>
 <div class="fragment">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">mean</span>(penguins<span class="sc">$</span>flipper_length_mm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">mean</span>(penguins<span class="sc">$</span>flipper_length_mm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 200.9152</code></pre>
 </div>
 </div>
+
 </div>
-</section>
-<section id="base-r-compute-summary-statistics---add-citation" class="slide level2 midi">
-<h2>Base R: Compute summary statistics - add citation</h2>
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
+<section id="base-r-compute-summary-statistics-1" class="slide level2 midi">
+<h2>Base R: Compute summary statistics</h2>
 <div class="question">
 <p>For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
 </div>
@@ -2330,29 +2328,31 @@ And bopping them on the head</p>
 <div class="fragment">
 <p><strong>Compute number of penguins by species</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>num_penguins <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> length)</span>
-<span id="cb9-2"><a></a><span class="fu">names</span>(num_penguins)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"num_penguins"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>num_penguins <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> length)</span>
+<span id="cb7-2"><a></a><span class="fu">names</span>(num_penguins)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"num_penguins"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <div class="fragment">
 <p><strong>Compute mean flipper length by species</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a>mean_flipper <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> mean)</span>
-<span id="cb10-2"><a></a></span>
-<span id="cb10-3"><a></a><span class="fu">names</span>(mean_flipper)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"mean_flipper_length"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>mean_flipper <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> mean)</span>
+<span id="cb8-2"><a></a><span class="fu">names</span>(mean_flipper)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"mean_flipper_length"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+
 </div>
-</section>
-<section id="base-r-compute-summary-statistics---add-citation-1" class="slide level2 midi">
-<h2>Base R: Compute summary statistics - add citation</h2>
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
+<section id="base-r-compute-summary-statistics-2" class="slide level2 midi">
+<h2>Base R: Compute summary statistics</h2>
 <div class="question">
 <p>For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
 </div>
 <p><br></p>
 <p><strong>Combine results and sort data frame</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">merge</span>(num_penguins, mean_flipper)</span>
-<span id="cb11-2"><a></a>df[<span class="fu">order</span>(df<span class="sc">$</span>num_penguins, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">merge</span>(num_penguins, mean_flipper)</span>
+<span id="cb9-2"><a></a>df[<span class="fu">order</span>(df<span class="sc">$</span>num_penguins, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    species num_penguins mean_flipper_length
 1    Adelie          151            189.9536
@@ -2360,19 +2360,21 @@ And bopping them on the head</p>
 2 Chinstrap           68            195.8235</code></pre>
 </div>
 </div>
-</section>
-<section id="base-r-full-code---add-citation" class="slide level2">
-<h2>Base R: Full code - add citation</h2>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
+<section id="base-r-full-code" class="slide level2">
+<h2>Base R: Full code</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>num_penguins <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> length)</span>
-<span id="cb13-2"><a></a><span class="fu">names</span>(num_penguins)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"num_penguins"</span></span>
-<span id="cb13-3"><a></a></span>
-<span id="cb13-4"><a></a>mean_flipper <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> mean)</span>
-<span id="cb13-5"><a></a></span>
-<span id="cb13-6"><a></a><span class="fu">names</span>(mean_flipper)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"mean_flipper_length"</span></span>
-<span id="cb13-7"><a></a></span>
-<span id="cb13-8"><a></a>df <span class="ot">&lt;-</span> <span class="fu">merge</span>(num_penguins, mean_flipper)</span>
-<span id="cb13-9"><a></a>df[<span class="fu">order</span>(df<span class="sc">$</span>num_penguins, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>num_penguins <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> length)</span>
+<span id="cb11-2"><a></a><span class="fu">names</span>(num_penguins)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"num_penguins"</span></span>
+<span id="cb11-3"><a></a></span>
+<span id="cb11-4"><a></a>mean_flipper <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(flipper_length_mm <span class="sc">~</span> species, <span class="at">data =</span> penguins, <span class="at">FUN =</span> mean)</span>
+<span id="cb11-5"><a></a><span class="fu">names</span>(mean_flipper)[<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="st">"mean_flipper_length"</span></span>
+<span id="cb11-6"><a></a></span>
+<span id="cb11-7"><a></a>df <span class="ot">&lt;-</span> <span class="fu">merge</span>(num_penguins, mean_flipper)</span>
+<span id="cb11-8"><a></a>df[<span class="fu">order</span>(df<span class="sc">$</span>num_penguins, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    species num_penguins mean_flipper_length
 1    Adelie          151            189.9536
@@ -2380,7 +2382,11 @@ And bopping them on the head</p>
 2 Chinstrap           68            195.8235</code></pre>
 </div>
 </div>
-</section>
+<p><br></p>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
 <section id="your-turn" class="slide level2">
 <h2>Your turn!</h2>
 <div class="question">
@@ -2389,8 +2395,24 @@ And bopping them on the head</p>
 </div>
 <div id="qwebr-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<!--# Note that example is inspired by educators paper and DS in the classroom workshop-->
-</section>
+<p><br></p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>See <a href="https://dplyr.tidyverse.org/reference/index.html#data-frame-verbs">dplyr reference</a> for list of functions.</p>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
 <section id="closer-look-at-the-code" class="slide level2">
 <h2>Closer look at the code</h2>
 <div class="columns">
@@ -2398,7 +2420,7 @@ And bopping them on the head</p>
 <p>For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
 </div><div class="column" style="width:60%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>penguins</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 342 × 8
    species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year
@@ -2417,7 +2439,10 @@ And bopping them on the head</p>
 </div>
 </div>
 </div></div>
-</section>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
 <section id="closer-look-at-the-code-1" class="slide level2">
 <h2>Closer look at the code</h2>
 <div class="columns">
@@ -2425,8 +2450,8 @@ And bopping them on the head</p>
 <p><span style="font-weight:bold;background-color:#ccddeb;">For each species</span>, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.</p>
 </div><div class="column" style="width:60%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>penguins <span class="sc">|&gt;</span></span>
-<span id="cb17-2"><a></a>  <span class="fu">group_by</span>(species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb15-2"><a></a>  <span class="fu">group_by</span>(species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 342 × 8
 # Groups:   species [3]
@@ -2446,7 +2471,10 @@ And bopping them on the head</p>
 </div>
 </div>
 </div></div>
-</section>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
 <section id="closer-look-at-the-code-2" class="slide level2">
 <h2>Closer look at the code</h2>
 <div class="columns">
@@ -2454,10 +2482,10 @@ And bopping them on the head</p>
 <p>For each species, <span style="font-weight:bold;background-color:#ccddeb;">compute the number of penguins</span> and the mean flipper length. Display the results in descending order by number of penguins.</p>
 </div><div class="column" style="width:60%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="3-4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>penguins <span class="sc">|&gt;</span></span>
-<span id="cb19-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
-<span id="cb19-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
-<span id="cb19-4"><a></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17" data-code-line-numbers="3-4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb17-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb17-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
+<span id="cb17-4"><a></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 2
   species       n
@@ -2468,7 +2496,10 @@ And bopping them on the head</p>
 </div>
 </div>
 </div></div>
-</section>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
 <section id="closer-look-at-the-code-3" class="slide level2">
 <h2>Closer look at the code</h2>
 <div class="columns">
@@ -2476,11 +2507,11 @@ And bopping them on the head</p>
 <p>For each species, compute the number of penguins and <span style="font-weight:bold;background-color:#ccddeb;">the mean flipper length</span>. Display the results in descending order by number of penguins.</p>
 </div><div class="column" style="width:60%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="4-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>penguins <span class="sc">|&gt;</span></span>
-<span id="cb21-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
-<span id="cb21-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
-<span id="cb21-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm)</span>
-<span id="cb21-5"><a></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="4-6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb19-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb19-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
+<span id="cb19-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm)</span>
+<span id="cb19-5"><a></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 3
   species       n  mean
@@ -2491,7 +2522,10 @@ And bopping them on the head</p>
 </div>
 </div>
 </div></div>
-</section>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
 <section id="closer-look-at-the-code-4" class="slide level2">
 <h2>Closer look at the code</h2>
 <div class="columns">
@@ -2499,13 +2533,13 @@ And bopping them on the head</p>
 <p>For each species, compute the number of penguins and the mean flipper length. <span style="font-weight:bold;background-color:#ccddeb;">Display the results in descending order by number of penguins.</span></p>
 </div><div class="column" style="width:60%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a>penguins <span class="sc">|&gt;</span></span>
-<span id="cb23-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
-<span id="cb23-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
-<span id="cb23-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm,</span>
-<span id="cb23-5"><a></a>                        <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb23-6"><a></a>            ) <span class="sc">|&gt;</span></span>
-<span id="cb23-7"><a></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>penguins <span class="sc">|&gt;</span></span>
+<span id="cb21-2"><a></a>  <span class="fu">group_by</span>(species) <span class="sc">|&gt;</span></span>
+<span id="cb21-3"><a></a>  <span class="fu">summarise</span>(<span class="at">n =</span> <span class="fu">n</span>(), </span>
+<span id="cb21-4"><a></a>            <span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm,</span>
+<span id="cb21-5"><a></a>                        <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb21-6"><a></a>            ) <span class="sc">|&gt;</span></span>
+<span id="cb21-7"><a></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 3 × 3
   species       n  mean
@@ -2516,7 +2550,10 @@ And bopping them on the head</p>
 </div>
 </div>
 </div></div>
-</section>
+
+<aside><div>
+<p>Example inspired by Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</div></aside></section>
 <section id="your-turn-time-permitting" class="slide level2">
 <h2>Your turn! [Time permitting]</h2>
 <div class="question">
@@ -2529,14 +2566,15 @@ And bopping them on the head</p>
 <div id="qwebr-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="tidyverse-beyond-the-intro-course" class="slide level2">
-<h2>Tidyverse beyond the intro course</h2>
-</section>
-<section id="quote-from-tidyverse-paper" class="slide level2">
-<h2>Quote from tidyverse paper?</h2>
-<ul>
-<li>Educator’s guide to the tidyverse</li>
-</ul>
+<section class="slide level2">
+
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<blockquote>
+<p>“The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle.”</p>
+<p>-Çetinkaya-Rundel et al.&nbsp;(2022)</p>
+</blockquote>
 </section>
 <section id="what-about-ai" class="slide level2 midi">
 <h2>What about AI?</h2>
@@ -2558,33 +2596,47 @@ And bopping them on the head</p>
 <h1>Infrastructure</h1>
 
 </section>
-<section id="why-use-rstudio-in-the-cloud" class="slide level2">
-<h2>Why use RStudio in the cloud?</h2>
+<section id="rstudio-in-the-cloud" class="slide level2 midi">
+<h2>RStudio in the cloud</h2>
+<div>
 <ul>
-<li>Reduce friction at first exposure to R
+<li class="fragment">Removes the most common hurdle to get started with computing - installation and configuration
 <ul>
-<li>Start using R on Day 1!</li>
+<li class="fragment">Start using R on Day 1!</li>
 </ul></li>
-<li>Avoid local installation</li>
-<li>Install R and RStudio on a server and provide access to students:
+<li class="fragment">Actively engage students with all aspects of the course, not just in a computing lab</li>
+<li class="fragment">Install R and RStudio on a server and provide access to students:
 <ul>
-<li>Centralized RStudio server</li>
-<li>Dockerized RStudio server (what we’re using today)</li>
-<li>Posit Cloud</li>
+<li class="fragment">Centralized <a href="https://posit.co/products/enterprise/workbench/">RStudio Server / Posit Workbench</a></li>
+<li class="fragment">Dockerized RStudio Server (what we’re using today)</li>
+<li class="fragment"><a href="https://posit.cloud">Posit Cloud</a></li>
 </ul></li>
 </ul>
-<p>[Check paper - are these the reasons in the paper?]</p>
+</div>
 
 <aside><div>
 <p>Çetinkaya-Rundel and Rundel (2018)</p>
 </div></aside></section>
-<section id="dockerized-rstudio" class="slide level2">
-<h2>Dockerized Rstudio</h2>
+<section id="rstudio-in-a-docker-container" class="slide level2">
+<h2>RStudio in a Docker container</h2>
 <ul>
-<li><p>Infrastructure options</p></li>
-<li><p>Brief introduction to Quarto (like an R Markdown file)</p></li>
-<li><p>Make a qmd file . Render it.</p></li>
-<li><p>Turn the qmd into a web-r file.</p></li>
+<li><p>RStudio in Docker containers built and maintained by Duke Office of Information Technology</p></li>
+<li><p>Customize the pre-installed packages, data sets, etc. for your course</p></li>
+<li><p>Students access their instance of RStudio using institution credentials</p></li>
+</ul>
+</section>
+<section id="demo" class="slide level2">
+<h2>Demo</h2>
+<ul>
+<li><p>Open RStudio docker container (see email for URL)</p></li>
+<li><p>Click <em>File</em> -&gt; <em>New File</em> -&gt; <em>Quarto Document</em> to make a new Quarto document</p></li>
+<li><p>Parts of a Quarto document:</p>
+<ul>
+<li><p>YAML</p></li>
+<li><p>Narrative</p></li>
+<li><p>Code</p></li>
+</ul></li>
+<li><p>Use Quarto for reproducible in-class activities and assignments</p></li>
 </ul>
 </section>
 <section id="discussion" class="slide level2">

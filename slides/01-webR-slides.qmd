@@ -1,6 +1,6 @@
 ---
 title: "Teaching with webR"
-author: "Elijah Meyer"
+subtitle: "useR 2025"
 format: 
   revealjs:
     incremental: true 

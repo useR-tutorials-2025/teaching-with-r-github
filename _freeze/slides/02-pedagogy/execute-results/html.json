@@ -1,11 +1,9 @@
 {
-  "hash": "8b32aecad5604ec0978775010e826189",
+  "hash": "0e892ff419fe88aa1c30e7b6dfa10402",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Curriculum and Pedagogy\"\nsubtitle: \"useR 2025\"\nauthor: \"Maria Tackett\"\nfooter: \"LINK\"\nlogo: \"\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: true\n    incremental: false \n    chalkboard: true\nimage: \"images/tidyverse.png\"\nexecute:\n  freeze: auto\n  echo: true\nknitr:\n  opts_chunk: \n    R.options:\n      width: 200\nfilters: \n  - webr\nwebr:\n  packages: ['tidyverse', 'palmerpenguins']\n---\n\n\n\n\nTo be posted.\n",
-    "supporting": [
-      "02-pedagogy_files"
-    ],
+    "markdown": "---\ntitle: \"Curriculum and Pedagogy\"\nsubtitle: \"useR 2025\"\nlogo: \"\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: true\n    incremental: false \n    chalkboard: true\nimage: \"images/tidyverse.png\"\nexecute:\n  freeze: auto\n  echo: true\nknitr:\n  opts_chunk: \n    R.options:\n      width: 200\nfilters: \n  - webr\nwebr:\n  packages: ['tidyverse', 'palmerpenguins']\n---\n\n\n\nTo be posted.\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
