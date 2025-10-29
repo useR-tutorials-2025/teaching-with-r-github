@@ -1,0 +1,375 @@
+---
+title: "Introduction to a Data Science ToolKit"
+subtitle: "DSA Talk"
+author: "Elijah Meyer"
+footer: "[Teaching with R and GitHub: Introduction to a Data Science Toolbox]"
+format: 
+  revealjs:
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    fig-dpi: 300
+image: "images/webr.png"
+execute:
+  freeze: auto
+  echo: true
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 200
+filters: 
+  - webr
+webr:
+  show-startup-message: false 
+  packages: ['tidyverse', 'palmerpenguins']
+---
+
+## Introductions
+
+```{r}
+#| echo: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+
+
+<center>![](images/st115.png)</center>
+
+## Team
+
+::: columns
+::: {.column width="50%"}
+![](images/maria.png){fig-align="center" height="300"}
+
+<center>Dr. Maria Tackett</center>
+:::
+
+::: {.column width="50%"}
+![](images/mine.jpg){fig-align="center" height="300"}
+
+<center>Dr. Mine Çetinkaya-Rundel</center>
+:::
+:::
+
+<center>[Data Science in a Box](https://datasciencebox.org/)</center>
+
+## ST 115
+
+::: columns
+::: {.column width="50%"}
+
+Computing
+
+- R
+
+- RStudio 
+
+- GitHub 
+
+- Quarto 
+
+:::
+::: {.column width="50%"}
+
+Topics
+
+- Function writing
+
+- Data visualization 
+
+- Data tidying / wrangling 
+
+- Data Import 
+
+- Linear regression 
+
+- Logistic regression 
+
+- Model selection tools
+
+:::
+:::
+
+
+## Outline 
+
+-- Why...a course like this should exsist 
+
+-- What...goes into a course like this
+
+-- How...can we run a course like this 
+
+## Programming Language{.smaller} 
+
+![](images/RStudio.png)
+
+-  Freely available
+
+-  High demand in job opportunities
+
+-  Strengths of R align with learning objectives of the course (data visualization, data wranging, function writing, etc.)
+
+-  Integrate seamlessly with GitHub
+
+-  Integrate seamlessly with Quarto 
+
+## GitHub{.smaler} 
+
+![](images/github.png)
+
+-  Competitive skill for students to know 
+
+-  Provide students more responsible collaborative opportunities 
+
+-  Good habits 
+
+-  A plethora of instructor benefits
+
+## My teaching philosphy 
+
+::: highlight
+The goal of teaching computing is to provide a toolbox for students to become statistically responsible, literate, and incite excitement around research.
+
+:::
+
+... and there is no reason these types of tools can't/shouldn't be taught early in student's academic careers.
+
+
+## My teaching philosphy 
+
+When you expose students to these skills early...
+. . .
+
+::: incremental
+-   Students gain experience using professional computing tools (that they can grow with)
+
+-   Students develop reproducible workflow while learning statistical methods (that they can grow with)
+
+-   Students gain experience working with more complex and realistic data (that they can grow with)
+
+-   Students develop computational thinking and build confidence to handle computational challenges (**that they can grow with**)
+:::
+
+
+## Curriculum guidelines {.midi}
+
+::: incremental
+-   Use technology to explore concepts and analyze data. ([GAISE, 2016](https://www.amstat.org/docs/default-source/amstat-documents/gaisecollege_full.pdf))
+
+-   Incorporate software/apps to explore concepts and work with data. ([GAISE revision, in progress](https://community.amstat.org/collegegaiserevision/home))
+
+-   All programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. ([Two-Year College Data Science Summit, 2018](https://www.amstat.org/education/two-year-college-data-science-summit))
+
+-   The two pillars of computational and statistical thinking should not be taught separately...both should be present for the most effective and efficient teaching. ([Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)](https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-060116-053930)
+:::
+
+## Trickle Up 
+
+![](images/domino.png){fig-align="center"}
+
+# What 
+
+## Pedagogy
+
+::: columns
+::: {.column width="50%"}
+![](images/sta199-pedagogy.png){fig-align="center" width="60%"}
+:::
+
+::: {.column width="50%"}
+::: midi
+-   **Build**: Introduce new content
+
+-   **Train**: Put concepts into practice through hands-on class activities
+
+    -   **Do**: Steps needed to accomplish a task
+
+    -   **Think**: How to accomplish task in future
+
+-   **Create:** Demonstrate learning through a variety of assessments
+:::
+:::
+:::
+
+::: small
+Source: Meyer and Çetinkaya-Rundel (2025, preprint)
+:::
+
+
+
+## Tidyverse in data science workflow{.smaller}
+
+The tidyverse is a collection of R packages designed for data science that share a common philosophy for data manipulation, exploration, and visualization.
+
+![Source: Çetinkaya-Rundel et al. (2022)](images/tidyverse-ds-workflow.png){fig-align="center" width="70%"}
+
+## Pedagogical benefits of the tidyverse {.midi}
+
+-   **Consistency**: Syntax, function interfaces, argument names and order follow patterns
+
+-   **Mixability**: Ability to use base R and other functions within tidyverse syntax
+
+-   **Scalability**: Unified approach that works for data sets from a wide range of types and sizes
+
+-   **User-centered design**: Function interfaces designed with users in mind
+
+-   **Readability**: Interfaces designed to produce readable code
+
+-   **Community**: Large, active, and welcoming community of users and resources
+
+-   **Transferability**: Data manipulation verbs inherit SQL's query syntax
+
+
+::: small
+Source: Çetinkaya-Rundel et al. (2022)
+:::
+
+## Base R
+
+```{r}
+tapply(
+  X      = penguins$flipper_length_mm, 
+  INDEX  = penguins$species,           
+  FUN    = mean,                       
+  na.rm  = TRUE                        
+)
+```
+
+
+## Coding with words: Tidyverse
+
+`|>` "and then"
+
+```{webr-r}
+# add code here
+
+```
+
+
+## Coding with words: Tidyverse{.smaller}
+
+```{r}
+penguins |>
+  group_by(species) |>
+  summarise(mean_flip = mean(flipper_length_mm, na.rm = T))
+```
+
+
+> "The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle."
+>
+> -Çetinkaya-Rundel et al. (2022)
+
+# How 
+
+# Infrastructure
+
+## RStudio in the cloud {.midi}
+
+
+-   Removes the most common hurdle to get started with computing - installation and configuration
+    -   Start using R on Day 1!
+-   Actively engage students with all aspects of the course, not just in a computing lab
+-   Install R and RStudio on a server and provide access to students:
+    -   Centralized [RStudio Server / Posit Workbench](https://posit.co/products/enterprise/workbench/)
+    -   Dockerized RStudio Server
+    -   [Posit Cloud](https://posit.cloud)
+
+
+::: aside
+Çetinkaya-Rundel and Rundel (2018)
+:::
+
+## RStudio in the Cloud 
+
+[Posit Workbench Example](https://rstudio.stat.ncsu.edu/s/9cc5acfc78a319bd2d14f/auth-sign-in)
+
+## NC Share 
+
+Dockerized RStudio Server
+
+[NC Share](https://oit.duke.edu/news/ncshare-network-aims-boost-stem-education-nc/)
+
+[Mark McCahill](https://iss.duke.edu/mark-mccahill): mark.mccahill@duke.edu 
+
+## GitHub 
+
+You can also have Git installed on the server!
+
+```{r}
+#| echo: true
+#| eval: false
+credentials::ssh_setup_github()
+
+devtools::install_github("r-lib/gert")
+
+usethis::use_git_config(
+  user.name = "Elijah Meyer", 
+  user.email = "esmeyer2@ncsu.edu"
+  )
+```
+
+## Other options 
+
+If these types of infrastructure are not available ... 
+
+[Install Git](https://github.com/git-guides/install-git)
+
+[Installing R and RStudio](https://rstudio-education.github.io/hopr/starting.html)
+
+... make your own resources for your students! 
+
+# In-the classroom 
+
+## The first day 
+
+```{webr-r}
+
+```
+
+[Posit WorkBench](https://rstudio.stat.ncsu.edu/s/9cc5acfc78a31400e9ea8/)
+
+[Getting set up](https://st295.github.io/st295-sp25/ae-sa/github-config-post.html)
+
+## The next days 
+
+My goal is to get students as much hands on practice as possible in as reproducible of a way as possible.
+
+We can do this with GitHub.
+
+Things that need to be done beforehand 
+
+-- Students must link RStudio with GitHub 
+
+-- You must create a [GitHub Organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)
+
+-- Students must join the GitHub Organization
+
+Let's Demo this! 
+
+## `ghclass` 
+
+`ghclass` is an R package designed to help instructors manage their courses on GitHub.
+
+[ghclass](https://rundel.github.io/ghclass/articles/ghclass.html)
+
+## Moving Forward 
+
+-- Assessments and AI 
+
+-- Keeping up with the evolution of Data Science 
+
+## Course website
+
+[Website](https://st295.github.io/st295-sp25/)
+
+## Blueprint 
+
+[arXiv](https://arxiv.org/abs/2508.03952)
+
+Elijah Meyer, Mine Çetinkaya-Rundel
+
+

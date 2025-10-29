@@ -639,7 +639,7 @@
     "href": "slides/02-pedagogy.html#intro-data-science-topics",
     "title": "Curriculum and Pedagogy",
     "section": "Intro Data Science topics",
-    "text": "Intro Data Science topics\n\n\nUnit 1: Exploring data\n\nData visualization \nExploring multivariable relationships\nData wrangling\nImporting data \n\n\nUnit 2: Making rigorous conclusions\n\nRelationships between multiple variables\nPredicting numeric and binary outcomes\nModel building and feature engineering\nModel evaluation and cross validation \nSimulation-based inference\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)",
+    "text": "Intro Data Science topics\n\n\nUnit 1: Exploring data\n\nData visualization \nExploring multivariable relationships\nData wrangling\nImporting data \n\n\nUnit 2: Making rigorous conclusions\n\nRelationships between multiple variables\nPredicting numeric and binary outcomes\nModel building and feature engineering\nModel evaluation and cross validation \nSimulation-based inference\n\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -650,7 +650,7 @@
     "href": "slides/02-pedagogy.html#intro-data-science-topics-1",
     "title": "Curriculum and Pedagogy",
     "section": "Intro Data Science topics",
-    "text": "Intro Data Science topics\n\n\nAdditional topics (varies by instructor)\n\nInteractive dashboards with Shiny\nWorking productively with AI tools  \nText analysis\nCustomizing Quarto reports and presentations\n\n\n\nComputing throughout course\n\nStatistical analysis using R\nReproducible reports using Quarto\nVersion control and collaboration using git and GitHub\n\n\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)",
+    "text": "Intro Data Science topics\n\n\nAdditional topics (varies by instructor)\n\nInteractive dashboards with Shiny\nWorking productively with AI tools  \nText analysis\nCustomizing Quarto reports and presentations\n\n\n\nComputing throughout course\n\nStatistical analysis using R\nReproducible reports using Quarto\nVersion control and collaboration using git and GitHub\n\n\n\n\n\n\n\nSource: Çetinkaya-Rundel & Ellison (2020)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -672,7 +672,7 @@
     "href": "slides/02-pedagogy.html#pedagogy-1",
     "title": "Curriculum and Pedagogy",
     "section": "Pedagogy",
-    "text": "Pedagogy\n\n\n\n\n\n\n\n\n\n\nBuild: Introduce new content\nTrain: Put concepts into practice through hands-on class activities\n\nDo: Steps needed to accomplish a task\nThink: How to accomplish task in future\n\nCreate: Demonstrate learning through a variety of assessments\n\n\n\n\nSource: Meyer and Çetinkaya-Rundel (2025, preprint)",
+    "text": "Pedagogy\n\n\n\n\n\n\n\n\n\n\nBuild: Introduce new content\nTrain: Put concepts into practice through hands-on class activities\n\nDo: Steps needed to accomplish a task\nThink: How to accomplish task in future\n\nCreate: Demonstrate learning through a variety of assessments\n\n\n\n\n\nSource: Meyer and Çetinkaya-Rundel (2025, preprint)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -683,7 +683,7 @@
     "href": "slides/02-pedagogy.html#tidyverse",
     "title": "Curriculum and Pedagogy",
     "section": "Tidyverse",
-    "text": "Tidyverse\n\n\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.\n-tidyverse.org\n\n\n\n\n\n\n\n\nlibrary(tidyverse)",
+    "text": "Tidyverse\n\n\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.\n-tidyverse.org\n\n\n\n\n\n\n\n\n\nlibrary(tidyverse)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -716,7 +716,7 @@
     "href": "slides/02-pedagogy.html#tidy-data",
     "title": "Curriculum and Pedagogy",
     "section": "Tidy data",
-    "text": "Tidy data\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\n\n\n\n\nNot tidy data\n\n\n\n\n\n\n\n\nTidy data\n\n\n\n\n\n\n\n\n\n\nSource: Wickham (2014)",
+    "text": "Tidy data\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\n\n\n\n\nNot tidy data\n\n\n\n\n\n\n\n\nTidy data\n\n\n\n\n\n\n\n\n\n\n\nSource: Wickham (2014)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -727,7 +727,7 @@
     "href": "slides/02-pedagogy.html#the-pipe",
     "title": "Curriculum and Pedagogy",
     "section": "The pipe",
-    "text": "The pipe\nThe pipe, |&gt;, is used to pass information from one function to another in the tidyverse.\n\nWhen reading code aloud in English, say “and then” whenever you see a pipe. Below is a pipeline for a children’s poem.*\n\n\n\n\n\n\nLittle bunny Foo Foo\nWent hopping through the forest\nScooping up the field mice\nAnd bopping them on the head\n\n\nfoo_foo |&gt;\n  hop(through = forest) |&gt;\n  scoop(up = field_mice) |&gt;\n  bop(on = head)\n\n\n\n\n\n* Source: R for Data Science 1st Edition",
+    "text": "The pipe\nThe pipe, |&gt;, is used to pass information from one function to another in the tidyverse.\n\nWhen reading code aloud in English, say “and then” whenever you see a pipe. Below is a pipeline for a children’s poem.*\n\n\n\n\n\n\nLittle bunny Foo Foo\nWent hopping through the forest\nScooping up the field mice\nAnd bopping them on the head\n\n\nfoo_foo |&gt;\n  hop(through = forest) |&gt;\n  scoop(up = field_mice) |&gt;\n  bop(on = head)\n\n\n\n\n\n\n* Source: R for Data Science 1st Edition",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -815,7 +815,7 @@
     "href": "slides/02-pedagogy.html#closer-look-at-the-code",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins\n\n# A tibble: 342 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -826,7 +826,7 @@
     "href": "slides/02-pedagogy.html#closer-look-at-the-code-1",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species)\n\n# A tibble: 342 × 8\n# Groups:   species [3]\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species)\n\n# A tibble: 342 × 8\n# Groups:   species [3]\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g sex     year\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt; &lt;fct&gt;  &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750 male    2007\n 2 Adelie  Torgersen           39.5          17.4               186        3800 female  2007\n 3 Adelie  Torgersen           40.3          18                 195        3250 female  2007\n 4 Adelie  Torgersen           36.7          19.3               193        3450 female  2007\n 5 Adelie  Torgersen           39.3          20.6               190        3650 male    2007\n 6 Adelie  Torgersen           38.9          17.8               181        3625 female  2007\n 7 Adelie  Torgersen           39.2          19.6               195        4675 male    2007\n 8 Adelie  Torgersen           34.1          18.1               193        3475 &lt;NA&gt;    2007\n 9 Adelie  Torgersen           42            20.2               190        4250 &lt;NA&gt;    2007\n10 Adelie  Torgersen           37.8          17.1               186        3300 &lt;NA&gt;    2007\n# ℹ 332 more rows\n\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -837,7 +837,7 @@
     "href": "slides/02-pedagogy.html#closer-look-at-the-code-2",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            )\n\n# A tibble: 3 × 2\n  species       n\n  &lt;fct&gt;     &lt;int&gt;\n1 Adelie      151\n2 Chinstrap    68\n3 Gentoo      123\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            )\n\n# A tibble: 3 × 2\n  species       n\n  &lt;fct&gt;     &lt;int&gt;\n1 Adelie      151\n2 Chinstrap    68\n3 Gentoo      123\n\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -848,7 +848,7 @@
     "href": "slides/02-pedagogy.html#closer-look-at-the-code-3",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            )\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Chinstrap    68  196.\n3 Gentoo      123  217.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            )\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Chinstrap    68  196.\n3 Gentoo      123  217.\n\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -859,7 +859,7 @@
     "href": "slides/02-pedagogy.html#closer-look-at-the-code-4",
     "title": "Curriculum and Pedagogy",
     "section": "Closer look at the code",
-    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            ) |&gt;\n  arrange(desc(n))\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Gentoo      123  217.\n3 Chinstrap    68  196.\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
+    "text": "Closer look at the code\n\n\nFor each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.\n\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(n = n(), \n            mean = mean(flipper_length_mm)\n            ) |&gt;\n  arrange(desc(n))\n\n# A tibble: 3 × 3\n  species       n  mean\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      151  190.\n2 Gentoo      123  217.\n3 Chinstrap    68  196.\n\n\n\n\n\n\nExample inspired by Çetinkaya-Rundel et al. (2022)",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -925,7 +925,7 @@
     "href": "slides/02-pedagogy.html#discussion",
     "title": "Curriculum and Pedagogy",
     "section": "Discussion",
-    "text": "Discussion\n\n\nWhat is something you’ve seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?\nAny other questions/ comments/ discussion points?",
+    "text": "Discussion\n\n\nWhat is something you’ve seen thus far that you find exciting? Want to learn more about? Would like to incorporate in your teaching?\nAny other questions/ comments/ discussion points?\n\n\n\n\n\nTeaching with R and GitHub",
     "crumbs": [
       "Slides",
       "Curriculum and Pedagogy"
@@ -1280,5 +1280,236 @@
     "crumbs": [
       "Resources"
     ]
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#introductions",
+    "href": "slides/DSA-presentation.html#introductions",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Introductions",
+    "text": "Introductions"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#introduction-to-data-science",
+    "href": "slides/DSA-presentation.html#introduction-to-data-science",
+    "title": "Teaching with webR",
+    "section": "Introduction to Data Science",
+    "text": "Introduction to Data Science\n\n\n\n\n[Teaching with R and GitHub: Introduction to a Data Science Toolbox]"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#team",
+    "href": "slides/DSA-presentation.html#team",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Team",
+    "text": "Team\n\n\n\n\n\n\n\n\nDr. Maria Tackett\n\n\n\n\n\n\n\n\nDr. Mine Çetinkaya-Rundel\n\n\n\n\nData Science in a Box"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#outline",
+    "href": "slides/DSA-presentation.html#outline",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Outline",
+    "text": "Outline\n– Why…a course like this should exsist\n– What…goes into a course like this\n– How…can we run a course like this"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#my-teaching-philosphy",
+    "href": "slides/DSA-presentation.html#my-teaching-philosphy",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "My teaching philosphy",
+    "text": "My teaching philosphy\n\nThe goal of teaching computing is to provide a toolbox for students to become statistically responsible, literate, and incite excitement around research.\n\n… and there is no reason these types of tools can’t/shouldn’t be taught early in student’s academic careers."
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#curriculum-guidelines",
+    "href": "slides/DSA-presentation.html#curriculum-guidelines",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Curriculum guidelines",
+    "text": "Curriculum guidelines\n\n\nUse technology to explore concepts and analyze data. (GAISE, 2016)\nIncorporate software/apps to explore concepts and work with data. (GAISE revision, in progress)\nAll programs should (a) expose students to technology tools for reproducibility, collaboration, database query, data acquisition, data curation, and data storage; (b) require students to develop fluency in at least one programming language used in data science and encourage learning a second language. (Two-Year College Data Science Summit, 2018)\nThe two pillars of computational and statistical thinking should not be taught separately…both should be present for the most effective and efficient teaching. (Curriculum Guidelines for Undergraduate Programs in Data Science, 2014)"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#my-teaching-philosphy-1",
+    "href": "slides/DSA-presentation.html#my-teaching-philosphy-1",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "My teaching philosphy",
+    "text": "My teaching philosphy\nWhen you expose students to these skills early… . . .\n\n\nStudents gain experience using professional computing tools (that they can grow with)\nStudents develop reproducible workflow while learning statistical methods (that they can grow with)\nStudents gain experience working with more complex and realistic data (that they can grow with)\nStudents develop computational thinking and build confidence to handle computational challenges (that they can grow with)"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#trickle-up",
+    "href": "slides/DSA-presentation.html#trickle-up",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Trickle Up",
+    "text": "Trickle Up"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#r-rstudio",
+    "href": "slides/DSA-presentation.html#r-rstudio",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "R & RStudio",
+    "text": "R & RStudio\n\n\nFreely available\nHigh demand in job opportunities\nStrengths of R align with learning objectives of the course (data visualization, data wranging, function writing, etc.)\nIntegrate seamlessly with GitHub\nIntegrate seamlessly with Quarto"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#github",
+    "href": "slides/DSA-presentation.html#github",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "GitHub",
+    "text": "GitHub\n\n\nCompetitive skill for students to know\nProvide students more responsible collaborative opportunities\nGood habits\nA plethora of instructor benefits"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#pedagogy",
+    "href": "slides/DSA-presentation.html#pedagogy",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Pedagogy",
+    "text": "Pedagogy\n\n\n\n\n\n\n\n\n\n\nBuild: Introduce new content\nTrain: Put concepts into practice through hands-on class activities\n\nDo: Steps needed to accomplish a task\nThink: How to accomplish task in future\n\nCreate: Demonstrate learning through a variety of assessments\n\n\n\n\n\nSource: Meyer and Çetinkaya-Rundel (2025, preprint)"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#tidyverse-in-data-science-workflow",
+    "href": "slides/DSA-presentation.html#tidyverse-in-data-science-workflow",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Tidyverse in data science workflow",
+    "text": "Tidyverse in data science workflow\nThe tidyverse is a collection of R packages designed for data science that share a common philosophy for data manipulation, exploration, and visualization.\n\nSource: Çetinkaya-Rundel et al. (2022)"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#pedagogical-benefits-of-the-tidyverse",
+    "href": "slides/DSA-presentation.html#pedagogical-benefits-of-the-tidyverse",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Pedagogical benefits of the tidyverse",
+    "text": "Pedagogical benefits of the tidyverse\n\nConsistency: Syntax, function interfaces, argument names and order follow patterns\nMixability: Ability to use base R and other functions within tidyverse syntax\nScalability: Unified approach that works for data sets from a wide range of types and sizes\nUser-centered design: Function interfaces designed with users in mind\nReadability: Interfaces designed to produce readable code\nCommunity: Large, active, and welcoming community of users and resources\nTransferability: Data manipulation verbs inherit SQL’s query syntax\n\n\nSource: Çetinkaya-Rundel et al. (2022)"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#coding-with-words",
+    "href": "slides/DSA-presentation.html#coding-with-words",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Coding with words?",
+    "text": "Coding with words?\n\ntapply(\n  X      = penguins$flipper_length_mm, \n  INDEX  = penguins$species,           \n  FUN    = mean,                       \n  na.rm  = TRUE                        \n)\n\n   Adelie Chinstrap    Gentoo \n 189.9536  195.8235  217.1870"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#tidyverse",
+    "href": "slides/DSA-presentation.html#tidyverse",
+    "title": "Teaching with webR",
+    "section": "Tidyverse",
+    "text": "Tidyverse\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n“The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle.”\n-Çetinkaya-Rundel et al. (2022)\n\n\n\n\n[Teaching with R and GitHub: Introduction to a Data Science Toolbox]"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#section",
+    "href": "slides/DSA-presentation.html#section",
+    "title": "Teaching with webR",
+    "section": "",
+    "text": "“The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle.”\n-Çetinkaya-Rundel et al. (2022)\n\n\n\n\n[Teaching with R and GitHub: Introduction to a Data Science Toolbox]"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#coding-with-words-tidyverse",
+    "href": "slides/DSA-presentation.html#coding-with-words-tidyverse",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Coding with words: Tidyverse",
+    "text": "Coding with words: Tidyverse\n|&gt; “and then”\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#coding-with-words-tidyverse-1",
+    "href": "slides/DSA-presentation.html#coding-with-words-tidyverse-1",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Coding with words: Tidyverse",
+    "text": "Coding with words: Tidyverse\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(mean_flip = mean(flipper_length_mm, na.rm = T))\n\n# A tibble: 3 × 2\n  species   mean_flip\n  &lt;fct&gt;         &lt;dbl&gt;\n1 Adelie         190.\n2 Chinstrap      196.\n3 Gentoo         217.\n\n\n\n“The tidyverse provides an effective and efficient pathway for undergraduate students at all levels and majors to gain computational skills and thinking needed throughout the data science cycle.”\n-Çetinkaya-Rundel et al. (2022)"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#rstudio-in-the-cloud",
+    "href": "slides/DSA-presentation.html#rstudio-in-the-cloud",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "RStudio in the cloud",
+    "text": "RStudio in the cloud\n\nRemoves the most common hurdle to get started with computing - installation and configuration\n\nStart using R on Day 1!\n\nActively engage students with all aspects of the course, not just in a computing lab\nInstall R and RStudio on a server and provide access to students:\n\nCentralized RStudio Server / Posit Workbench\nDockerized RStudio Server\nPosit Cloud\n\n\n\n\nÇetinkaya-Rundel and Rundel (2018)"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#github-1",
+    "href": "slides/DSA-presentation.html#github-1",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "GitHub",
+    "text": "GitHub\nYou can also have Git installed on the server!\n\ncredentials::ssh_setup_github()\n\ndevtools::install_github(\"r-lib/gert\")\n\nusethis::use_git_config(\n  user.name = \"Elijah Meyer\", \n  user.email = \"esmeyer2@ncsu.edu\"\n  )"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#other-options",
+    "href": "slides/DSA-presentation.html#other-options",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Other options",
+    "text": "Other options\nIf these types of infrastructure are not available …\nInstall Git\nInstalling R and RStudio\n… make your own resources for your students!"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#the-first-day",
+    "href": "slides/DSA-presentation.html#the-first-day",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "The first day",
+    "text": "The first day\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nPosit WorkBench\nGetting set up"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#the-next-days",
+    "href": "slides/DSA-presentation.html#the-next-days",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "The next days",
+    "text": "The next days\nMy goal is to get students as much hands on practice as possible in as reproducible of a way as possible.\nWe can do this with GitHub.\nThings that need to be done beforehand\n– Students must link RStudio with GitHub\n– You must create a GitHub Organization\n– Students must join the GitHub Organization\nLet’s Demo this!"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#ghclass",
+    "href": "slides/DSA-presentation.html#ghclass",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "ghclass",
+    "text": "ghclass\nghclass is an R package designed to help instructors manage their courses on GitHub.\nghclass"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#course-website",
+    "href": "slides/DSA-presentation.html#course-website",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Course website",
+    "text": "Course website\nWebsite"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#in-summary",
+    "href": "slides/DSA-presentation.html#in-summary",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "In-summary",
+    "text": "In-summary"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#blueprint",
+    "href": "slides/DSA-presentation.html#blueprint",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Blueprint",
+    "text": "Blueprint\narXiv\nElijah Meyer, Mine Çetinkaya-Rundel\n\n\n\n[Teaching with R and GitHub: Introduction to a Data Science Toolbox]"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#moving-forward",
+    "href": "slides/DSA-presentation.html#moving-forward",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Moving Forward",
+    "text": "Moving Forward\n– Assessments and AI\n– Keeping up with the evolution of Data Science"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#st-115",
+    "href": "slides/DSA-presentation.html#st-115",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "ST 115",
+    "text": "ST 115\n\n\nComputing\n\nR\nRStudio\nGitHub\nQuarto\n\n\nTopics\n\nFunction writing\nData visualization\nData tidying / wrangling\nData Import\nLinear regression\nLogistic regression\nModel selection tools"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#programming-language",
+    "href": "slides/DSA-presentation.html#programming-language",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Programming Language",
+    "text": "Programming Language\n\n\nFreely available\nHigh demand in job opportunities\nStrengths of R align with learning objectives of the course (data visualization, data wranging, function writing, etc.)\nIntegrate seamlessly with GitHub\nIntegrate seamlessly with Quarto"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#base-r",
+    "href": "slides/DSA-presentation.html#base-r",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "Base R",
+    "text": "Base R\n\ntapply(\n  X      = penguins$flipper_length_mm, \n  INDEX  = penguins$species,           \n  FUN    = mean,                       \n  na.rm  = TRUE                        \n)\n\n   Adelie Chinstrap    Gentoo \n 189.9536  195.8235  217.1870"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#rstudio-in-the-cloud-1",
+    "href": "slides/DSA-presentation.html#rstudio-in-the-cloud-1",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "RStudio in the Cloud",
+    "text": "RStudio in the Cloud\nPosit Workbench Example"
+  },
+  {
+    "objectID": "slides/DSA-presentation.html#nc-share",
+    "href": "slides/DSA-presentation.html#nc-share",
+    "title": "Introduction to a Data Science ToolKit",
+    "section": "NC Share",
+    "text": "NC Share\nDockerized RStudio Server\nNC Share\nMark McCahill: mark.mccahill@duke.edu"
   }
 ]

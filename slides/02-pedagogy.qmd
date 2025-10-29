@@ -70,7 +70,7 @@ Image from [Data Science in a Box](https://datasciencebox.org/01-topics)
 
 ## Intro Data Science topics {.midi}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 **Unit 1: Exploring data**
 
@@ -89,7 +89,7 @@ Image from [Data Science in a Box](https://datasciencebox.org/01-topics)
 -   Model evaluation and cross validation 
 -   Simulation-based inference
 :::
-:::::
+:::
 
 ::: aside
 Source: Çetinkaya-Rundel & Ellison (2020)
@@ -97,7 +97,7 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 
 ## Intro Data Science topics {.midi}
 
-:::::: columns
+::: columns
 ::: {.column width="50%"}
 **Additional topics (varies by instructor)**
 
@@ -107,7 +107,7 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 -   Customizing Quarto reports and presentations
 :::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: highlight
 **Computing throughout course**
 
@@ -115,8 +115,8 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 -   Reproducible reports using Quarto
 -   Version control and collaboration using git and GitHub
 :::
-::::
-::::::
+:::
+:::
 
 <br>
 
@@ -148,12 +148,12 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 
 ## Pedagogy
 
-:::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](images/sta199-pedagogy.png){fig-align="center" width="60%"}
 :::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: midi
 -   **Build**: Introduce new content
 
@@ -165,8 +165,8 @@ Source: Çetinkaya-Rundel & Ellison (2020)
 
 -   **Create:** Demonstrate learning through a variety of assessments
 :::
-::::
-::::::
+:::
+:::
 
 ::: small
 Source: Meyer and Çetinkaya-Rundel (2025, preprint)
@@ -174,7 +174,7 @@ Source: Meyer and Çetinkaya-Rundel (2025, preprint)
 
 ## Tidyverse
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 *The tidyverse is an opinionated [**collection of R packages**](https://www.tidyverse.org/packages) designed for data science. All packages share an underlying design philosophy, grammar, and data structures.*
 
@@ -184,7 +184,7 @@ Source: Meyer and Çetinkaya-Rundel (2025, preprint)
 ::: {.column width="50%"}
 ![](images/tidyverse.png){fig-align="center" width="80%"}
 :::
-:::::
+:::
 
 ```{r}
 #| eval: false
@@ -225,7 +225,7 @@ Source: Çetinkaya-Rundel et al. (2022)
 
 . . .
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <center><b>Not tidy data</b></center>
 
@@ -237,7 +237,7 @@ Source: Çetinkaya-Rundel et al. (2022)
 
 ![](images/tidy-data.png){alt="Tidy data" fig-align="center" width="80%"}
 :::
-:::::
+:::
 
 ::: aside
 Source: Wickham (2014)
@@ -259,7 +259,7 @@ When reading code aloud in English, say "and then" whenever you see a pipe. Belo
 
 . . .
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 Little bunny Foo Foo\
 Went hopping through the forest\
@@ -277,7 +277,7 @@ foo_foo |>
   bop(on = head)
 ```
 :::
-:::::
+:::
 
 <!--# do bunny foo foo example from Hadley Wickhim-->
 
@@ -414,7 +414,7 @@ See [dplyr reference](https://dplyr.tidyverse.org/reference/index.html#data-fram
 
 ## Closer look at the code
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 For each species, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
 :::
@@ -424,7 +424,7 @@ For each species, compute the number of penguins and the mean flipper length. Di
 penguins
 ```
 :::
-:::::
+:::
 
 ::: aside
 Example inspired by Çetinkaya-Rundel et al. (2022)
@@ -432,7 +432,7 @@ Example inspired by Çetinkaya-Rundel et al. (2022)
 
 ## Closer look at the code
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 [For each species]{style="font-weight:bold;background-color:#ccddeb;"}, compute the number of penguins and the mean flipper length. Display the results in descending order by number of penguins.
 :::
@@ -444,7 +444,7 @@ penguins |>
   group_by(species)
 ```
 :::
-:::::
+:::
 
 ::: aside
 Example inspired by Çetinkaya-Rundel et al. (2022)
@@ -452,7 +452,7 @@ Example inspired by Çetinkaya-Rundel et al. (2022)
 
 ## Closer look at the code
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 For each species, [compute the number of penguins]{style="font-weight:bold;background-color:#ccddeb;"} and the mean flipper length. Display the results in descending order by number of penguins.
 :::
@@ -466,7 +466,7 @@ penguins |>
             )
 ```
 :::
-:::::
+:::
 
 ::: aside
 Example inspired by Çetinkaya-Rundel et al. (2022)
@@ -474,7 +474,7 @@ Example inspired by Çetinkaya-Rundel et al. (2022)
 
 ## Closer look at the code
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 For each species, compute the number of penguins and [the mean flipper length]{style="font-weight:bold;background-color:#ccddeb;"}. Display the results in descending order by number of penguins.
 :::
@@ -489,7 +489,7 @@ penguins |>
             )
 ```
 :::
-:::::
+:::
 
 ::: aside
 Example inspired by Çetinkaya-Rundel et al. (2022)
@@ -497,7 +497,7 @@ Example inspired by Çetinkaya-Rundel et al. (2022)
 
 ## Closer look at the code
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 For each species, compute the number of penguins and the mean flipper length. [Display the results in descending order by number of penguins.]{style="font-weight:bold;background-color:#ccddeb;"}
 :::
@@ -513,7 +513,7 @@ penguins |>
   arrange(desc(n))
 ```
 :::
-:::::
+:::
 
 ::: aside
 Example inspired by Çetinkaya-Rundel et al. (2022)
